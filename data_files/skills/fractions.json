@@ -1,0 +1,733 @@
+{
+  "skills": [
+    {
+      "id": "MAT-FRA-001",
+      "name": "Rozumienie ułamków zwykłych",
+      "short_description": "Interpretacja ułamka jako części całości podzielonej na równe części.",
+      "long_description": "Interpretacja ułamka jako części całości podzielonej na równe części. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje licznik i mianownik ułamka."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia rolę licznika i mianownika."
+        },
+        {
+          "id": "OBJ-03",
+          "description": "Rozpoznaje, że części całości muszą być równe."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń rozpoznaje licznik i mianownik ułamka w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia rolę licznika i mianownika w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-03",
+          "description": "Uczeń rozpoznaje, że części całości muszą być równe w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli licznik z mianownikiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje mianownik jako liczbę zaznaczonych części.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        },
+        {
+          "id": "ERR-03",
+          "description": "Uznaje nierówne części za poprawny podział na ułamki.",
+          "related_objectives": [
+            "OBJ-03"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-002",
+      "name": "Odczytywanie i zapisywanie ułamków",
+      "short_description": "Przechodzenie między zapisem słownym a symbolicznym ułamka.",
+      "long_description": "Przechodzenie między zapisem słownym a symbolicznym ułamka. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odczytuje zapisany ułamek zwykły."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje ułamek podany słownie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń odczytuje zapisany ułamek zwykły w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zapisuje ułamek podany słownie w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zamienia miejscami licznik i mianownik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Niepoprawnie interpretuje nazwę mianownika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-003",
+      "name": "Ułamki na modelach graficznych",
+      "short_description": "Przedstawianie i rozpoznawanie ułamków na rysunkach.",
+      "long_description": "Przedstawianie i rozpoznawanie ułamków na rysunkach. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zaznacza wskazany ułamek na modelu podzielonym na równe części."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje ułamek odpowiadający zaznaczonej części."
+        },
+        {
+          "id": "OBJ-03",
+          "description": "Ocenia, czy model przedstawia poprawny podział na równe części."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-FRA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń zaznacza wskazany ułamek na modelu podzielonym na równe części w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zapisuje ułamek odpowiadający zaznaczonej części w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-03",
+          "description": "Uczeń ocenia, czy model przedstawia poprawny podział na równe części w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Liczy wszystkie części zamiast zaznaczonych.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie sprawdza równości części.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        },
+        {
+          "id": "ERR-03",
+          "description": "Odczytuje ułamek z niewłaściwej całości.",
+          "related_objectives": [
+            "OBJ-03"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-004",
+      "name": "Ułamki na osi liczbowej",
+      "short_description": "Umieszczanie i odczytywanie prostych ułamków na osi liczbowej.",
+      "long_description": "Umieszczanie i odczytywanie prostych ułamków na osi liczbowej. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dzieli odcinek jednostkowy na równe części."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zaznacza ułamek na osi liczbowej."
+        },
+        {
+          "id": "OBJ-03",
+          "description": "Odczytuje ułamek wskazany na osi."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-FRA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń dzieli odcinek jednostkowy na równe części w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zaznacza ułamek na osi liczbowej w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-03",
+          "description": "Uczeń odczytuje ułamek wskazany na osi w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli jednostkę na nierówne odcinki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Liczy kreski zamiast odcinków.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        },
+        {
+          "id": "ERR-03",
+          "description": "Pomija punkt zerowy przy odczycie.",
+          "related_objectives": [
+            "OBJ-03"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-005",
+      "name": "Porównywanie ułamków o jednakowych mianownikach",
+      "short_description": "Porównywanie ułamków mających ten sam mianownik.",
+      "long_description": "Porównywanie ułamków mających ten sam mianownik. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje dwa ułamki o tym samym mianowniku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porządkuje ułamki o tym samym mianowniku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń porównuje dwa ułamki o tym samym mianowniku w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń porządkuje ułamki o tym samym mianowniku w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje większy mianownik za większą wartość mimo równości mianowników.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odwraca znak nierówności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-006",
+      "name": "Porównywanie ułamków o jednakowych licznikach",
+      "short_description": "Porównywanie dodatnich ułamków o tym samym liczniku.",
+      "long_description": "Porównywanie dodatnich ułamków o tym samym liczniku. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje dodatnie ułamki o tym samym liczniku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia porównanie wielkością równych części."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń porównuje dodatnie ułamki o tym samym liczniku w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń uzasadnia porównanie wielkością równych części w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada, że większy mianownik zawsze oznacza większy ułamek.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie uwzględnia tego samego licznika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-007",
+      "name": "Ułamki właściwe i niewłaściwe",
+      "short_description": "Rozróżnianie ułamków właściwych i niewłaściwych.",
+      "long_description": "Rozróżnianie ułamków właściwych i niewłaściwych. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje ułamki właściwe i niewłaściwe."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje ułamek właściwy i niewłaściwy z jednością."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń rozpoznaje ułamki właściwe i niewłaściwe w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń porównuje ułamek właściwy i niewłaściwy z jednością w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje każdy ułamek za mniejszy od jedności.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli warunek licznik mniejszy od mianownika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-008",
+      "name": "Liczby mieszane",
+      "short_description": "Interpretacja i zapis liczb mieszanych.",
+      "long_description": "Interpretacja i zapis liczb mieszanych. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje część całkowitą i ułamkową liczby mieszanej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przedstawia liczbę mieszaną za pomocą modelu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-007",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń rozpoznaje część całkowitą i ułamkową liczby mieszanej w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń przedstawia liczbę mieszaną za pomocą modelu w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odczytuje liczbę mieszaną jako iloczyn.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija część całkowitą na modelu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-009",
+      "name": "Zamiana ułamków niewłaściwych na liczby mieszane",
+      "short_description": "Zamiana ułamka niewłaściwego na liczbę mieszaną i odwrotnie w prostych przykładach.",
+      "long_description": "Zamiana ułamka niewłaściwego na liczbę mieszaną i odwrotnie w prostych przykładach. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zamienia ułamek niewłaściwy na liczbę mieszaną."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zamienia liczbę mieszaną na ułamek niewłaściwy."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-007",
+        "MAT-FRA-008",
+        "MAT-ARI-002",
+        "MAT-ARI-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń zamienia ułamek niewłaściwy na liczbę mieszaną w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zamienia liczbę mieszaną na ułamek niewłaściwy w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli resztę z dzielenia z mianownikiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje część całkowitą do licznika bez pomnożenia przez mianownik.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-010",
+      "name": "Ułamek jako iloraz liczb naturalnych",
+      "short_description": "Rozumienie kreski ułamkowej jako dzielenia.",
+      "long_description": "Rozumienie kreski ułamkowej jako dzielenia. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zapisuje iloraz dwóch liczb naturalnych jako ułamek z niezerowym mianownikiem."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia znaczenie kreski ułamkowej jako dzielenia."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń zapisuje iloraz dwóch liczb naturalnych jako ułamek z niezerowym mianownikiem w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia znaczenie kreski ułamkowej jako dzielenia w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zamienia miejscami dzielną i dzielnik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dopuszcza zero w mianowniku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-011",
+      "name": "Dodawanie ułamków o jednakowych mianownikach",
+      "short_description": "Dodawanie ułamków z jednakowymi mianownikami.",
+      "long_description": "Dodawanie ułamków z jednakowymi mianownikami. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje ułamki o jednakowych mianownikach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia, dlaczego mianownik pozostaje bez zmian."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń dodaje ułamki o jednakowych mianownikach w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia, dlaczego mianownik pozostaje bez zmian w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje do siebie mianowniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Błędnie dodaje liczniki.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-FRA-012",
+      "name": "Odejmowanie ułamków o jednakowych mianownikach",
+      "short_description": "Odejmowanie ułamków z jednakowymi mianownikami bez wyniku ujemnego.",
+      "long_description": "Odejmowanie ułamków z jednakowymi mianownikami bez wyniku ujemnego. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odejmuje ułamki o jednakowych mianownikach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia, dlaczego mianownik pozostaje bez zmian."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń odejmuje ułamki o jednakowych mianownikach w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia, dlaczego mianownik pozostaje bez zmian w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odejmuje również mianowniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zamienia kolejność odejmowania liczników.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1
+    }
+  ]
+}

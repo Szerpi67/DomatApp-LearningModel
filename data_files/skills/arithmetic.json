@@ -1,0 +1,220 @@
+{
+  "skills": [
+    {
+      "id": "MAT-ARI-001",
+      "name": "Porównywanie liczb naturalnych",
+      "short_description": "Porównywanie i porządkowanie liczb naturalnych.",
+      "long_description": "Porównywanie i porządkowanie liczb naturalnych. Umiejętność bazowa wykorzystywana podczas pracy z ułamkami zwykłymi.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje dwie liczby naturalne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porządkuje kilka liczb naturalnych rosnąco i malejąco."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń porównuje dwie liczby naturalne w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń porządkuje kilka liczb naturalnych rosnąco i malejąco w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odwraca znak nierówności.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli kolejność liczb w szeregu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "prerequisite",
+        "grade_4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-ARI-002",
+      "name": "Dzielenie liczb naturalnych",
+      "short_description": "Rozumienie dzielenia i jego związku z mnożeniem.",
+      "long_description": "Rozumienie dzielenia i jego związku z mnożeniem. Umiejętność bazowa wykorzystywana podczas pracy z ułamkami zwykłymi.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Interpretuje dzielenie jako podział na równe części."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza proste ilorazy liczb naturalnych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń interpretuje dzielenie jako podział na równe części w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń oblicza proste ilorazy liczb naturalnych w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli na nierówne grupy.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli dzielną z dzielnikiem.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "prerequisite",
+        "grade_4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-ARI-003",
+      "name": "Mnożenie liczb naturalnych",
+      "short_description": "Mnożenie liczb naturalnych i interpretacja wielokrotności.",
+      "long_description": "Mnożenie liczb naturalnych i interpretacja wielokrotności. Umiejętność bazowa wykorzystywana podczas pracy z ułamkami zwykłymi.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza iloczyny liczb naturalnych."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozpoznaje wielokrotności danej liczby."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń oblicza iloczyny liczb naturalnych w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń rozpoznaje wielokrotności danej liczby w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli mnożenie z dodawaniem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Niepoprawnie wyznacza wielokrotności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "prerequisite",
+        "grade_4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "MAT-ARI-004",
+      "name": "Dodawanie i odejmowanie liczb naturalnych",
+      "short_description": "Dodawanie i odejmowanie liczb naturalnych.",
+      "long_description": "Dodawanie i odejmowanie liczb naturalnych. Umiejętność bazowa wykorzystywana podczas pracy z ułamkami zwykłymi.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje liczby naturalne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odejmuje liczby naturalne, gdy wynik jest nieujemny."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń dodaje liczby naturalne w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń odejmuje liczby naturalne, gdy wynik jest nieujemny w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Popełnia błąd rachunkowy podczas dodawania.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli odejmowanie z dodawaniem.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "prerequisite",
+        "grade_4"
+      ],
+      "version": 1
+    }
+  ]
+}
