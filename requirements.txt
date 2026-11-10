@@ -2,3 +2,10 @@ fastapi>=0.115,<1
 pymongo>=4.13,<5
 dnspython>=2.7,<3
 uvicorn[standard]>=0.34,<1
+numpy
+httptools
+opentelemetry-api
+pytest
+python-dotenv
+requests
+websockets
