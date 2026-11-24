@@ -5,6 +5,7 @@ import json
 import os
 import secrets
 from datetime import datetime, timezone
+from pathlib import Path
 
 import fastapi
 from fastapi import FastAPI, Header, HTTPException
@@ -25,6 +26,9 @@ from task_generator.models import PresentedTask, TaskGenerationRequest
 from task_generator.profiler_adapter import build_learning_event
 from task_generator.repositories.mongo_task_store import MongoTaskStore
 from task_generator.service import TaskGenerationError, TaskGeneratorService, TaskPresentationService
+
+
+SKILLS_DIRECTORY = Path(__file__).resolve().parent / "data_files" / "skills"
 
 
 class TaskPoolPrefillRequest(TaskGenerationRequest):
@@ -86,6 +90,22 @@ app = FastAPI(
 )
 
 
+@app.get("/api/v1/categories")
+def get_categories() -> dict[str, dict[str, object]]:
+    """Return each skill category keyed by its JSON filename."""
+    categories = {}
+    for path in sorted(SKILLS_DIRECTORY.glob("*.json")):
+        category = json.loads(path.read_text(encoding="utf-8"))
+        categories[path.name] = {
+            "id": path.name,
+            "category_name": category["category_name"],
+            "topics": list(
+                dict.fromkeys(skill["topic"] for skill in category["skills"])
+            ),
+        }
+    return categories
+
+
 
 @app.post("/api/v1/learning-plans", response_model=LearningPlan)
 def create_learning_plan(request: LearningPlanRequest):
@@ -105,6 +125,9 @@ def create_learning_plan(request: LearningPlanRequest):
         curriculum_context=request.curriculum_context,
     )
     plan = app.state.planner.create_plan(planner_input)
+    if plan.status != "blocked":
+        profile.last_grade = request.curriculum_context.grade
+        app.state.profile_repository.save(profile)
     app.state.task_store.save_learning_plan(
         plan, request.student_id, request.curriculum_context
     )
@@ -276,6 +299,8 @@ def submit_task_answer(presentation_id: str, request: LearningAnswerRequest):
     }
 
 
+
+
 @app.post("/api/v1/tasks/prefill")
 def prefill_task_pool(
     request: TaskPoolPrefillRequest,
@@ -309,5 +334,3 @@ def prefill_task_pool(
         media_type="application/x-ndjson",
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
-
-

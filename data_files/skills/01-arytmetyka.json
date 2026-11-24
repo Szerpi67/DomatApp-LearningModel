@@ -1,0 +1,1444 @@
+{
+  "category_name": "Arytmetyka",
+  "skills": [
+    {
+      "id": "MAT-ARI-001",
+      "name": "Odczytuje, zapisuje i porównuje liczby naturalne",
+      "topic": "Zapis i porównywanie liczb naturalnych",
+      "short_description": "Odczytuje i zapisuje liczby w systemie dziesiętnym. Porównuje i porządkuje liczby naturalne.",
+      "long_description": "Odczytuje i zapisuje liczby w systemie dziesiętnym. Porównuje i porządkuje liczby naturalne. W zadaniach sprawdzających uczeń zapisuje słownie 203 045 i wskazuje cyfrę tysięcy. Następnie porządkuje 999, 1001 i 1010 rosnąco.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odczytuje i zapisuje liczby w systemie dziesiętnym."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje i porządkuje liczby naturalne."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje słownie 203 045 i wskazuje cyfrę tysięcy."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, porządkuje 999, 1001 i 1010 rosnąco."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija zero jako cyfrę pozycyjną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Porównuje tylko pierwszą cyfrę bez uwzględniania liczby cyfr.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-005",
+      "name": "Zaznacza i odczytuje liczby naturalne na osi",
+      "topic": "Zapis i porównywanie liczb naturalnych",
+      "short_description": "Ustala jednostkę na osi liczbowej. Odczytuje i zaznacza liczby na osi.",
+      "long_description": "Ustala jednostkę na osi liczbowej. Odczytuje i zaznacza liczby na osi. W zadaniach sprawdzających uczeń rozpoznaje odstęp 5 między kolejnymi kreskami. Następnie umieszcza 15 na osi o jednostce 5 i odczytuje wskazane punkty.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Ustala jednostkę na osi liczbowej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odczytuje i zaznacza liczby na osi."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje odstęp 5 między kolejnymi kreskami."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, umieszcza 15 na osi o jednostce 5 i odczytuje wskazane punkty."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada, że każda kreska oznacza przyrost o 1.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Liczy kreski zamiast odstępów.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-006",
+      "name": "Zaokrągla liczby naturalne",
+      "topic": "Zapis i porównywanie liczb naturalnych",
+      "short_description": "Zaokrągla do wskazanego rzędu. Rozróżnia wartość dokładną i przybliżoną.",
+      "long_description": "Zaokrągla do wskazanego rzędu. Rozróżnia wartość dokładną i przybliżoną. W zadaniach sprawdzających uczeń zaokrągla 368 do dziesiątek i setek. Następnie wyjaśnia, że 370 jest przybliżeniem 368 do dziesiątek.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zaokrągla do wskazanego rzędu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozróżnia wartość dokładną i przybliżoną."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zaokrągla 368 do dziesiątek i setek."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, że 370 jest przybliżeniem 368 do dziesiątek."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Patrzy na cyfrę niewłaściwego rzędu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje wynik zaokrąglenia jako wartość dokładną.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-007",
+      "name": "Odczytuje i zapisuje liczby rzymskie do 3000",
+      "topic": "Zapis i porównywanie liczb naturalnych",
+      "short_description": "Odczytuje liczby rzymskie. Zapisuje liczby naturalne znakami rzymskimi.",
+      "long_description": "Odczytuje liczby rzymskie. Zapisuje liczby naturalne znakami rzymskimi. W zadaniach sprawdzających uczeń odczytuje XIV, XL i MMXXIV. Następnie zapisuje 49 jako XLIX i 3000 jako MMM.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odczytuje liczby rzymskie."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje liczby naturalne znakami rzymskimi."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odczytuje XIV, XL i MMXXIV."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 49 jako XLIX i 3000 jako MMM."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje wartości wszystkich znaków także w IV.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Stosuje niedozwolony zapis IL dla 49.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-002",
+      "name": "Mnoży i dzieli liczby naturalne; interpretuje dzielenie",
+      "topic": "Działania na liczbach naturalnych",
+      "short_description": "Mnoży liczby naturalne. Dzieli i interpretuje iloraz.",
+      "long_description": "Mnoży liczby naturalne. Dzieli i interpretuje iloraz. W zadaniach sprawdzających uczeń oblicza 24 · 6 i przedstawia iloczyn jako sumę równych składników. Następnie rozdziela 48 przedmiotów po 6 lub na 6 równych grup i podaje odpowiedź.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mnoży liczby naturalne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dzieli i interpretuje iloraz."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 24 · 6 i przedstawia iloczyn jako sumę równych składników."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozdziela 48 przedmiotów po 6 lub na 6 równych grup i podaje odpowiedź."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje czynniki zamiast je mnożyć.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli liczbę grup z liczebnością grupy.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.10–11",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-003",
+      "name": "Dzieli z resztą i interpretuje resztę",
+      "topic": "Działania na liczbach naturalnych",
+      "short_description": "Wyznacza iloraz całkowity i resztę. Interpretuje resztę w kontekście.",
+      "long_description": "Wyznacza iloraz całkowity i resztę. Interpretuje resztę w kontekście. W zadaniach sprawdzających uczeń zapisuje 29 = 6 · 4 + 5 i sprawdza, że 5 < 6. Następnie ustala liczbę pudełek po 6 na 29 przedmiotów, uwzględniając dodatkowe pudełko.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza iloraz całkowity i resztę."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Interpretuje resztę w kontekście."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 29 = 6 · 4 + 5 i sprawdza, że 5 < 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala liczbę pudełek po 6 na 29 przedmiotów, uwzględniając dodatkowe pudełko."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje resztę większą lub równą dzielnikowi.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija resztę przy ustalaniu potrzebnej liczby pojemników.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.13",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-004",
+      "name": "Dodaje i odejmuje liczby naturalne",
+      "topic": "Działania na liczbach naturalnych",
+      "short_description": "Dodaje liczby naturalne. Odejmuje liczby naturalne i sprawdza wynik.",
+      "long_description": "Dodaje liczby naturalne. Odejmuje liczby naturalne i sprawdza wynik. W zadaniach sprawdzających uczeń oblicza 368 + 457, uwzględniając przeniesienia. Następnie oblicza 702 − 386 i sprawdza dodawaniem.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje liczby naturalne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odejmuje liczby naturalne i sprawdza wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 368 + 457, uwzględniając przeniesienia."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 702 − 386 i sprawdza dodawaniem."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Nie uwzględnia przeniesienia do wyższego rzędu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odejmuje mniejszą cyfrę od większej niezależnie od położenia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.9",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-022",
+      "name": "Wykonuje działania sposobem pisemnym",
+      "topic": "Działania na liczbach naturalnych",
+      "short_description": "Dodaje i odejmuje sposobem pisemnym. Mnoży i dzieli sposobem pisemnym.",
+      "long_description": "Dodaje i odejmuje sposobem pisemnym. Mnoży i dzieli sposobem pisemnym. W zadaniach sprawdzających uczeń ustawia cyfry rzędami i oblicza 5072 − 846. Następnie oblicza 248 · 36 i 1568 : 7 z zapisem etapów.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje i odejmuje sposobem pisemnym."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Mnoży i dzieli sposobem pisemnym."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustawia cyfry rzędami i oblicza 5072 − 846."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 248 · 36 i 1568 : 7 z zapisem etapów."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Nie wyrównuje cyfr jedności.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie przesuwa iloczynu cząstkowego o odpowiedni rząd.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "II.2–3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-008",
+      "name": "Wyznacza dzielniki i wielokrotności liczb",
+      "topic": "Podzielność liczb i liczby pierwsze",
+      "short_description": "Wyznacza dzielniki liczby. Wyznacza wielokrotności liczby.",
+      "long_description": "Wyznacza dzielniki liczby. Wyznacza wielokrotności liczby. W zadaniach sprawdzających uczeń wypisuje wszystkie dodatnie dzielniki 24 parami. Następnie podaje kolejne wielokrotności 7 i rozpoznaje 42.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza dzielniki liczby."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza wielokrotności liczby."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wypisuje wszystkie dodatnie dzielniki 24 parami."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje kolejne wielokrotności 7 i rozpoznaje 42."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija 1 lub samą liczbę.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli wielokrotność z dzielnikiem.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.3–7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-009",
+      "name": "Stosuje cechy podzielności przez 2, 3, 4, 5, 9, 10",
+      "topic": "Podzielność liczb i liczby pierwsze",
+      "short_description": "Stosuje cechy podzielności związane z końcówką liczby. Stosuje sumę cyfr w cechach przez 3 i 9.",
+      "long_description": "Stosuje cechy podzielności związane z końcówką liczby. Stosuje sumę cyfr w cechach przez 3 i 9. W zadaniach sprawdzających uczeń rozstrzyga podzielność 1320 przez 2, 4, 5 i 10. Następnie uzasadnia, dlaczego 123 jest podzielne przez 3, lecz nie przez 9.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje cechy podzielności związane z końcówką liczby."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje sumę cyfr w cechach przez 3 i 9."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-008"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozstrzyga podzielność 1320 przez 2, 4, 5 i 10."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia, dlaczego 123 jest podzielne przez 3, lecz nie przez 9."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dla podzielności przez 4 sprawdza tylko ostatnią cyfrę.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli podzielność sumy cyfr przez 3 z podzielnością przez 9.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-010",
+      "name": "Rozpoznaje liczby pierwsze i złożone",
+      "topic": "Podzielność liczb i liczby pierwsze",
+      "short_description": "Rozpoznaje liczby pierwsze. Rozpoznaje liczby złożone.",
+      "long_description": "Rozpoznaje liczby pierwsze. Rozpoznaje liczby złożone. W zadaniach sprawdzających uczeń uzasadnia, że 17 ma dokładnie dwa dodatnie dzielniki. Następnie podaje nietrywialny dzielnik 49 i klasyfikuje 2 poprawnie.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje liczby pierwsze."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozpoznaje liczby złożone."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-008",
+        "MAT-ARI-009"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia, że 17 ma dokładnie dwa dodatnie dzielniki."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje nietrywialny dzielnik 49 i klasyfikuje 2 poprawnie."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje 1 za liczbę pierwszą.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje każdą nieparzystą liczbę za pierwszą.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-011",
+      "name": "Rozkłada liczby jedno- i dwucyfrowe na czynniki pierwsze",
+      "topic": "Podzielność liczb i liczby pierwsze",
+      "short_description": "Rozkłada liczbę na czynniki pierwsze. Sprawdza poprawność rozkładu.",
+      "long_description": "Rozkłada liczbę na czynniki pierwsze. Sprawdza poprawność rozkładu. W zadaniach sprawdzających uczeń zapisuje 84 = 2 · 2 · 3 · 7. Następnie odtwarza liczbę jako iloczyn i sprawdza pierwszość czynników.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozkłada liczbę na czynniki pierwsze."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Sprawdza poprawność rozkładu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-010"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 84 = 2 · 2 · 3 · 7."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odtwarza liczbę jako iloczyn i sprawdza pierwszość czynników."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Kończy rozkład na czynniku złożonym.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Gubi powtarzający się czynnik.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-020",
+      "name": "Stosuje cechę podzielności przez 100",
+      "topic": "Podzielność liczb i liczby pierwsze",
+      "short_description": "Rozpoznaje cechę podzielności przez 100. Uzasadnia podzielność.",
+      "long_description": "Rozpoznaje cechę podzielności przez 100. Uzasadnia podzielność. W zadaniach sprawdzających uczeń wybiera 1200 i 300 spośród 1200, 130 i 300. Następnie wyjaśnia zapis 1200 = 12 · 100.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje cechę podzielności przez 100."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia podzielność."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-009"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera 1200 i 300 spośród 1200, 130 i 300."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia zapis 1200 = 12 · 100."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wystarcza mu jedno zero na końcu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli podzielność przez 100 z posiadaniem cyfry 1.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "II.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-012",
+      "name": "Wyznacza NWD i stosuje wspólne dzielniki",
+      "topic": "NWD i NWW",
+      "short_description": "Wyznacza największy wspólny dzielnik. Stosuje NWD do równego grupowania.",
+      "long_description": "Wyznacza największy wspólny dzielnik. Stosuje NWD do równego grupowania. W zadaniach sprawdzających uczeń oblicza NWD(18, 24) = 6. Następnie dzieli 18 i 24 elementy na maksymalnie 6 jednakowych zestawów bez reszty.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza największy wspólny dzielnik."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje NWD do równego grupowania."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-008",
+        "MAT-ARI-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza NWD(18, 24) = 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dzieli 18 i 24 elementy na maksymalnie 6 jednakowych zestawów bez reszty."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera największy dzielnik tylko jednej liczby.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wybiera NWW zamiast NWD.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.6–7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-013",
+      "name": "Wyznacza NWW i stosuje wspólne wielokrotności",
+      "topic": "NWD i NWW",
+      "short_description": "Wyznacza najmniejszą dodatnią wspólną wielokrotność. Stosuje NWW w zadaniu o cyklach.",
+      "long_description": "Wyznacza najmniejszą dodatnią wspólną wielokrotność. Stosuje NWW w zadaniu o cyklach. W zadaniach sprawdzających uczeń oblicza NWW(6, 8) = 24. Następnie ustala pierwszy wspólny moment zdarzeń powtarzanych co 6 i 8 dni.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza najmniejszą dodatnią wspólną wielokrotność."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje NWW w zadaniu o cyklach."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-008",
+        "MAT-ARI-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza NWW(6, 8) = 24."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala pierwszy wspólny moment zdarzeń powtarzanych co 6 i 8 dni."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zawsze mnoży liczby, pomijając mniejszą wspólną wielokrotność.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje dowolną wspólną wielokrotność zamiast najmniejszej dodatniej.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.6–7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-021",
+      "name": "Wyznacza NWD, NWW i rozkłada większe liczby w zakresie starszej podstawy",
+      "topic": "NWD i NWW",
+      "short_description": "Rozkłada większą liczbę na czynniki pierwsze. Wyznacza NWD i NWW większych liczb.",
+      "long_description": "Rozkłada większą liczbę na czynniki pierwsze. Wyznacza NWD i NWW większych liczb. W zadaniach sprawdzających uczeń rozkłada 360 na 2³ · 3² · 5. Następnie dla 120 i 180 podaje odpowiednio 60 i 360.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozkłada większą liczbę na czynniki pierwsze."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza NWD i NWW większych liczb."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-012",
+        "MAT-ARI-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozkłada 360 na 2³ · 3² · 5."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 120 i 180 podaje odpowiednio 60 i 360."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija potęgi powtarzających się czynników.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wybiera maksymalne wykładniki do NWD.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_6",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "II.11,14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-015",
+      "name": "Stosuje własności działań i strategie rachunkowe",
+      "topic": "Strategie rachunkowe i szacowanie",
+      "short_description": "Stosuje przemienność i łączność tam, gdzie są poprawne. Stosuje rozdzielność w rachunku.",
+      "long_description": "Stosuje przemienność i łączność tam, gdzie są poprawne. Stosuje rozdzielność w rachunku. W zadaniach sprawdzających uczeń oblicza 25 · 7 · 4 przez zmianę grupowania. Następnie oblicza 19 · 6 jako 20 · 6 − 6.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje przemienność i łączność tam, gdzie są poprawne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje rozdzielność w rachunku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 25 · 7 · 4 przez zmianę grupowania."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 19 · 6 jako 20 · 6 − 6."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje przemienność do odejmowania.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Rozdziela mnożenie tylko na jeden składnik sumy.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.12",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-016",
+      "name": "Porównuje liczby różnicowo i ilorazowo",
+      "topic": "Strategie rachunkowe i szacowanie",
+      "short_description": "Porównuje liczby różnicowo. Porównuje liczby ilorazowo.",
+      "long_description": "Porównuje liczby różnicowo. Porównuje liczby ilorazowo. W zadaniach sprawdzających uczeń ustala, o ile 42 jest większe od 7. Następnie ustala, ile razy 42 jest większe od 7.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje liczby różnicowo."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje liczby ilorazowo."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala, o ile 42 jest większe od 7."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala, ile razy 42 jest większe od 7."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli zamiast odejmować.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odejmuje zamiast dzielić.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-017",
+      "name": "Stosuje kolejność wykonywania działań",
+      "topic": "Strategie rachunkowe i szacowanie",
+      "short_description": "Stosuje pierwszeństwo działań. Uwzględnia nawiasy i działania równorzędne.",
+      "long_description": "Stosuje pierwszeństwo działań. Uwzględnia nawiasy i działania równorzędne. W zadaniach sprawdzających uczeń oblicza 18 − 3 · 4 = 6. Następnie oblicza 24 : 6 · 2 = 8 oraz (18 − 3) · 4 = 60.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje pierwszeństwo działań."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uwzględnia nawiasy i działania równorzędne."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 18 − 3 · 4 = 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 24 : 6 · 2 = 8 oraz (18 − 3) · 4 = 60."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wykonuje wszystkie działania od lewej niezależnie od ich rodzaju.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Daje mnożeniu pierwszeństwo przed dzieleniem niezależnie od kolejności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.36",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-018",
+      "name": "Szacuje wynik obliczenia",
+      "topic": "Strategie rachunkowe i szacowanie",
+      "short_description": "Szacuje wynik przed obliczeniem. Sprawdza rząd wielkości wyniku.",
+      "long_description": "Szacuje wynik przed obliczeniem. Sprawdza rząd wielkości wyniku. W zadaniach sprawdzających uczeń ocenia 198 · 31 jako około 6000. Następnie odrzuca 613 jako wynik 198 · 31 i uzasadnia ocenę.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Szacuje wynik przed obliczeniem."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Sprawdza rząd wielkości wyniku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-006",
+        "MAT-ARI-017"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ocenia 198 · 31 jako około 6000."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odrzuca 613 jako wynik 198 · 31 i uzasadnia ocenę."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zaokrągla tak mocno, że wynik traci użyteczność.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przyjmuje wynik dokładny bez kontroli jego skali.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.37",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-019",
+      "name": "Dobiera i stosuje kalkulator w złożonych rachunkach",
+      "topic": "Strategie rachunkowe i szacowanie",
+      "short_description": "Wybiera kalkulator, gdy jest uzasadniony. Wprowadza wyrażenie i weryfikuje wynik.",
+      "long_description": "Wybiera kalkulator, gdy jest uzasadniony. Wprowadza wyrażenie i weryfikuje wynik. W zadaniach sprawdzających uczeń rozpoznaje, że wieloetapowy rachunek na dużych liczbach może wymagać kalkulatora. Następnie oblicza (1387 + 426) · 19 i sprawdza przybliżeniem.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wybiera kalkulator, gdy jest uzasadniony."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wprowadza wyrażenie i weryfikuje wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-017",
+        "MAT-ARI-018"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje, że wieloetapowy rachunek na dużych liczbach może wymagać kalkulatora."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza (1387 + 426) · 19 i sprawdza przybliżeniem."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Używa kalkulatora bez odczytania struktury wyrażenia.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija nawias lub myli znak działania.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.38",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ARI-014",
+      "name": "Zlicza liczby spełniające podane warunki",
+      "topic": "Zliczanie liczb",
+      "short_description": "Wyszukuje liczby spełniające kilka warunków. Zlicza bez powtórzeń i pominięć.",
+      "long_description": "Wyszukuje liczby spełniające kilka warunków. Zlicza bez powtórzeń i pominięć. W zadaniach sprawdzających uczeń wypisuje liczby od 20 do 50 podzielne jednocześnie przez 3 i 5. Następnie uzasadnia kompletność listy 30 i 45.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyszukuje liczby spełniające kilka warunków."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zlicza bez powtórzeń i pominięć."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001",
+        "MAT-ARI-009"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wypisuje liczby od 20 do 50 podzielne jednocześnie przez 3 i 5."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia kompletność listy 30 i 45."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje warunki alternatywnie zamiast łącznie.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija końce przedziału mimo ich dopuszczalności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "arithmetic",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    }
+  ]
+}

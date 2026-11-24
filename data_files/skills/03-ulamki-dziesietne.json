@@ -1,0 +1,798 @@
+{
+  "category_name": "Ułamki Dziesietne",
+  "skills": [
+    {
+      "id": "MAT-DEC-001",
+      "name": "Odczytuje i zapisuje ułamki dziesiętne",
+      "topic": "Zapis i porównywanie ułamków dziesiętnych",
+      "short_description": "Rozpoznaje wartość pozycyjną cyfr po przecinku. Odczytuje i zapisuje ułamek dziesiętny.",
+      "long_description": "Rozpoznaje wartość pozycyjną cyfr po przecinku. Odczytuje i zapisuje ułamek dziesiętny. W zadaniach sprawdzających uczeń w 3,042 wskazuje cyfrę setnych i tysięcznych. Następnie zapisuje trzy całe i cztery setne jako 3,04.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje wartość pozycyjną cyfr po przecinku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odczytuje i zapisuje ułamek dziesiętny."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001",
+        "MAT-FRA-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w 3,042 wskazuje cyfrę setnych i tysięcznych."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje trzy całe i cztery setne jako 3,04."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli setne z dziesiątymi.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zapisuje 3,4 zamiast 3,04.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.21–23",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-002",
+      "name": "Umieszcza ułamki dziesiętne na osi",
+      "topic": "Zapis i porównywanie ułamków dziesiętnych",
+      "short_description": "Dobiera podział jednostki osi. Zaznacza i odczytuje liczby dziesiętne.",
+      "long_description": "Dobiera podział jednostki osi. Zaznacza i odczytuje liczby dziesiętne. W zadaniach sprawdzających uczeń dzieli jednostkę na 10 równych odstępów dla dziesiątych. Następnie zaznacza 1,3 i odczytuje punkt 0,7.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera podział jednostki osi."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zaznacza i odczytuje liczby dziesiętne."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-ARI-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dzieli jednostkę na 10 równych odstępów dla dziesiątych."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zaznacza 1,3 i odczytuje punkt 0,7."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Liczy kreski zamiast odcinków.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odczytuje 1,3 jako 13.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.21",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-003",
+      "name": "Porównuje ułamki dziesiętne",
+      "topic": "Zapis i porównywanie ułamków dziesiętnych",
+      "short_description": "Porównuje wartości pozycyjne cyfr. Porządkuje ułamki, uwzględniając końcowe zera.",
+      "long_description": "Porównuje wartości pozycyjne cyfr. Porządkuje ułamki, uwzględniając końcowe zera. W zadaniach sprawdzających uczeń ustala 0,8 > 0,75. Następnie rozpoznaje 0,5 = 0,50 i porządkuje 0,49, 0,5, 0,51.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje wartości pozycyjne cyfr."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porządkuje ułamki, uwzględniając końcowe zera."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala 0,8 > 0,75."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje 0,5 = 0,50 i porządkuje 0,49, 0,5, 0,51."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje części po przecinku jak liczby naturalne.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje dopisanie zera za zwiększenie wartości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.26",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-004",
+      "name": "Zaokrągla ułamki dziesiętne",
+      "topic": "Zapis i porównywanie ułamków dziesiętnych",
+      "short_description": "Zaokrągla do wskazanego miejsca po przecinku. Rozpoznaje przybliżenie i przeniesienie.",
+      "long_description": "Zaokrągla do wskazanego miejsca po przecinku. Rozpoznaje przybliżenie i przeniesienie. W zadaniach sprawdzających uczeń zaokrągla 3,486 do setnych jako 3,49. Następnie zaokrągla 9,96 do dziesiątych jako 10,0.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zaokrągla do wskazanego miejsca po przecinku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozpoznaje przybliżenie i przeniesienie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-ARI-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zaokrągla 3,486 do setnych jako 3,49."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zaokrągla 9,96 do dziesiątych jako 10,0."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odcina cyfry bez zaokrąglania.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie uwzględnia przeniesienia do części całkowitej.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.25",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-005",
+      "name": "Zamienia skończony ułamek dziesiętny na zwykły",
+      "topic": "Zamiana ułamków zwykłych i dziesiętnych",
+      "short_description": "Zapisuje ułamek dziesiętny z mianownikiem będącym potęgą 10. Skraca otrzymany ułamek.",
+      "long_description": "Zapisuje ułamek dziesiętny z mianownikiem będącym potęgą 10. Skraca otrzymany ułamek. W zadaniach sprawdzających uczeń zapisuje 0,125 jako 125/1000. Następnie zamienia 0,125 na 1/8.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zapisuje ułamek dziesiętny z mianownikiem będącym potęgą 10."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Skraca otrzymany ułamek."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-FRA-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 0,125 jako 125/1000."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 0,125 na 1/8."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera mianownik 100 przy trzech miejscach.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Skraca tylko licznik.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.22",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-006",
+      "name": "Zamienia ułamek zwykły na skończony dziesiętny",
+      "topic": "Zamiana ułamków zwykłych i dziesiętnych",
+      "short_description": "Rozszerza ułamek do mianownika 10, 100 lub 1000, gdy możliwe. Zapisuje wynik dziesiętnie.",
+      "long_description": "Rozszerza ułamek do mianownika 10, 100 lub 1000, gdy możliwe. Zapisuje wynik dziesiętnie. W zadaniach sprawdzających uczeń zamienia 3/8 na 375/1000. Następnie podaje 0,375 i sprawdza jego równoważność.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozszerza ułamek do mianownika 10, 100 lub 1000, gdy możliwe."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje wynik dziesiętnie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-014",
+        "MAT-DEC-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 3/8 na 375/1000."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 0,375 i sprawdza jego równoważność."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Rozszerza tylko mianownik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przesuwa przecinek o niewłaściwą liczbę miejsc.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.23",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-007",
+      "name": "Wyznacza proste nieskończone rozwinięcie dziesiętne",
+      "topic": "Zamiana ułamków zwykłych i dziesiętnych",
+      "short_description": "Wyznacza cyfry rozwinięcia przez dzielenie. Odróżnia rozwinięcie skończone od okresowego.",
+      "long_description": "Wyznacza cyfry rozwinięcia przez dzielenie. Odróżnia rozwinięcie skończone od okresowego. W zadaniach sprawdzających uczeń dzieli 1 przez 3 i dostrzega powtarzające się reszty. Następnie zapisuje 2/3 = 0,(6) i odróżnia od 0,6.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza cyfry rozwinięcia przez dzielenie."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odróżnia rozwinięcie skończone od okresowego."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-010",
+        "MAT-DEC-001",
+        "MAT-ARI-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dzieli 1 przez 3 i dostrzega powtarzające się reszty."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 2/3 = 0,(6) i odróżnia od 0,6."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Kończy dzielenie mimo niezerowej reszty.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje przybliżenie za wartość dokładną.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.24",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-008",
+      "name": "Porównuje ułamek zwykły z dziesiętnym",
+      "topic": "Zamiana ułamków zwykłych i dziesiętnych",
+      "short_description": "Sprowadza obie liczby do porównywalnej postaci. Porównuje ułamek zwykły z dziesiętnym.",
+      "long_description": "Sprowadza obie liczby do porównywalnej postaci. Porównuje ułamek zwykły z dziesiętnym. W zadaniach sprawdzających uczeń zamienia 3/5 na 0,6 lub 0,62 na 62/100. Następnie uzasadnia 3/5 < 0,62.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Sprowadza obie liczby do porównywalnej postaci."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje ułamek zwykły z dziesiętnym."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-005",
+        "MAT-FRA-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 3/5 na 0,6 lub 0,62 na 62/100."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia 3/5 < 0,62."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje liczniki z cyframi po przecinku.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zaokrągla obie liczby tak, że traci różnicę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.26",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-009",
+      "name": "Dodaje ułamki dziesiętne",
+      "topic": "Działania na ułamkach dziesiętnych",
+      "short_description": "Dodaje ułamki dziesiętne z wyrównaniem rzędów. Sprawdza wynik przez oszacowanie.",
+      "long_description": "Dodaje ułamki dziesiętne z wyrównaniem rzędów. Sprawdza wynik przez oszacowanie. W zadaniach sprawdzających uczeń oblicza 3,7 + 0,85 = 4,55. Następnie wykazuje, że wynik jest między 4 a 5.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje ułamki dziesiętne z wyrównaniem rzędów."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Sprawdza wynik przez oszacowanie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 3,7 + 0,85 = 4,55."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wykazuje, że wynik jest między 4 a 5."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wyrównuje ostatnie cyfry zamiast przecinków.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie uwzględnia przeniesienia z części ułamkowej.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.28a",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-010",
+      "name": "Odejmuje ułamki dziesiętne",
+      "topic": "Działania na ułamkach dziesiętnych",
+      "short_description": "Odejmuje ułamki dziesiętne. Kontroluje różnicę działaniem odwrotnym.",
+      "long_description": "Odejmuje ułamki dziesiętne. Kontroluje różnicę działaniem odwrotnym. W zadaniach sprawdzających uczeń oblicza 5,2 − 1,78 = 3,42. Następnie sprawdza 3,42 + 1,78 = 5,2.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odejmuje ułamki dziesiętne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Kontroluje różnicę działaniem odwrotnym."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 5,2 − 1,78 = 3,42."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sprawdza 3,42 + 1,78 = 5,2."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Nie uzupełnia brakującego zera przy rachunku pisemnym.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zamienia odjemną z odjemnikiem.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.28a",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-011",
+      "name": "Mnoży ułamki dziesiętne",
+      "topic": "Działania na ułamkach dziesiętnych",
+      "short_description": "Mnoży ułamki dziesiętne. Mnoży przez potęgi 10 i szacuje wynik.",
+      "long_description": "Mnoży ułamki dziesiętne. Mnoży przez potęgi 10 i szacuje wynik. W zadaniach sprawdzających uczeń oblicza 1,2 · 0,35 = 0,42. Następnie podaje 3,45 · 100 = 345 i ocenia 0,2 · 0,3 jako mniejsze od 0,2.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mnoży ułamki dziesiętne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Mnoży przez potęgi 10 i szacuje wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 1,2 · 0,35 = 0,42."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 3,45 · 100 = 345 i ocenia 0,2 · 0,3 jako mniejsze od 0,2."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Źle zlicza miejsca po przecinku.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przesuwa przecinek w niewłaściwą stronę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.28a",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-DEC-012",
+      "name": "Dzieli ułamki dziesiętne",
+      "topic": "Działania na ułamkach dziesiętnych",
+      "short_description": "Sprowadza dzielnik do liczby naturalnej. Oblicza i sprawdza iloraz.",
+      "long_description": "Sprowadza dzielnik do liczby naturalnej. Oblicza i sprawdza iloraz. W zadaniach sprawdzających uczeń zamienia 2,4 : 0,06 na 240 : 6. Następnie podaje 40 i sprawdza mnożeniem przez 0,06.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Sprowadza dzielnik do liczby naturalnej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza i sprawdza iloraz."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-011",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 2,4 : 0,06 na 240 : 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 40 i sprawdza mnożeniem przez 0,06."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Przesuwa przecinek tylko w dzielniku.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada, że dzielenie zawsze zmniejsza liczbę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "decimals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.28b",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    }
+  ]
+}

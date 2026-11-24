@@ -1,0 +1,599 @@
+{
+  "category_name": "Statystyka",
+  "skills": [
+    {
+      "id": "MAT-STA-001",
+      "name": "Odczytuje dane z tekstu, tabel, diagramów i wykresów",
+      "topic": "Zbieranie i prezentacja danych",
+      "short_description": "Odczytuje wartości z tabel i diagramów. Interpretuje skalę wykresu.",
+      "long_description": "Odczytuje wartości z tabel i diagramów. Interpretuje skalę wykresu. W zadaniach sprawdzających uczeń odczytuje liczbę osób z odpowiedniej kategorii i jednostkę. Następnie odczytuje wartość przy podziałce co 5, a nie co 1.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odczytuje wartości z tabel i diagramów."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Interpretuje skalę wykresu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odczytuje liczbę osób z odpowiedniej kategorii i jednostkę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odczytuje wartość przy podziałce co 5, a nie co 1."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli wiersze i kolumny lub legendę.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Liczy kreski zamiast wartości skali.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-STA-002",
+      "name": "Zbiera i porządkuje dane oraz formułuje proste wnioski",
+      "topic": "Zbieranie i prezentacja danych",
+      "short_description": "Zbiera i porządkuje dane. Formułuje wniosek oparty na danych.",
+      "long_description": "Zbiera i porządkuje dane. Formułuje wniosek oparty na danych. W zadaniach sprawdzających uczeń tworzy tabelę liczebności dla zbioru 2, 3, 2, 5, 3. Następnie wskazuje najczęstsze wartości 2 i 3, uzasadniając liczebnością.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zbiera i porządkuje dane."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Formułuje wniosek oparty na danych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, tworzy tabelę liczebności dla zbioru 2, 3, 2, 5, 3."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje najczęstsze wartości 2 i 3, uzasadniając liczebnością."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija powtórzenia wartości.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wyciąga wniosek wykraczający poza próbę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-STA-005",
+      "name": "Dobiera i tworzy prezentację danych z użyciem aplikacji",
+      "topic": "Zbieranie i prezentacja danych",
+      "short_description": "Dobiera rodzaj prezentacji do danych. Tworzy poprawny wykres w aplikacji.",
+      "long_description": "Dobiera rodzaj prezentacji do danych. Tworzy poprawny wykres w aplikacji. W zadaniach sprawdzających uczeń wybiera wykres słupkowy do porównania kategorii i liniowy do zmian w czasie. Następnie opisuje osie, jednostki i legendę oraz sprawdza zgodność z tabelą.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera rodzaj prezentacji do danych."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Tworzy poprawny wykres w aplikacji."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-004",
+        "MAT-STA-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera wykres słupkowy do porównania kategorii i liniowy do zmian w czasie."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, opisuje osie, jednostki i legendę oraz sprawdza zgodność z tabelą."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Używa wykresu kołowego dla danych niebędących częściami jednej całości.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie uwzględnia jednostki lub pomija dane.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-STA-003",
+      "name": "Oblicza i interpretuje średnią arytmetyczną",
+      "topic": "Miary statystyczne",
+      "short_description": "Oblicza średnią arytmetyczną. Interpretuje średnią w kontekście.",
+      "long_description": "Oblicza średnią arytmetyczną. Interpretuje średnią w kontekście. W zadaniach sprawdzających uczeń dla 2, 5, 8 podaje (2 + 5 + 8)/3 = 5. Następnie wyjaśnia, że średnia 2,5 punktu może nie być żadną obserwacją.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza średnią arytmetyczną."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Interpretuje średnią w kontekście."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002",
+        "MAT-ARI-004",
+        "MAT-STA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 2, 5, 8 podaje (2 + 5 + 8)/3 = 5."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, że średnia 2,5 punktu może nie być żadną obserwacją."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli sumę przez liczbę różnych wartości zamiast wszystkich obserwacji.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje średnią za wartość zawsze występującą w zbiorze.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.3–4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-STA-007",
+      "name": "Wyznacza i interpretuje medianę",
+      "topic": "Miary statystyczne",
+      "short_description": "Porządkuje dane i wyznacza medianę dla nieparzystej liczby obserwacji. Wyznacza medianę dla parzystej liczby obserwacji.",
+      "long_description": "Porządkuje dane i wyznacza medianę dla nieparzystej liczby obserwacji. Wyznacza medianę dla parzystej liczby obserwacji. W zadaniach sprawdzających uczeń dla 8, 1, 4 podaje medianę 4. Następnie dla 1, 3, 7, 9 podaje 5 i interpretuje położenie środka.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porządkuje dane i wyznacza medianę dla nieparzystej liczby obserwacji."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza medianę dla parzystej liczby obserwacji."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-002",
+        "MAT-INT-002",
+        "MAT-DEC-009",
+        "MAT-DEC-012"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 8, 1, 4 podaje medianę 4."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 1, 3, 7, 9 podaje 5 i interpretuje położenie środka."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera środkowy element bez sortowania.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wybiera tylko jeden z dwóch środkowych elementów.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-STA-006",
+      "name": "Interpretuje zależności i zmiany na wykresie",
+      "topic": "Analiza i porównywanie danych",
+      "short_description": "Odczytuje kierunek i wielkość zmian. Porównuje zmiany w przedziałach.",
+      "long_description": "Odczytuje kierunek i wielkość zmian. Porównuje zmiany w przedziałach. W zadaniach sprawdzających uczeń z wykresu temperatury wskazuje okres wzrostu i spadku. Następnie wyznacza różnicę wartości między dwoma punktami czasu.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odczytuje kierunek i wielkość zmian."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje zmiany w przedziałach."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z wykresu temperatury wskazuje okres wzrostu i spadku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza różnicę wartości między dwoma punktami czasu."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli poziom wartości z tempem zmiany.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odczytuje przyrost z wysokości jednego punktu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-STA-008",
+      "name": "Porównuje zestawy danych i uzasadnia wnioski",
+      "topic": "Analiza i porównywanie danych",
+      "short_description": "Porównuje zestawy danych za pomocą odpowiednich miar. Uzasadnia ograniczony wniosek porównawczy.",
+      "long_description": "Porównuje zestawy danych za pomocą odpowiednich miar. Uzasadnia ograniczony wniosek porównawczy. W zadaniach sprawdzających uczeń oblicza średnią i medianę dla 2, 3, 4 oraz 2, 3, 100. Następnie wyjaśnia, dlaczego mediana lepiej opisuje typową wartość w drugim zbiorze.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje zestawy danych za pomocą odpowiednich miar."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia ograniczony wniosek porównawczy."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-003",
+        "MAT-STA-007",
+        "MAT-STA-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza średnią i medianę dla 2, 3, 4 oraz 2, 3, 100."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, dlaczego mediana lepiej opisuje typową wartość w drugim zbiorze."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Ignoruje wpływ wartości skrajnej na średnią.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wnioskuje o każdym elemencie zbioru na podstawie średniej.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.4–5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-STA-004",
+      "name": "Selekcjonuje dane i ocenia wiarygodność źródeł",
+      "topic": "Wiarygodność danych i wykresów",
+      "short_description": "Wybiera dane istotne dla pytania. Ocenia źródło i ograniczenia danych.",
+      "long_description": "Wybiera dane istotne dla pytania. Ocenia źródło i ograniczenia danych. W zadaniach sprawdzających uczeń odrzuca kolumny niezwiązane z analizowanym problemem. Następnie porównuje opis próby, datę i sposób zbierania w dwóch źródłach.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wybiera dane istotne dla pytania."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Ocenia źródło i ograniczenia danych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odrzuca kolumny niezwiązane z analizowanym problemem."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, porównuje opis próby, datę i sposób zbierania w dwóch źródłach."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera wyłącznie dane potwierdzające założenie.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje dużą liczbę obserwacji za gwarancję reprezentatywności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-STA-009",
+      "name": "Rozpoznaje mylące prezentacje i nieuprawnione wnioski",
+      "topic": "Wiarygodność danych i wykresów",
+      "short_description": "Rozpoznaje zniekształcenia wykresów. Ocenia zasadność wniosków.",
+      "long_description": "Rozpoznaje zniekształcenia wykresów. Ocenia zasadność wniosków. W zadaniach sprawdzających uczeń wskazuje, jak ucięta oś słupkowa może wyolbrzymić różnicę. Następnie odrzuca twierdzenie o przyczynowości oparte wyłącznie na współwystępowaniu.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje zniekształcenia wykresów."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Ocenia zasadność wniosków."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-005",
+        "MAT-STA-008"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje, jak ucięta oś słupkowa może wyolbrzymić różnicę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odrzuca twierdzenie o przyczynowości oparte wyłącznie na współwystępowaniu."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje wykresy bez sprawdzenia skali.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje korelację za dowód przyczynowości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "statistics",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.5; doświadczenie 4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}

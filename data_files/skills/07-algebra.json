@@ -1,0 +1,1127 @@
+{
+  "category_name": "Wyrażenia algebraiczne i równania",
+  "skills": [
+    {
+      "id": "MAT-ALG-001",
+      "name": "Zapisuje proste zależności za pomocą liter",
+      "topic": "Zapis algebraiczny i obliczanie wartości wyrażeń",
+      "short_description": "Zastępuje niewiadomą wielkość literą. Zapisuje zależność między wielkościami.",
+      "long_description": "Zastępuje niewiadomą wielkość literą. Zapisuje zależność między wielkościami. W zadaniach sprawdzających uczeń zapisuje cenę 5 zeszytów po x zł jako 5x. Następnie zapisuje liczbę o 7 większą od n jako n + 7.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zastępuje niewiadomą wielkość literą."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje zależność między wielkościami."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-017",
+        "MAT-LOG-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje cenę 5 zeszytów po x zł jako 5x."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje liczbę o 7 większą od n jako n + 7."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje literę jako etykietę bez wartości liczbowej.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zapisuje n · 7 zamiast n + 7.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ALG-002",
+      "name": "Podstawia wartości do wyrażeń i prostych wzorów",
+      "topic": "Zapis algebraiczny i obliczanie wartości wyrażeń",
+      "short_description": "Podstawia wartość liczbową w miejsce litery. Oblicza wartość prostego wzoru.",
+      "long_description": "Podstawia wartość liczbową w miejsce litery. Oblicza wartość prostego wzoru. W zadaniach sprawdzających uczeń oblicza 3a + 2 dla a = 4 jako 14. Następnie oblicza 2a + 2b dla a = 3 i b = 5 jako 16.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Podstawia wartość liczbową w miejsce litery."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza wartość prostego wzoru."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-001",
+        "MAT-ARI-017"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 3a + 2 dla a = 4 jako 14."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 2a + 2b dla a = 3 i b = 5 jako 16."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podstawia tylko część wystąpień zmiennej.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Ignoruje kolejność działań.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.2–3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ALG-005",
+      "name": "Tworzy i oblicza wyrażenia z jedną lub dwiema zmiennymi",
+      "topic": "Zapis algebraiczny i obliczanie wartości wyrażeń",
+      "short_description": "Buduje wyrażenie z jedną lub dwiema zmiennymi. Oblicza wartość po podstawieniu liczb ze znakami.",
+      "long_description": "Buduje wyrażenie z jedną lub dwiema zmiennymi. Oblicza wartość po podstawieniu liczb ze znakami. W zadaniach sprawdzających uczeń zapisuje sumę podwojonego a i potrojonego b jako 2a + 3b. Następnie oblicza a² − 2b dla a = −3 i b = 4 jako 1.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Buduje wyrażenie z jedną lub dwiema zmiennymi."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza wartość po podstawieniu liczb ze znakami."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-002",
+        "MAT-INT-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje sumę podwojonego a i potrojonego b jako 2a + 3b."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza a² − 2b dla a = −3 i b = 4 jako 1."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Łączy różne zmienne w jeden wyraz bez podstawy.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija nawias przy podstawieniu liczby ujemnej.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.1–2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-006",
+      "name": "Porządkuje jednomiany",
+      "topic": "Jednomiany i sumy algebraiczne",
+      "short_description": "Porządkuje iloczyn liczbowo-literowy. Rozpoznaje współczynnik i część literową.",
+      "long_description": "Porządkuje iloczyn liczbowo-literowy. Rozpoznaje współczynnik i część literową. W zadaniach sprawdzających uczeń zapisuje 3a · (−2)b · a jako −6a²b. Następnie w −5xy² wskazuje −5 i xy².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porządkuje iloczyn liczbowo-literowy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozpoznaje współczynnik i część literową."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-005",
+        "MAT-POW-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 3a · (−2)b · a jako −6a²b."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w −5xy² wskazuje −5 i xy²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje współczynniki zamiast mnożyć.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija znak współczynnika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-007",
+      "name": "Redukuje wyrazy podobne",
+      "topic": "Jednomiany i sumy algebraiczne",
+      "short_description": "Rozpoznaje wyrazy podobne. Redukuje wyrazy podobne.",
+      "long_description": "Rozpoznaje wyrazy podobne. Redukuje wyrazy podobne. W zadaniach sprawdzających uczeń wskazuje 3x² i −5x² jako podobne, a x jako niepodobny. Następnie upraszcza 4x − 7x + 2 do −3x + 2.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje wyrazy podobne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Redukuje wyrazy podobne."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-006",
+        "MAT-INT-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje 3x² i −5x² jako podobne, a x jako niepodobny."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza 4x − 7x + 2 do −3x + 2."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Łączy x² i x.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje wykładniki podczas dodawania jednomianów.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-008",
+      "name": "Dodaje i odejmuje sumy algebraiczne",
+      "topic": "Jednomiany i sumy algebraiczne",
+      "short_description": "Dodaje sumy algebraiczne. Odejmuje sumy algebraiczne.",
+      "long_description": "Dodaje sumy algebraiczne. Odejmuje sumy algebraiczne. W zadaniach sprawdzających uczeń upraszcza (2x + 3) + (x − 5) do 3x − 2. Następnie upraszcza (4x + 1) − (x − 2) do 3x + 3.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje sumy algebraiczne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odejmuje sumy algebraiczne."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza (2x + 3) + (x − 5) do 3x − 2."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza (4x + 1) − (x − 2) do 3x + 3."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Łączy stałe z wyrazami zawierającymi x.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zmienia znak tylko pierwszego wyrazu w odejmowanym nawiasie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-009",
+      "name": "Mnoży jednomian przez sumę algebraiczną",
+      "topic": "Jednomiany i sumy algebraiczne",
+      "short_description": "Rozdziela mnożenie na wszystkie składniki sumy. Uwzględnia znaki i potęgi.",
+      "long_description": "Rozdziela mnożenie na wszystkie składniki sumy. Uwzględnia znaki i potęgi. W zadaniach sprawdzających uczeń rozwija 3x(2x − 5) do 6x² − 15x. Następnie rozwija −2a(a + 4) do −2a² − 8a.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozdziela mnożenie na wszystkie składniki sumy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uwzględnia znaki i potęgi."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-006",
+        "MAT-ARI-015"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozwija 3x(2x − 5) do 6x² − 15x."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozwija −2a(a + 4) do −2a² − 8a."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży tylko pierwszy wyraz nawiasu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Gubi minus przy drugim składniku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-010",
+      "name": "Wyłącza jednomian przed nawias",
+      "topic": "Jednomiany i sumy algebraiczne",
+      "short_description": "Wyznacza wspólny czynnik jednomianów. Wyłącza czynnik i sprawdza przez wymnożenie.",
+      "long_description": "Wyznacza wspólny czynnik jednomianów. Wyłącza czynnik i sprawdza przez wymnożenie. W zadaniach sprawdzających uczeń w 6x² + 9x wskazuje 3x. Następnie zapisuje 6x² + 9x = 3x(2x + 3).",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza wspólny czynnik jednomianów."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyłącza czynnik i sprawdza przez wymnożenie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-009",
+        "MAT-ARI-012"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w 6x² + 9x wskazuje 3x."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 6x² + 9x = 3x(2x + 3)."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera czynnik niewspólny dla wszystkich wyrazów.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie dzieli każdego składnika przez wyłączony czynnik.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-011",
+      "name": "Mnoży dwa dwumiany",
+      "topic": "Jednomiany i sumy algebraiczne",
+      "short_description": "Mnoży każdy składnik jednego dwumianu przez każdy składnik drugiego. Redukuje wynik i kontroluje znaki.",
+      "long_description": "Mnoży każdy składnik jednego dwumianu przez każdy składnik drugiego. Redukuje wynik i kontroluje znaki. W zadaniach sprawdzających uczeń rozwija (x + 2)(x − 3) do x² − x − 6. Następnie oblicza (2x − 1)(x + 4) = 2x² + 7x − 4.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mnoży każdy składnik jednego dwumianu przez każdy składnik drugiego."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Redukuje wynik i kontroluje znaki."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-009",
+        "MAT-ALG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozwija (x + 2)(x − 3) do x² − x − 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza (2x − 1)(x + 4) = 2x² + 7x − 4."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży tylko pierwsze i ostatnie składniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Gubi znak iloczynu wyrazów o przeciwnych znakach.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-003",
+      "name": "Układa równanie z danych zadania",
+      "topic": "Równania pierwszego stopnia",
+      "short_description": "Określa niewiadomą z treści zadania. Zapisuje warunek w postaci równania.",
+      "long_description": "Określa niewiadomą z treści zadania. Zapisuje warunek w postaci równania. W zadaniach sprawdzających uczeń oznacza nieznaną liczbę przez x i wyjaśnia jej znaczenie. Następnie dla liczby powiększonej o 7 równej 19 zapisuje x + 7 = 19.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Określa niewiadomą z treści zadania."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje warunek w postaci równania."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-001",
+        "MAT-LOG-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oznacza nieznaną liczbę przez x i wyjaśnia jej znaczenie."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla liczby powiększonej o 7 równej 19 zapisuje x + 7 = 19."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Oznacza różne wielkości tą samą literą bez zależności.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zapisuje samo wyrażenie bez znaku równości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ALG-004",
+      "name": "Rozwiązuje proste równanie z niewiadomą po jednej stronie",
+      "topic": "Równania pierwszego stopnia",
+      "short_description": "Rozwiązuje równanie z jednym prostym działaniem. Rozwiązuje równanie dwuetapowe i sprawdza wynik.",
+      "long_description": "Rozwiązuje równanie z jednym prostym działaniem. Rozwiązuje równanie dwuetapowe i sprawdza wynik. W zadaniach sprawdzających uczeń wyznacza x z 4x = 28. Następnie dla 3x + 5 = 20 wyznacza x = 5 i podstawia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozwiązuje równanie z jednym prostym działaniem."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozwiązuje równanie dwuetapowe i sprawdza wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-003",
+        "MAT-ARI-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza x z 4x = 28."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 3x + 5 = 20 wyznacza x = 5 i podstawia."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odejmuje 4 zamiast dzielić przez 4.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odwraca działania w niewłaściwej kolejności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-ALG-012",
+      "name": "Sprawdza rozwiązanie równania przez podstawienie",
+      "topic": "Równania pierwszego stopnia",
+      "short_description": "Podstawia proponowane rozwiązanie do obu stron równania. Rozstrzyga, czy równość zachodzi.",
+      "long_description": "Podstawia proponowane rozwiązanie do obu stron równania. Rozstrzyga, czy równość zachodzi. W zadaniach sprawdzających uczeń sprawdza x = 3 w 2x + 1 = 7. Następnie odrzuca x = 2 jako rozwiązanie tego równania.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Podstawia proponowane rozwiązanie do obu stron równania."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozstrzyga, czy równość zachodzi."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sprawdza x = 3 w 2x + 1 = 7."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odrzuca x = 2 jako rozwiązanie tego równania."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podstawia wartość tylko do jednej strony zawierającej zmienną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje bliskie wartości stron za równe.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.9–10",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-013",
+      "name": "Rozwiązuje równania pierwszego stopnia przez przekształcenia",
+      "topic": "Równania pierwszego stopnia",
+      "short_description": "Wykonuje równoważne przekształcenia obu stron. Rozpoznaje równania bez rozwiązań lub tożsamościowe w prostych przypadkach.",
+      "long_description": "Wykonuje równoważne przekształcenia obu stron. Rozpoznaje równania bez rozwiązań lub tożsamościowe w prostych przypadkach. W zadaniach sprawdzających uczeń rozwiązuje 5x − 2 = 2x + 10, uzyskując x = 4. Następnie odróżnia x + 2 = x + 3 od 2(x + 1) = 2x + 2.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wykonuje równoważne przekształcenia obu stron."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozpoznaje równania bez rozwiązań lub tożsamościowe w prostych przypadkach."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-004",
+        "MAT-ALG-008",
+        "MAT-ALG-009",
+        "MAT-INT-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozwiązuje 5x − 2 = 2x + 10, uzyskując x = 4."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odróżnia x + 2 = x + 3 od 2(x + 1) = 2x + 2."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wykonuje działanie tylko po jednej stronie.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dzieli przez zero po redukcji wyrazów.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.11",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-014",
+      "name": "Sprowadza równanie do pierwszego stopnia",
+      "topic": "Równania pierwszego stopnia",
+      "short_description": "Upraszcza strony równania przez wymnożenie i redukcję. Rozwiązuje otrzymane równanie i sprawdza w pierwotnym.",
+      "long_description": "Upraszcza strony równania przez wymnożenie i redukcję. Rozwiązuje otrzymane równanie i sprawdza w pierwotnym. W zadaniach sprawdzających uczeń sprowadza (x + 1)(x + 2) = x² + 8 do 3x + 2 = 8. Następnie wyznacza x = 2 i weryfikuje obie strony.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Upraszcza strony równania przez wymnożenie i redukcję."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozwiązuje otrzymane równanie i sprawdza w pierwotnym."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-013",
+        "MAT-ALG-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sprowadza (x + 1)(x + 2) = x² + 8 do 3x + 2 = 8."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza x = 2 i weryfikuje obie strony."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Usuwa x² tylko z jednej strony.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Sprawdza jedynie błędnie przekształcone równanie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.11",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-016",
+      "name": "Rozwiązuje zadanie tekstowe równaniem",
+      "topic": "Równania pierwszego stopnia",
+      "short_description": "Buduje równanie opisujące zadanie. Rozwiązuje równanie i interpretuje wynik.",
+      "long_description": "Buduje równanie opisujące zadanie. Rozwiązuje równanie i interpretuje wynik. W zadaniach sprawdzających uczeń dla liczby i jej trzykrotności o sumie 48 zapisuje x + 3x = 48. Następnie podaje liczby 12 i 36 oraz sprawdza sumę.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Buduje równanie opisujące zadanie."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozwiązuje równanie i interpretuje wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-013",
+        "MAT-ALG-003",
+        "MAT-LOG-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla liczby i jej trzykrotności o sumie 48 zapisuje x + 3x = 48."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje liczby 12 i 36 oraz sprawdza sumę."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Nie wiąże niewiadomej z wielkościami w treści.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje samą niewiadomą bez odpowiedzi na pytanie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.12",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-015",
+      "name": "Przekształca wzór, wyznaczając wskazaną zmienną",
+      "topic": "Przekształcanie wzorów",
+      "short_description": "Izoluje wskazaną zmienną w prostym wzorze. Uwzględnia warunki dzielenia i sprawdza wzór.",
+      "long_description": "Izoluje wskazaną zmienną w prostym wzorze. Uwzględnia warunki dzielenia i sprawdza wzór. W zadaniach sprawdzających uczeń z P = ah/2 wyznacza h = 2P/a dla a ≠ 0. Następnie z v = s/t wyznacza t = s/v przy v ≠ 0 i t ≠ 0.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Izoluje wskazaną zmienną w prostym wzorze."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uwzględnia warunki dzielenia i sprawdza wzór."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z P = ah/2 wyznacza h = 2P/a dla a ≠ 0."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z v = s/t wyznacza t = s/v przy v ≠ 0 i t ≠ 0."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Przenosi czynnik bez odwrócenia działania.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dzieli przez wyrażenie mogące być zerem bez warunku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-ALG-017",
+      "name": "Sprowadza dwa proste równania z dwiema niewiadomymi do jednego",
+      "topic": "Równania z dwiema niewiadomymi",
+      "short_description": "Wyraża jedną niewiadomą przez drugą. Podstawia zależność do drugiego równania i sprawdza parę.",
+      "long_description": "Wyraża jedną niewiadomą przez drugą. Podstawia zależność do drugiego równania i sprawdza parę. W zadaniach sprawdzających uczeń z x + y = 10 wyznacza y = 10 − x. Następnie w x − y = 2 podstawia 10 − x, uzyskuje x = 6 i y = 4.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyraża jedną niewiadomą przez drugą."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Podstawia zależność do drugiego równania i sprawdza parę."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ALG-016",
+        "MAT-ALG-014"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z x + y = 10 wyznacza y = 10 − x."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w x − y = 2 podstawia 10 − x, uzyskuje x = 6 i y = 4."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje x i y jako równe bez danych.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podstawia wyrażenie bez nawiasu przy odejmowaniu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "algebra",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.12",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}

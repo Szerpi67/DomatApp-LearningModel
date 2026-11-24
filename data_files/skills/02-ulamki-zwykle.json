@@ -1,0 +1,1758 @@
+{
+  "category_name": "Ułamki Zwykłe",
+  "skills": [
+    {
+      "id": "MAT-FRA-001",
+      "name": "Rozumienie ułamków zwykłych",
+      "topic": "Pojęcie i reprezentacje ułamków",
+      "short_description": "Interpretacja ułamka jako części całości podzielonej na równe części.",
+      "long_description": "Interpretacja ułamka jako części całości podzielonej na równe części. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje licznik i mianownik ułamka."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia rolę licznika i mianownika."
+        },
+        {
+          "id": "OBJ-03",
+          "description": "Rozpoznaje, że części całości muszą być równe."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń rozpoznaje licznik i mianownik ułamka w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia rolę licznika i mianownika w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-03",
+          "description": "Uczeń rozpoznaje, że części całości muszą być równe w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli licznik z mianownikiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje mianownik jako liczbę zaznaczonych części.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        },
+        {
+          "id": "ERR-03",
+          "description": "Uznaje nierówne części za poprawny podział na ułamki.",
+          "related_objectives": [
+            "OBJ-03"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.17",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-002",
+      "name": "Odczytywanie i zapisywanie ułamków",
+      "topic": "Pojęcie i reprezentacje ułamków",
+      "short_description": "Przechodzenie między zapisem słownym a symbolicznym ułamka.",
+      "long_description": "Przechodzenie między zapisem słownym a symbolicznym ułamka. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odczytuje zapisany ułamek zwykły."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje ułamek podany słownie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń odczytuje zapisany ułamek zwykły w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zapisuje ułamek podany słownie w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zamienia miejscami licznik i mianownik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Niepoprawnie interpretuje nazwę mianownika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.17",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-003",
+      "name": "Ułamki na modelach graficznych",
+      "topic": "Pojęcie i reprezentacje ułamków",
+      "short_description": "Przedstawianie i rozpoznawanie ułamków na rysunkach.",
+      "long_description": "Przedstawianie i rozpoznawanie ułamków na rysunkach. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zaznacza wskazany ułamek na modelu podzielonym na równe części."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zapisuje ułamek odpowiadający zaznaczonej części."
+        },
+        {
+          "id": "OBJ-03",
+          "description": "Ocenia, czy model przedstawia poprawny podział na równe części."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-FRA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń zaznacza wskazany ułamek na modelu podzielonym na równe części w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zapisuje ułamek odpowiadający zaznaczonej części w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-03",
+          "description": "Uczeń ocenia, czy model przedstawia poprawny podział na równe części w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Liczy wszystkie części zamiast zaznaczonych.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie sprawdza równości części.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        },
+        {
+          "id": "ERR-03",
+          "description": "Odczytuje ułamek z niewłaściwej całości.",
+          "related_objectives": [
+            "OBJ-03"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.17",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-004",
+      "name": "Ułamki na osi liczbowej",
+      "topic": "Pojęcie i reprezentacje ułamków",
+      "short_description": "Umieszczanie i odczytywanie prostych ułamków na osi liczbowej.",
+      "long_description": "Umieszczanie i odczytywanie prostych ułamków na osi liczbowej. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dzieli odcinek jednostkowy na równe części."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zaznacza ułamek na osi liczbowej."
+        },
+        {
+          "id": "OBJ-03",
+          "description": "Odczytuje ułamek wskazany na osi."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-FRA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń dzieli odcinek jednostkowy na równe części w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zaznacza ułamek na osi liczbowej w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-03",
+          "description": "Uczeń odczytuje ułamek wskazany na osi w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli jednostkę na nierówne odcinki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Liczy kreski zamiast odcinków.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        },
+        {
+          "id": "ERR-03",
+          "description": "Pomija punkt zerowy przy odczycie.",
+          "related_objectives": [
+            "OBJ-03"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.21",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-010",
+      "name": "Ułamek jako iloraz liczb naturalnych",
+      "topic": "Pojęcie i reprezentacje ułamków",
+      "short_description": "Rozumienie kreski ułamkowej jako dzielenia.",
+      "long_description": "Rozumienie kreski ułamkowej jako dzielenia. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zapisuje iloraz dwóch liczb naturalnych jako ułamek z niezerowym mianownikiem."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia znaczenie kreski ułamkowej jako dzielenia."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń zapisuje iloraz dwóch liczb naturalnych jako ułamek z niezerowym mianownikiem w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia znaczenie kreski ułamkowej jako dzielenia w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zamienia miejscami dzielną i dzielnik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dopuszcza zero w mianowniku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.18",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-007",
+      "name": "Ułamki właściwe i niewłaściwe",
+      "topic": "Ułamki właściwe, niewłaściwe i liczby mieszane",
+      "short_description": "Rozróżnianie ułamków właściwych i niewłaściwych.",
+      "long_description": "Rozróżnianie ułamków właściwych i niewłaściwych. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje ułamki właściwe i niewłaściwe."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje ułamek właściwy i niewłaściwy z jednością."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń rozpoznaje ułamki właściwe i niewłaściwe w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń porównuje ułamek właściwy i niewłaściwy z jednością w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje każdy ułamek za mniejszy od jedności.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli warunek licznik mniejszy od mianownika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.17,20",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-008",
+      "name": "Liczby mieszane",
+      "topic": "Ułamki właściwe, niewłaściwe i liczby mieszane",
+      "short_description": "Interpretacja i zapis liczb mieszanych.",
+      "long_description": "Interpretacja i zapis liczb mieszanych. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje część całkowitą i ułamkową liczby mieszanej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przedstawia liczbę mieszaną za pomocą modelu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-007",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń rozpoznaje część całkowitą i ułamkową liczby mieszanej w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń przedstawia liczbę mieszaną za pomocą modelu w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odczytuje liczbę mieszaną jako iloczyn.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija część całkowitą na modelu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.20",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-009",
+      "name": "Zamiana ułamków niewłaściwych na liczby mieszane",
+      "topic": "Ułamki właściwe, niewłaściwe i liczby mieszane",
+      "short_description": "Zamiana ułamka niewłaściwego na liczbę mieszaną i odwrotnie w prostych przykładach.",
+      "long_description": "Zamiana ułamka niewłaściwego na liczbę mieszaną i odwrotnie w prostych przykładach. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zamienia ułamek niewłaściwy na liczbę mieszaną."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zamienia liczbę mieszaną na ułamek niewłaściwy."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-007",
+        "MAT-FRA-008",
+        "MAT-ARI-002",
+        "MAT-ARI-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń zamienia ułamek niewłaściwy na liczbę mieszaną w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń zamienia liczbę mieszaną na ułamek niewłaściwy w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli resztę z dzielenia z mianownikiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje część całkowitą do licznika bez pomnożenia przez mianownik.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.20",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-013",
+      "name": "Skraca ułamki",
+      "topic": "Skracanie i rozszerzanie ułamków",
+      "short_description": "Skraca licznik i mianownik przez wspólny dzielnik. Rozpoznaje ułamek nieskracalny.",
+      "long_description": "Skraca licznik i mianownik przez wspólny dzielnik. Rozpoznaje ułamek nieskracalny. W zadaniach sprawdzających uczeń zamienia 12/18 na 2/3. Następnie uzasadnia, że 2/3 nie ma wspólnego dzielnika większego od 1.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Skraca licznik i mianownik przez wspólny dzielnik."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozpoznaje ułamek nieskracalny."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-008"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 12/18 na 2/3."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia, że 2/3 nie ma wspólnego dzielnika większego od 1."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli wyłącznie licznik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odejmuje tę samą liczbę od licznika i mianownika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.19",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-014",
+      "name": "Rozszerza ułamki",
+      "topic": "Skracanie i rozszerzanie ułamków",
+      "short_description": "Rozszerza ułamek przez wskazany czynnik. Dobiera czynnik do docelowego mianownika.",
+      "long_description": "Rozszerza ułamek przez wskazany czynnik. Dobiera czynnik do docelowego mianownika. W zadaniach sprawdzających uczeń zapisuje 3/5 = 12/20. Następnie zamienia 2/3 na ułamek o mianowniku 15.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozszerza ułamek przez wskazany czynnik."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dobiera czynnik do docelowego mianownika."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 3/5 = 12/20."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 2/3 na ułamek o mianowniku 15."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży tylko mianownik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje do obu składników tę samą liczbę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.19",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-015",
+      "name": "Sprowadza ułamki do wspólnego mianownika",
+      "topic": "Skracanie i rozszerzanie ułamków",
+      "short_description": "Wyznacza wspólny mianownik. Rozszerza oba ułamki zachowując wartości.",
+      "long_description": "Wyznacza wspólny mianownik. Rozszerza oba ułamki zachowując wartości. W zadaniach sprawdzających uczeń wybiera 12 dla mianowników 4 i 6. Następnie zapisuje 3/4 = 9/12 i 5/6 = 10/12.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza wspólny mianownik."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozszerza oba ułamki zachowując wartości."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-014",
+        "MAT-ARI-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera 12 dla mianowników 4 i 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 3/4 = 9/12 i 5/6 = 10/12."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera mianownik niepodzielny przez jeden z pierwotnych.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zmienia mianownik bez przeliczenia licznika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.19",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-005",
+      "name": "Porównywanie ułamków o jednakowych mianownikach",
+      "topic": "Porównywanie ułamków",
+      "short_description": "Porównywanie ułamków mających ten sam mianownik.",
+      "long_description": "Porównywanie ułamków mających ten sam mianownik. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje dwa ułamki o tym samym mianowniku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porządkuje ułamki o tym samym mianowniku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń porównuje dwa ułamki o tym samym mianowniku w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń porządkuje ułamki o tym samym mianowniku w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje większy mianownik za większą wartość mimo równości mianowników.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odwraca znak nierówności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.26",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-006",
+      "name": "Porównywanie ułamków o jednakowych licznikach",
+      "topic": "Porównywanie ułamków",
+      "short_description": "Porównywanie dodatnich ułamków o tym samym liczniku.",
+      "long_description": "Porównywanie dodatnich ułamków o tym samym liczniku. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje dodatnie ułamki o tym samym liczniku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia porównanie wielkością równych części."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń porównuje dodatnie ułamki o tym samym liczniku w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń uzasadnia porównanie wielkością równych części w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada, że większy mianownik zawsze oznacza większy ułamek.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie uwzględnia tego samego licznika.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.26",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-016",
+      "name": "Porównuje ułamki o różnych mianownikach",
+      "topic": "Porównywanie ułamków",
+      "short_description": "Porównuje ułamki po sprowadzeniu do wspólnego mianownika. Porządkuje kilka ułamków.",
+      "long_description": "Porównuje ułamki po sprowadzeniu do wspólnego mianownika. Porządkuje kilka ułamków. W zadaniach sprawdzających uczeń ustala 3/4 < 5/6 i uzasadnia porównanie. Następnie porządkuje 1/2, 2/3, 3/8 rosnąco.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje ułamki po sprowadzeniu do wspólnego mianownika."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porządkuje kilka ułamków."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-005",
+        "MAT-FRA-006",
+        "MAT-FRA-015"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala 3/4 < 5/6 i uzasadnia porównanie."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, porządkuje 1/2, 2/3, 3/8 rosnąco."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje same liczniki przy różnych mianownikach.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada, że większy mianownik zawsze oznacza większy ułamek.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.26",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-024",
+      "name": "Porównuje ułamki różnicowo",
+      "topic": "Porównywanie ułamków",
+      "short_description": "Ustala różnicę między ułamkami. Interpretuje różnicę ułamków w zadaniu.",
+      "long_description": "Ustala różnicę między ułamkami. Interpretuje różnicę ułamków w zadaniu. W zadaniach sprawdzających uczeń oblicza, o ile 5/6 jest większe od 1/2. Następnie wyjaśnia, że 1/3 całości stanowi różnicę między 5/6 i 1/2 tej samej całości.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Ustala różnicę między ułamkami."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Interpretuje różnicę ułamków w zadaniu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-016",
+        "MAT-FRA-018"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza, o ile 5/6 jest większe od 1/2."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, że 1/3 całości stanowi różnicę między 5/6 i 1/2 tej samej całości."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wyznacza iloraz zamiast różnicy.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Porównuje części różnych całości bez uwzględnienia ich wielkości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.30",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-011",
+      "name": "Dodawanie ułamków o jednakowych mianownikach",
+      "topic": "Działania na ułamkach",
+      "short_description": "Dodawanie ułamków z jednakowymi mianownikami.",
+      "long_description": "Dodawanie ułamków z jednakowymi mianownikami. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje ułamki o jednakowych mianownikach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia, dlaczego mianownik pozostaje bez zmian."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń dodaje ułamki o jednakowych mianownikach w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia, dlaczego mianownik pozostaje bez zmian w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje do siebie mianowniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Błędnie dodaje liczniki.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-012",
+      "name": "Odejmowanie ułamków o jednakowych mianownikach",
+      "topic": "Działania na ułamkach",
+      "short_description": "Odejmowanie ułamków z jednakowymi mianownikami bez wyniku ujemnego.",
+      "long_description": "Odejmowanie ułamków z jednakowymi mianownikami bez wyniku ujemnego. Zadania powinny obejmować zarówno zapis symboliczny, jak i konkretne reprezentacje oraz sprawdzać rozumienie pojęcia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odejmuje ułamki o jednakowych mianownikach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia, dlaczego mianownik pozostaje bez zmian."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń odejmuje ułamki o jednakowych mianownikach w samodzielnym zadaniu bez podpowiedzi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń wyjaśnia, dlaczego mianownik pozostaje bez zmian w samodzielnym zadaniu bez podpowiedzi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odejmuje również mianowniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zamienia kolejność odejmowania liczników.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_4",
+        "primary"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "dekompozycja z pliku projektu",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-017",
+      "name": "Dodaje ułamki o różnych mianownikach",
+      "topic": "Działania na ułamkach",
+      "short_description": "Dodaje ułamki o różnych mianownikach. Upraszcza i kontroluje wynik.",
+      "long_description": "Dodaje ułamki o różnych mianownikach. Upraszcza i kontroluje wynik. W zadaniach sprawdzających uczeń oblicza 1/4 + 1/6 = 5/12. Następnie oblicza 1/6 + 1/3 = 1/2 i rozpoznaje jego sens.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje ułamki o różnych mianownikach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Upraszcza i kontroluje wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-011",
+        "MAT-FRA-015"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 1/4 + 1/6 = 5/12."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 1/6 + 1/3 = 1/2 i rozpoznaje jego sens."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje liczniki i mianowniki osobno.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pozostawia błędną sumę po niepoprawnym rozszerzeniu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-018",
+      "name": "Odejmuje ułamki o różnych mianownikach",
+      "topic": "Działania na ułamkach",
+      "short_description": "Odejmuje ułamki o różnych mianownikach. Upraszcza i kontroluje różnicę.",
+      "long_description": "Odejmuje ułamki o różnych mianownikach. Upraszcza i kontroluje różnicę. W zadaniach sprawdzających uczeń oblicza 5/6 − 1/4 = 7/12. Następnie oblicza 3/4 − 1/2 = 1/4 i sprawdza dodawaniem.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odejmuje ułamki o różnych mianownikach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Upraszcza i kontroluje różnicę."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-012",
+        "MAT-FRA-015"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 5/6 − 1/4 = 7/12."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 3/4 − 1/2 = 1/4 i sprawdza dodawaniem."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odejmuje mianowniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odwraca kolejność odejmowania bez uzasadnienia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-019",
+      "name": "Mnoży ułamki zwykłe",
+      "topic": "Działania na ułamkach",
+      "short_description": "Mnoży liczniki i mianowniki. Upraszcza iloczyn przez skracanie.",
+      "long_description": "Mnoży liczniki i mianowniki. Upraszcza iloczyn przez skracanie. W zadaniach sprawdzających uczeń oblicza 2/3 · 3/5 = 2/5. Następnie skraca czynniki w 4/9 · 3/8 i uzyskuje 1/6.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mnoży liczniki i mianowniki."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Upraszcza iloczyn przez skracanie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-ARI-002",
+        "MAT-FRA-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 2/3 · 3/5 = 2/5."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, skraca czynniki w 4/9 · 3/8 i uzyskuje 1/6."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Sprowadza ułamki do wspólnego mianownika i mnoży tylko liczniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Skraca składniki sumy jak czynniki iloczynu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-020",
+      "name": "Wyznacza odwrotność niezerowego ułamka",
+      "topic": "Działania na ułamkach",
+      "short_description": "Wyznacza odwrotność ułamka niezerowego. Wyjaśnia warunek istnienia odwrotności.",
+      "long_description": "Wyznacza odwrotność ułamka niezerowego. Wyjaśnia warunek istnienia odwrotności. W zadaniach sprawdzających uczeń podaje 7/3 jako odwrotność 3/7. Następnie sprawdza iloczyn równy 1 i wyklucza odwrotność zera.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza odwrotność ułamka niezerowego."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyjaśnia warunek istnienia odwrotności."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-010"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 7/3 jako odwrotność 3/7."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sprawdza iloczyn równy 1 i wyklucza odwrotność zera."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli odwrotność z liczbą przeciwną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przypisuje zeru odwrotność 0.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-021",
+      "name": "Dzieli ułamki zwykłe",
+      "topic": "Działania na ułamkach",
+      "short_description": "Dzieli ułamki przez mnożenie przez odwrotność dzielnika. Sprawdza iloraz i wyklucza dzielenie przez zero.",
+      "long_description": "Dzieli ułamki przez mnożenie przez odwrotność dzielnika. Sprawdza iloraz i wyklucza dzielenie przez zero. W zadaniach sprawdzających uczeń oblicza 3/4 : 2/5 = 15/8. Następnie sprawdza 15/8 · 2/5 = 3/4.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dzieli ułamki przez mnożenie przez odwrotność dzielnika."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Sprawdza iloraz i wyklucza dzielenie przez zero."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-019",
+        "MAT-FRA-020"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 3/4 : 2/5 = 15/8."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sprawdza 15/8 · 2/5 = 3/4."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odwraca dzielną zamiast dzielnika.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dopuszcza zero jako dzielnik.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-022",
+      "name": "Wykonuje działania na liczbach mieszanych",
+      "topic": "Działania na ułamkach",
+      "short_description": "Dobiera sposób dodawania i odejmowania liczb mieszanych. Mnoży i dzieli liczby mieszane.",
+      "long_description": "Dobiera sposób dodawania i odejmowania liczb mieszanych. Mnoży i dzieli liczby mieszane. W zadaniach sprawdzających uczeń oblicza 2 1/3 − 1 5/6 = 1/2. Następnie oblicza 1 1/2 : 2 1/4 = 2/3.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera sposób dodawania i odejmowania liczb mieszanych."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Mnoży i dzieli liczby mieszane."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-009",
+        "MAT-FRA-017",
+        "MAT-FRA-018",
+        "MAT-FRA-019",
+        "MAT-FRA-021"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 2 1/3 − 1 5/6 = 1/2."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 1 1/2 : 2 1/4 = 2/3."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odejmuje części ułamkowe w odwrotnej kolejności.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży oddzielnie części całkowite i ułamkowe.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.27",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-023",
+      "name": "Oblicza ułamek danej wielkości",
+      "topic": "Ułamki w zadaniach praktycznych",
+      "short_description": "Oblicza ułamek liczby lub wielkości. Interpretuje wynik w kontekście.",
+      "long_description": "Oblicza ułamek liczby lub wielkości. Interpretuje wynik w kontekście. W zadaniach sprawdzających uczeń wyznacza 3/8 z 64 jako 24. Następnie oblicza 2/5 z 15 kg i podaje 6 kg.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza ułamek liczby lub wielkości."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Interpretuje wynik w kontekście."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-019"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza 3/8 z 64 jako 24."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 2/5 z 15 kg i podaje 6 kg."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli przez licznik i mnoży przez mianownik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija jednostkę wielkości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.31",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-025",
+      "name": "Wyznacza całość, znając jej ułamek",
+      "topic": "Ułamki w zadaniach praktycznych",
+      "short_description": "Wyznacza wartość jednej części. Odtwarza całość i sprawdza ją.",
+      "long_description": "Wyznacza wartość jednej części. Odtwarza całość i sprawdza ją. W zadaniach sprawdzających uczeń jeżeli 3/5 całości to 18, wyznacza 1/5 = 6. Następnie podaje 30 i sprawdza, że 3/5 z 30 to 18.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza wartość jednej części."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odtwarza całość i sprawdza ją."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-021",
+        "MAT-FRA-023"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, jeżeli 3/5 całości to 18, wyznacza 1/5 = 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 30 i sprawdza, że 3/5 z 30 to 18."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli 18 przez mianownik zamiast licznik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży 18 przez 3/5 zamiast dzielić.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_6",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "IV.13",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-FRA-026",
+      "name": "Powiększa lub pomniejsza wielkość o jej część",
+      "topic": "Ułamki w zadaniach praktycznych",
+      "short_description": "Oblicza przyrost lub ubytek jako ułamek wartości początkowej. Wyznacza wartość po zmianie.",
+      "long_description": "Oblicza przyrost lub ubytek jako ułamek wartości początkowej. Wyznacza wartość po zmianie. W zadaniach sprawdzających uczeń wyznacza 1/4 z 80 jako 20. Następnie podaje 100 po zwiększeniu i 60 po zmniejszeniu 80 o 1/4.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza przyrost lub ubytek jako ułamek wartości początkowej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza wartość po zmianie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-023",
+        "MAT-FRA-017",
+        "MAT-FRA-018"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza 1/4 z 80 jako 20."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 100 po zwiększeniu i 60 po zmniejszeniu 80 o 1/4."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Oblicza ułamek od wartości końcowej bez danych.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje samą wartość zmiany jako końcową.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "fractions",
+        "grade_6",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "IV.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    }
+  ]
+}

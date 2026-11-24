@@ -1,0 +1,937 @@
+{
+  "category_name": "Zastosowania praktyczne",
+  "skills": [
+    {
+      "id": "MAT-APP-001",
+      "name": "Oblicza cenę jednostkową i porównuje oferty zakupu",
+      "topic": "Zakupy i finanse osobiste",
+      "short_description": "Oblicza cenę jednostkową. Porównuje oferty przy tej samej jednostce.",
+      "long_description": "Oblicza cenę jednostkową. Porównuje oferty przy tej samej jednostce. W zadaniach sprawdzających uczeń dla 750 g za 9 zł podaje 12 zł/kg. Następnie wybiera tańszą jednostkowo ofertę spośród 750 g za 9 zł i 1 kg za 13 zł.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza cenę jednostkową."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje oferty przy tej samej jednostce."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002",
+        "MAT-DEC-012"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 750 g za 9 zł podaje 12 zł/kg."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera tańszą jednostkowo ofertę spośród 750 g za 9 zł i 1 kg za 13 zł."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje ceny opakowań bez uwzględnienia ilości.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli niższą cenę całkowitą z niższą ceną jednostkową.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.35;2.13",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-APP-002",
+      "name": "Oblicza wydatki, oszczędności i wymianę walut",
+      "topic": "Zakupy i finanse osobiste",
+      "short_description": "Oblicza wydatki i pozostałą kwotę. Przelicza walutę przy podanym kursie.",
+      "long_description": "Oblicza wydatki i pozostałą kwotę. Przelicza walutę przy podanym kursie. W zadaniach sprawdzających uczeń sumuje ceny, odejmuje je od budżetu 100 zł i podaje oszczędności. Następnie przy kursie 4,30 zł za euro oblicza koszt 20 euro jako 86 zł.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza wydatki i pozostałą kwotę."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przelicza walutę przy podanym kursie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-009",
+        "MAT-DEC-010",
+        "MAT-DEC-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sumuje ceny, odejmuje je od budżetu 100 zł i podaje oszczędności."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, przy kursie 4,30 zł za euro oblicza koszt 20 euro jako 86 zł."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija część wydatków.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dzieli zamiast mnożyć przy przeliczaniu euro na złote.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.13",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-APP-003",
+      "name": "Porównuje rabaty i promocje",
+      "topic": "Zakupy i finanse osobiste",
+      "short_description": "Oblicza ceny po różnych promocjach. Uwzględnia warunki promocji.",
+      "long_description": "Oblicza ceny po różnych promocjach. Uwzględnia warunki promocji. W zadaniach sprawdzających uczeń porównuje 20% rabatu od 100 zł z rabatem 15 zł. Następnie rozstrzyga, kiedy oferta 3 za cenę 2 jest korzystna dla wymaganej liczby sztuk.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza ceny po różnych promocjach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uwzględnia warunki promocji."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-APP-001",
+        "MAT-PCT-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, porównuje 20% rabatu od 100 zł z rabatem 15 zł."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozstrzyga, kiedy oferta 3 za cenę 2 jest korzystna dla wymaganej liczby sztuk."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje liczby 20 i 15 bez przeliczenia na tę samą podstawę.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada, że większy pakiet zawsze oznacza mniejszy całkowity wydatek.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.35",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-APP-004",
+      "name": "Tworzy budżet i uzasadnia wybór wariantu",
+      "topic": "Zakupy i finanse osobiste",
+      "short_description": "Tworzy tabelę budżetu z przychodami i wydatkami. Porównuje warianty i uzasadnia wybór.",
+      "long_description": "Tworzy tabelę budżetu z przychodami i wydatkami. Porównuje warianty i uzasadnia wybór. W zadaniach sprawdzających uczeń dla podanych kwot oblicza saldo oraz wskazuje ograniczenie budżetowe. Następnie wybiera plan mieszczący się w budżecie i wyjaśnia kompromis.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Tworzy tabelę budżetu z przychodami i wydatkami."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje warianty i uzasadnia wybór."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-APP-001",
+        "MAT-APP-002",
+        "MAT-STA-003",
+        "MAT-LOG-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla podanych kwot oblicza saldo oraz wskazuje ograniczenie budżetowe."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera plan mieszczący się w budżecie i wyjaśnia kompromis."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli saldo z sumą wydatków.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wybiera wariant z pominięciem obowiązkowego kosztu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.4; doświadczenie 2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-APP-008",
+      "name": "Oblicza odsetki, koszty kredytu i podatki w modelu zadania",
+      "topic": "Zakupy i finanse osobiste",
+      "short_description": "Oblicza odsetki i koszt kredytu w zadanym prostym modelu. Oblicza podatek według podanych założeń.",
+      "long_description": "Oblicza odsetki i koszt kredytu w zadanym prostym modelu. Oblicza podatek według podanych założeń. W zadaniach sprawdzających uczeń dla 1000 zł i 5% rocznie bez kapitalizacji podaje 50 zł odsetek za rok, uwzględnia podaną opłatę. Następnie dla kwoty 200 zł netto i stawki 23% podaje 46 zł podatku i 246 zł brutto.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza odsetki i koszt kredytu w zadanym prostym modelu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza podatek według podanych założeń."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-005",
+        "MAT-PCT-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 1000 zł i 5% rocznie bez kapitalizacji podaje 50 zł odsetek za rok, uwzględnia podaną opłatę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla kwoty 200 zł netto i stawki 23% podaje 46 zł podatku i 246 zł brutto."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje oprocentowanie jako całkowity koszt bez uwzględnienia opłat.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Naliczanie procentu wykonuje od niewłaściwej podstawy.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-APP-011",
+      "name": "Porównuje produkty finansowe na podstawie danych",
+      "topic": "Zakupy i finanse osobiste",
+      "short_description": "Sprowadza oferty finansowe do porównywalnych warunków. Formułuje uzasadniony wniosek w granicach danych.",
+      "long_description": "Sprowadza oferty finansowe do porównywalnych warunków. Formułuje uzasadniony wniosek w granicach danych. W zadaniach sprawdzających uczeń z danych o jednakowym okresie, kapitale, odsetkach i opłatach oblicza koszty dwóch hipotetycznych ofert. Następnie wskazuje tańszy wariant w podanym modelu i wymienia brakujące informacje.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Sprowadza oferty finansowe do porównywalnych warunków."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Formułuje uzasadniony wniosek w granicach danych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-APP-008",
+        "MAT-STA-008",
+        "MAT-APP-009"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z danych o jednakowym okresie, kapitale, odsetkach i opłatach oblicza koszty dwóch hipotetycznych ofert."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje tańszy wariant w podanym modelu i wymienia brakujące informacje."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje wyłącznie oprocentowanie.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przedstawia wynik modelu jako gwarancję rzeczywistego kosztu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-APP-005",
+      "name": "Opracowuje dane rzeczywiste i prezentuje wnioski",
+      "topic": "Dane w rzeczywistych sytuacjach",
+      "short_description": "Zbiera lub wykorzystuje dane rzeczywiste w ujednoliconej formie. Przedstawia wyniki i ograniczony wniosek.",
+      "long_description": "Zbiera lub wykorzystuje dane rzeczywiste w ujednoliconej formie. Przedstawia wyniki i ograniczony wniosek. W zadaniach sprawdzających uczeń tworzy tabelę wyników pomiarów temperatury z jednostkami. Następnie tworzy wykres, oblicza odpowiednią miarę i wskazuje wniosek z obserwacji.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zbiera lub wykorzystuje dane rzeczywiste w ujednoliconej formie."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przedstawia wyniki i ograniczony wniosek."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-002",
+        "MAT-STA-003",
+        "MAT-LOG-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, tworzy tabelę wyników pomiarów temperatury z jednostkami."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, tworzy wykres, oblicza odpowiednią miarę i wskazuje wniosek z obserwacji."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Miesza obserwacje z różnych okresów bez opisu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uogólnia niewielką próbę na całą populację.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-APP-013",
+      "name": "Bada wpływ sposobu prezentacji danych na interpretację",
+      "topic": "Dane w rzeczywistych sytuacjach",
+      "short_description": "Tworzy dwie prezentacje tych samych danych. Ocenia wpływ prezentacji na interpretację.",
+      "long_description": "Tworzy dwie prezentacje tych samych danych. Ocenia wpływ prezentacji na interpretację. W zadaniach sprawdzających uczeń przedstawia te same wartości na wykresach o różnych początkach osi i opisuje ustawienia. Następnie wyjaśnia, jak skala osi wpływa na wrażenie różnicy, zachowując poprawny wniosek liczbowy.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Tworzy dwie prezentacje tych samych danych."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Ocenia wpływ prezentacji na interpretację."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-STA-009",
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, przedstawia te same wartości na wykresach o różnych początkach osi i opisuje ustawienia."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, jak skala osi wpływa na wrażenie różnicy, zachowując poprawny wniosek liczbowy."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zmienia dane zamiast sposobu prezentacji.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje zmianę wyglądu za zmianę rzeczywistych wartości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-APP-006",
+      "name": "Wykonuje pomiary oraz plan w skali lub model",
+      "topic": "Pomiary i modelowanie przestrzeni",
+      "short_description": "Wykonuje pomiary potrzebne do modelu. Tworzy plan lub model w skali.",
+      "long_description": "Wykonuje pomiary potrzebne do modelu. Tworzy plan lub model w skali. W zadaniach sprawdzających uczeń mierzy długości pomieszczenia i zapisuje je w jednej jednostce. Następnie przedstawia ścianę długości 4 m jako 8 cm w skali 1:50.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wykonuje pomiary potrzebne do modelu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Tworzy plan lub model w skali."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-011",
+        "MAT-SOL-002",
+        "MAT-LOG-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, mierzy długości pomieszczenia i zapisuje je w jednej jednostce."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, przedstawia ścianę długości 4 m jako 8 cm w skali 1:50."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija wymiar konieczny do wykonania planu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Stosuje różną skalę do poszczególnych wymiarów bez uzasadnienia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-APP-010",
+      "name": "Analizuje matematycznie architekturę lub sztukę",
+      "topic": "Pomiary i modelowanie przestrzeni",
+      "short_description": "Rozpoznaje zależności geometryczne w sztuce lub architekturze. Uzasadnia analizę za pomocą obliczeń lub modelu.",
+      "long_description": "Rozpoznaje zależności geometryczne w sztuce lub architekturze. Uzasadnia analizę za pomocą obliczeń lub modelu. W zadaniach sprawdzających uczeń identyfikuje osie symetrii, proporcje lub powtarzające się figury na wybranym obiekcie. Następnie oblicza proporcje wymiarów z planu i wskazuje dokładność pomiarów.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje zależności geometryczne w sztuce lub architekturze."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia analizę za pomocą obliczeń lub modelu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-031",
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, identyfikuje osie symetrii, proporcje lub powtarzające się figury na wybranym obiekcie."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza proporcje wymiarów z planu i wskazuje dokładność pomiarów."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Przypisuje obiektowi idealną symetrię bez pomiaru.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje przybliżony model jako wierne odtworzenie obiektu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-APP-007",
+      "name": "Rozwiązuje i prezentuje problem interdyscyplinarny",
+      "topic": "Projekty interdyscyplinarne",
+      "short_description": "Przekłada prosty problem z innego obszaru na model matematyczny. Rozwiązuje i prezentuje wynik.",
+      "long_description": "Przekłada prosty problem z innego obszaru na model matematyczny. Rozwiązuje i prezentuje wynik. W zadaniach sprawdzających uczeń dla doświadczenia przyrodniczego wybiera potrzebne pomiary i zapisuje zależność. Następnie podaje obliczenia, jednostkę, wniosek i sprawdza go w kontekście.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Przekłada prosty problem z innego obszaru na model matematyczny."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozwiązuje i prezentuje wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-002",
+        "MAT-LOG-003",
+        "MAT-LOG-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla doświadczenia przyrodniczego wybiera potrzebne pomiary i zapisuje zależność."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje obliczenia, jednostkę, wniosek i sprawdza go w kontekście."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dobiera działania bez związku z badanym zjawiskiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przedstawia wynik rachunku bez odniesienia do problemu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-APP-014",
+      "name": "Definiuje i prezentuje problem interdyscyplinarny z różnych działów",
+      "topic": "Projekty interdyscyplinarne",
+      "short_description": "Definiuje interdyscyplinarny problem i dobiera model. Rozwiązuje, ocenia założenia i prezentuje wynik.",
+      "long_description": "Definiuje interdyscyplinarny problem i dobiera model. Rozwiązuje, ocenia założenia i prezentuje wynik. W zadaniach sprawdzających uczeń formułuje pytanie o koszt i zużycie materiału, ustala dane i wykorzystuje geometrię oraz rachunki. Następnie przedstawia obliczenia, porównanie wariantów, źródła danych i ograniczenia modelu.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Definiuje interdyscyplinarny problem i dobiera model."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozwiązuje, ocenia założenia i prezentuje wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-APP-007",
+        "MAT-LOG-006",
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, formułuje pytanie o koszt i zużycie materiału, ustala dane i wykorzystuje geometrię oraz rachunki."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, przedstawia obliczenia, porównanie wariantów, źródła danych i ograniczenia modelu."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Łączy działy matematyki bez powiązania z celem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija założenia lub nie uzasadnia wyboru wariantu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-APP-009",
+      "name": "Dobiera kalkulator lub aplikację do praktycznego problemu",
+      "topic": "Narzędzia cyfrowe w praktyce",
+      "short_description": "Dobiera narzędzie do rozwiązania praktycznego problemu. Weryfikuje obliczenia cyfrowe.",
+      "long_description": "Dobiera narzędzie do rozwiązania praktycznego problemu. Weryfikuje obliczenia cyfrowe. W zadaniach sprawdzających uczeń wybiera arkusz do porównania wielu wariantów kosztów i wskazuje potrzebne dane. Następnie sprawdza formułę i pojedynczy wynik ręcznie oraz ocenia jednostkę.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera narzędzie do rozwiązania praktycznego problemu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Weryfikuje obliczenia cyfrowe."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-019",
+        "MAT-LOG-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera arkusz do porównania wielu wariantów kosztów i wskazuje potrzebne dane."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sprawdza formułę i pojedynczy wynik ręcznie oraz ocenia jednostkę."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera narzędzie bez uwzględnienia celu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje wynik aplikacji za wiarygodny bez sprawdzenia danych wejściowych.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.12",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-APP-012",
+      "name": "Analizuje strategię gry i szanse wygranej",
+      "topic": "Gry i strategie losowe",
+      "short_description": "Opisuje reguły gry i zdarzenia prowadzące do wygranej. Porównuje strategie na podstawie obliczonych szans.",
+      "long_description": "Opisuje reguły gry i zdarzenia prowadzące do wygranej. Porównuje strategie na podstawie obliczonych szans. W zadaniach sprawdzających uczeń w prostej grze z kostką wypisuje wyniki wygrywające dla obu graczy. Następnie uzasadnia, że przy uczciwej kostce wygrana dla 1 lub 2 jest mniej prawdopodobna niż dla 3,4,5.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Opisuje reguły gry i zdarzenia prowadzące do wygranej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje strategie na podstawie obliczonych szans."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PRB-005",
+        "MAT-LOG-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w prostej grze z kostką wypisuje wyniki wygrywające dla obu graczy."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia, że przy uczciwej kostce wygrana dla 1 lub 2 jest mniej prawdopodobna niż dla 3,4,5."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada równe szanse mimo różnej liczby wyników sprzyjających.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje pojedynczy wynik rozgrywki za dowód przewagi strategii.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "applications",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "doświadczenie 3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}

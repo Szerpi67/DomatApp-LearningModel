@@ -21,6 +21,29 @@ class PlannerService:
         self.target_skill_selector = TargetSkillSelector()
 
     def create_plan(self, planner_input: PlannerInput) -> LearningPlan:
+        if planner_input.selected_domain:
+            get_skills = getattr(self.skill_navigator, "get_skills", None)
+            available_skills = get_skills() if get_skills else []
+            domain_skills = self._skills_in_domain(
+                planner_input.selected_domain,
+                available_skills,
+                planner_input.curriculum_context,
+            )
+            profile = planner_input.student_profile
+            has_domain_history = any(
+                skill["id"] in profile.skills
+                and profile.skills[skill["id"]].observations > 0
+                for skill in domain_skills
+            )
+            grade_changed = (
+                profile.last_grade is not None
+                and profile.last_grade != planner_input.curriculum_context.grade
+            )
+            if domain_skills and (grade_changed or not has_domain_history):
+                return self._build_domain_diagnostic_plan(
+                    planner_input, domain_skills, grade_changed
+                )
+
         target_id = planner_input.target_skill_id
 
         if target_id is None:
@@ -165,6 +188,67 @@ class PlannerService:
             reason=summary_reason
         )
 
+    def _build_domain_diagnostic_plan(self, planner_input, skills, grade_changed):
+        skill_ids = sorted(skill["id"] for skill in skills)
+        items = []
+        for skill_id in skill_ids:
+            subskills = self._select_subskills(
+                skill_id, planner_input.student_profile, limit=1
+            )
+            items.append(
+                PlanItem(
+                    skill_id=skill_id,
+                    subskill_ids=subskills,
+                    subskills_by_skill={skill_id: subskills},
+                    role="diagnostic",
+                    target_difficulty=self.difficulty_selector.select_difficulty(
+                        skill_id, planner_input.student_profile
+                    ),
+                    material_scope=(
+                        f"Diagnoza umiejętności {skill_id}: klasa "
+                        f"{planner_input.curriculum_context.grade}"
+                    ),
+                    reason=(
+                        "Jedno zadanie diagnostyczne po zmianie klasy."
+                        if grade_changed
+                        else "Jedno zadanie diagnostyczne, ponieważ uczeń nie ma jeszcze "
+                        "wyników w tym dziale."
+                    ),
+                    task_allocations=[
+                        TaskAllocation(task_type="closed_single_choice", count=1)
+                    ],
+                )
+            )
+
+        trigger_reason = (
+            "zmianę klasy"
+            if grade_changed
+            else "brak wcześniejszych wyników w dziale"
+        )
+        return LearningPlan(
+            plan_id=str(uuid.uuid4()),
+            target_skill_id=skill_ids[0],
+            items=items,
+            status="needs_diagnostic",
+            reason=(
+                f"Przygotowano diagnozę działu '{planner_input.selected_domain}': "
+                f"po jednym zadaniu dla każdej z {len(items)} umiejętności "
+                f"z powodu {trigger_reason}."
+            ),
+        )
+
+    def _skills_in_domain(self, domain, skills, context):
+        domain_key = self._normalize_domain(domain)
+        return [
+            skill
+            for skill in skills
+            if self.target_skill_selector._matches_context(skill, context)
+            and any(
+                self._normalize_domain(tag) == domain_key
+                for tag in skill.get("tags", [])
+            )
+        ]
+
     def _select_subskills(self, skill_id, profile, limit=2):
         definitions = getattr(self.skill_navigator, "skills", {})
         if isinstance(definitions, dict):
@@ -190,22 +274,14 @@ class PlannerService:
         return [objective["id"] for objective in ordered[:limit]]
 
     def _select_companion_skill(self, domain, skills, profile, context, target_id):
-        aliases = {
-            "ulamki": "fractions",
-            "ulamkow": "fractions",
-            "ułamki": "fractions",
-            "ułamków": "fractions",
-            "fraction": "fractions",
-        }
-        normalized_domain = domain.casefold().replace("\u0142", "l")
-        domain_key = aliases.get(normalized_domain, normalized_domain)
+        domain_key = self._normalize_domain(domain)
         candidates = []
         for skill in skills:
             skill_id = skill["id"]
             if skill_id == target_id or not self.target_skill_selector._matches_context(skill, context):
                 continue
             if not any(
-                aliases.get(tag.casefold().replace("\u0142", "l"), tag.casefold().replace("\u0142", "l")) == domain_key
+                self._normalize_domain(tag) == domain_key
                 for tag in skill.get("tags", [])
             ):
                 continue
@@ -225,3 +301,13 @@ class PlannerService:
             candidates.append((not mastered, skill_id))
         candidates.sort()
         return candidates[0][1] if candidates else None
+
+    @staticmethod
+    def _normalize_domain(value):
+        aliases = {
+            "ulamki": "fractions",
+            "ulamkow": "fractions",
+            "fraction": "fractions",
+        }
+        normalized = value.casefold().replace("\u0142", "l")
+        return aliases.get(normalized, normalized)

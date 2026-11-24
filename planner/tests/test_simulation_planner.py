@@ -46,7 +46,12 @@ SKILL_DATA_DIR = Path(__file__).resolve().parents[2] / "data_files" / "skills"
 
 def load_production_skills():
     skills = []
-    for filename in ("arithmetic.json", "fractions.json"):
+    folder = Path("data_files/skills")
+    filenames = [file.name for file in folder.glob("*.json")]
+    print("===== \n")
+    print(f"files found: {filenames}")
+    for filename in filenames:
+        print(f"loaded: {filename}")
         with (SKILL_DATA_DIR / filename).open(encoding="utf-8") as skill_file:
             skills.extend(json.load(skill_file)["skills"])
     return skills
@@ -448,15 +453,61 @@ def test_planner_starts_at_first_skill_in_domain_when_profile_has_no_data():
         )
     )
 
+    expected_skill_ids = {
+        skill["id"]
+        for skill in load_production_skills()
+        if "fractions" in skill.get("tags", [])
+        and planner.target_skill_selector._matches_context(skill, CONTEXT)
+    }
+
+    assert plan.status == "needs_diagnostic"
     assert plan.target_skill_id == "MAT-FRA-001"
-    assert plan.items[-1].skill_id == "MAT-FRA-001"
-    assert any(
-        item.skill_id == "MAT-FRA-001" and item.role == "main"
-        for item in plan.items
+    assert {item.skill_id for item in plan.items} == expected_skill_ids
+    assert all(item.role == "diagnostic" for item in plan.items)
+    assert all(item.task_allocations[0].count == 1 for item in plan.items)
+
+
+def test_planner_diagnoses_domain_again_after_student_changes_grade():
+    skills = load_production_skills()
+    planner = PlannerService(JsonSkillNavigator(skills))
+    fraction_skills = [
+        skill
+        for skill in skills
+        if "fractions" in skill.get("tags", [])
+        and planner.target_skill_selector._matches_context(skill, CONTEXT)
+    ]
+    now = datetime.now(timezone.utc)
+    profile = StudentProfile(
+        user_id="student-changing-grade",
+        last_grade=3,
+        updated_at=now,
+        skills={
+            skill["id"]: SkillState(
+                skill_id=skill["id"],
+                ability=4.0,
+                uncertainty=0.3,
+                observations=5,
+                working_difficulty=3,
+                last_practiced_at=now,
+            )
+            for skill in fraction_skills
+        },
     )
-    assert plan.items[-1].role == "integration"
-    assert plan.items[0].skill_id == "MAT-ARI-002"
-    assert plan.items[0].role == "diagnostic"
+
+    plan = planner.create_plan(
+        PlannerInput(
+            user_id=profile.user_id,
+            selected_domain="fractions",
+            student_profile=profile,
+            curriculum_context=CONTEXT,
+        )
+    )
+
+    assert plan.status == "needs_diagnostic"
+    assert {item.skill_id for item in plan.items} == {
+        skill["id"] for skill in fraction_skills
+    }
+    assert all(item.task_allocations[0].count == 1 for item in plan.items)
 
 
 def test_planner_does_not_select_skill_outside_curriculum_context():

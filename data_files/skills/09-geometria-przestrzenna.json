@@ -1,0 +1,801 @@
+{
+  "category_name": "Geometria przestrzenna (bryły)",
+  "skills": [
+    {
+      "id": "MAT-SOL-001",
+      "name": "Rozpoznaje bryły i wskazuje ich elementy",
+      "topic": "Rozpoznawanie brył i ich siatki",
+      "short_description": "Rozpoznaje podstawowe bryły. Wskazuje elementy wielościanu.",
+      "long_description": "Rozpoznaje podstawowe bryły. Wskazuje elementy wielościanu. W zadaniach sprawdzających uczeń rozróżnia sześcian, prostopadłościan, graniastosłup, ostrosłup, walec, stożek i kulę. Następnie podaje 6 ścian, 12 krawędzi i 8 wierzchołków sześcianu.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje podstawowe bryły."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wskazuje elementy wielościanu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozróżnia sześcian, prostopadłościan, graniastosłup, ostrosłup, walec, stożek i kulę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 6 ścian, 12 krawędzi i 8 wierzchołków sześcianu."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli figurę płaską z bryłą.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Liczy niewidoczne elementy jako nieistniejące.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.18–19",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-SOL-002",
+      "name": "Rozpoznaje, rysuje i składa siatki graniastosłupów i ostrosłupów",
+      "topic": "Rozpoznawanie brył i ich siatki",
+      "short_description": "Rozpoznaje poprawną siatkę bryły. Rysuje i składa siatkę graniastosłupa lub ostrosłupa.",
+      "long_description": "Rozpoznaje poprawną siatkę bryły. Rysuje i składa siatkę graniastosłupa lub ostrosłupa. W zadaniach sprawdzających uczeń wybiera układ sześciu kwadratów składający się w sześcian. Następnie rysuje siatkę graniastosłupa trójkątnego z dwiema podstawami i trzema ścianami bocznymi.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje poprawną siatkę bryły."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje i składa siatkę graniastosłupa lub ostrosłupa."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-001",
+        "MAT-GEO-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera układ sześciu kwadratów składający się w sześcian."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje siatkę graniastosłupa trójkątnego z dwiema podstawami i trzema ścianami bocznymi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje dowolny układ sześciu kwadratów za siatkę.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija jedną podstawę lub powiela ścianę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.20",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-SOL-005",
+      "name": "Klasyfikuje graniastosłupy i ostrosłupy prawidłowe",
+      "topic": "Rozpoznawanie brył i ich siatki",
+      "short_description": "Rozpoznaje graniastosłupy proste i ich podstawy. Rozpoznaje ostrosłup prawidłowy.",
+      "long_description": "Rozpoznaje graniastosłupy proste i ich podstawy. Rozpoznaje ostrosłup prawidłowy. W zadaniach sprawdzających uczeń wskazuje dwie przystające równoległe podstawy i prostokątne ściany boczne. Następnie wskazuje podstawę foremną i rzut wierzchołka w jej środku.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje graniastosłupy proste i ich podstawy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozpoznaje ostrosłup prawidłowy."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje dwie przystające równoległe podstawy i prostokątne ściany boczne."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje podstawę foremną i rzut wierzchołka w jej środku."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli podstawę z dowolną ścianą boczną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje każdy ostrosłup o podstawie kwadratowej za prawidłowy.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.12",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-SOL-006",
+      "name": "Wskazuje wysokości ostrosłupa i ścian bocznych",
+      "topic": "Rozpoznawanie brył i ich siatki",
+      "short_description": "Wskazuje wysokość ostrosłupa. Wskazuje wysokość ściany bocznej ostrosłupa prawidłowego.",
+      "long_description": "Wskazuje wysokość ostrosłupa. Wskazuje wysokość ściany bocznej ostrosłupa prawidłowego. W zadaniach sprawdzających uczeń rozpoznaje odcinek prostopadły od wierzchołka do płaszczyzny podstawy. Następnie rysuje wysokość trójkąta bocznego względem krawędzi podstawy.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wskazuje wysokość ostrosłupa."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wskazuje wysokość ściany bocznej ostrosłupa prawidłowego."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-005",
+        "MAT-GEO-014"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje odcinek prostopadły od wierzchołka do płaszczyzny podstawy."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje wysokość trójkąta bocznego względem krawędzi podstawy."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli wysokość z krawędzią boczną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Utożsamia wysokość ściany z wysokością bryły.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.13",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-SOL-003",
+      "name": "Oblicza pole powierzchni prostopadłościanu",
+      "topic": "Prostopadłościany – pola i objętości",
+      "short_description": "Identyfikuje pary jednakowych ścian. Oblicza pole całkowite prostopadłościanu.",
+      "long_description": "Identyfikuje pary jednakowych ścian. Oblicza pole całkowite prostopadłościanu. W zadaniach sprawdzających uczeń dla wymiarów 2, 3, 4 cm wskazuje pola 6, 8 i 12 cm² każdej pary. Następnie podaje 52 cm² dla wymiarów 2, 3, 4 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Identyfikuje pary jednakowych ścian."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole całkowite prostopadłościanu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-002",
+        "MAT-GEO-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla wymiarów 2, 3, 4 cm wskazuje pola 6, 8 i 12 cm² każdej pary."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 52 cm² dla wymiarów 2, 3, 4 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Sumuje każdą parę tylko raz.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży trzy wymiary jak przy objętości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.21",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-SOL-004",
+      "name": "Oblicza objętość prostopadłościanu i brył złożonych z nich",
+      "topic": "Prostopadłościany – pola i objętości",
+      "short_description": "Oblicza objętość prostopadłościanu. Oblicza objętość bryły złożonej z prostopadłościanów.",
+      "long_description": "Oblicza objętość prostopadłościanu. Oblicza objętość bryły złożonej z prostopadłościanów. W zadaniach sprawdzających uczeń dla wymiarów 2, 3, 4 cm podaje 24 cm³. Następnie sumuje objętości rozłącznych części, np. 24 i 12 cm³ do 36 cm³.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza objętość prostopadłościanu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza objętość bryły złożonej z prostopadłościanów."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-001",
+        "MAT-MEA-005",
+        "MAT-GEO-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla wymiarów 2, 3, 4 cm podaje 24 cm³."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sumuje objętości rozłącznych części, np. 24 i 12 cm³ do 36 cm³."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje wynik w cm².",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dwukrotnie uwzględnia część wspólną.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.22",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-SOL-007",
+      "name": "Oblicza pole powierzchni graniastosłupa prostego",
+      "topic": "Graniastosłupy – pola, objętości i krawędzie",
+      "short_description": "Oblicza pole powierzchni bocznej graniastosłupa prostego. Oblicza pole całkowite.",
+      "long_description": "Oblicza pole powierzchni bocznej graniastosłupa prostego. Oblicza pole całkowite. W zadaniach sprawdzających uczeń dla obwodu podstawy 12 cm i wysokości 5 cm podaje 60 cm². Następnie dla podstawy o polu 6 cm² i pola bocznego 60 cm² podaje 72 cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza pole powierzchni bocznej graniastosłupa prostego."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole całkowite."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-003",
+        "MAT-SOL-005",
+        "MAT-GEO-020"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla obwodu podstawy 12 cm i wysokości 5 cm podaje 60 cm²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla podstawy o polu 6 cm² i pola bocznego 60 cm² podaje 72 cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży pole podstawy przez wysokość.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje tylko jedną podstawę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-SOL-008",
+      "name": "Oblicza objętość graniastosłupa prostego",
+      "topic": "Graniastosłupy – pola, objętości i krawędzie",
+      "short_description": "Oblicza pole podstawy graniastosłupa. Oblicza objętość graniastosłupa prostego.",
+      "long_description": "Oblicza pole podstawy graniastosłupa. Oblicza objętość graniastosłupa prostego. W zadaniach sprawdzających uczeń dla podstawy trójkątnej o podstawie 6 cm i wysokości 4 cm podaje 12 cm². Następnie dla pola podstawy 12 cm² i wysokości bryły 5 cm podaje 60 cm³.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza pole podstawy graniastosłupa."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza objętość graniastosłupa prostego."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-004",
+        "MAT-SOL-005",
+        "MAT-GEO-020"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla podstawy trójkątnej o podstawie 6 cm i wysokości 4 cm podaje 12 cm²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla pola podstawy 12 cm² i wysokości bryły 5 cm podaje 60 cm³."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli wysokość trójkąta z wysokością bryły.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dzieli przez 3 jak przy ostrosłupie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-SOL-011",
+      "name": "Wyznacza długości krawędzi graniastosłupa z zależności",
+      "topic": "Graniastosłupy – pola, objętości i krawędzie",
+      "short_description": "Ustala zależności między krawędziami graniastosłupa. Wyznacza brakującą długość.",
+      "long_description": "Ustala zależności między krawędziami graniastosłupa. Wyznacza brakującą długość. W zadaniach sprawdzających uczeń dla prostopadłościanu rozpoznaje po cztery krawędzie każdego wymiaru. Następnie z sumy krawędzi 48 cm oraz wymiarów 3 i 4 cm wyznacza trzeci wymiar 5 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Ustala zależności między krawędziami graniastosłupa."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza brakującą długość."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-001",
+        "MAT-ARI-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla prostopadłościanu rozpoznaje po cztery krawędzie każdego wymiaru."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z sumy krawędzi 48 cm oraz wymiarów 3 i 4 cm wyznacza trzeci wymiar 5 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada, że wszystkie krawędzie mają jednakową długość.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dzieli całą sumę przez 12 mimo różnych wymiarów.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_6",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "X.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-SOL-009",
+      "name": "Oblicza pole powierzchni ostrosłupa prawidłowego",
+      "topic": "Ostrosłupy – pola i objętości",
+      "short_description": "Oblicza pole ścian bocznych ostrosłupa prawidłowego. Oblicza pole całkowite.",
+      "long_description": "Oblicza pole ścian bocznych ostrosłupa prawidłowego. Oblicza pole całkowite. W zadaniach sprawdzających uczeń dla czterech ścian o podstawie 6 cm i wysokości 5 cm podaje 60 cm². Następnie dodaje pole kwadratowej podstawy 36 cm², otrzymując 96 cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza pole ścian bocznych ostrosłupa prawidłowego."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole całkowite."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-006",
+        "MAT-GEO-017",
+        "MAT-SOL-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla czterech ścian o podstawie 6 cm i wysokości 5 cm podaje 60 cm²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dodaje pole kwadratowej podstawy 36 cm², otrzymując 96 cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Używa wysokości bryły zamiast wysokości ściany.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uwzględnia dwie podstawy jak w graniastosłupie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-SOL-010",
+      "name": "Oblicza objętość ostrosłupa prawidłowego",
+      "topic": "Ostrosłupy – pola i objętości",
+      "short_description": "Dobiera pole podstawy i wysokość ostrosłupa. Oblicza objętość ostrosłupa.",
+      "long_description": "Dobiera pole podstawy i wysokość ostrosłupa. Oblicza objętość ostrosłupa. W zadaniach sprawdzających uczeń rozpoznaje, że wysokość jest prostopadła do podstawy. Następnie dla pola podstawy 36 cm² i wysokości 4 cm podaje 48 cm³.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera pole podstawy i wysokość ostrosłupa."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza objętość ostrosłupa."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-006",
+        "MAT-SOL-008",
+        "MAT-FRA-023"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje, że wysokość jest prostopadła do podstawy."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla pola podstawy 36 cm² i wysokości 4 cm podaje 48 cm³."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podstawia wysokość ściany bocznej.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija współczynnik 1/3.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-SOL-012",
+      "name": "Oblicza objętość i pole powierzchni ostrosłupa nieprawidłowego w prostym zadaniu",
+      "topic": "Ostrosłupy – pola i objętości",
+      "short_description": "Wyznacza pole powierzchni ostrosłupa nieprawidłowego. Oblicza objętość z pola podstawy i prostopadłej wysokości.",
+      "long_description": "Wyznacza pole powierzchni ostrosłupa nieprawidłowego. Oblicza objętość z pola podstawy i prostopadłej wysokości. W zadaniach sprawdzających uczeń sumuje pola podstawy i poszczególnych ścian o różnych wymiarach. Następnie dla Pp = 18 cm² i H = 7 cm podaje 42 cm³.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza pole powierzchni ostrosłupa nieprawidłowego."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza objętość z pola podstawy i prostopadłej wysokości."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-SOL-009",
+        "MAT-SOL-010",
+        "MAT-GEO-025"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sumuje pola podstawy i poszczególnych ścian o różnych wymiarach."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla Pp = 18 cm² i H = 7 cm podaje 42 cm³."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada, że wszystkie ściany boczne są przystające.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podstawia ukośną krawędź w miejsce wysokości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "solid_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "XI.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}

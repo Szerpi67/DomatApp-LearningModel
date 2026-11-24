@@ -1,0 +1,535 @@
+{
+  "category_name": "Liczby Całkowite i Wymierne",
+  "skills": [
+    {
+      "id": "MAT-INT-001",
+      "name": "Interpretuje liczby ujemne i całkowite na osi",
+      "topic": "Liczby całkowite i oś liczbowa",
+      "short_description": "Interpretuje liczby ujemne w kontekście. Zaznacza liczby całkowite i przeciwne na osi.",
+      "long_description": "Interpretuje liczby ujemne w kontekście. Zaznacza liczby całkowite i przeciwne na osi. W zadaniach sprawdzających uczeń zapisuje 4 stopnie poniżej zera jako −4°C. Następnie umieszcza −3, 0 i 3 w poprawnych miejscach.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Interpretuje liczby ujemne w kontekście."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zaznacza liczby całkowite i przeciwne na osi."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 4 stopnie poniżej zera jako −4°C."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, umieszcza −3, 0 i 3 w poprawnych miejscach."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija znak minus.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Umieszcza −3 po prawej stronie zera.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.16",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-INT-002",
+      "name": "Porównuje liczby całkowite",
+      "topic": "Liczby całkowite i oś liczbowa",
+      "short_description": "Porównuje liczby całkowite. Porządkuje liczby różnych znaków.",
+      "long_description": "Porównuje liczby całkowite. Porządkuje liczby różnych znaków. W zadaniach sprawdzających uczeń ustala −7 < −2 i uzasadnia położeniem na osi. Następnie porządkuje −5, 2, 0, −1 rosnąco.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje liczby całkowite."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porządkuje liczby różnych znaków."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-INT-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala −7 < −2 i uzasadnia położeniem na osi."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, porządkuje −5, 2, 0, −1 rosnąco."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje same wartości bezwzględne.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje zero za liczbę ujemną.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.16",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-INT-003",
+      "name": "Oblicza odległość liczb całkowitych na osi",
+      "topic": "Liczby całkowite i oś liczbowa",
+      "short_description": "Wyznacza odległość od zera. Wyznacza odległość między dwiema liczbami.",
+      "long_description": "Wyznacza odległość od zera. Wyznacza odległość między dwiema liczbami. W zadaniach sprawdzających uczeń podaje odległość −6 od zera jako 6. Następnie oblicza odległość −4 i 3 jako 7.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza odległość od zera."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza odległość między dwiema liczbami."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-INT-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje odległość −6 od zera jako 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza odległość −4 i 3 jako 7."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje odległość ujemną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odejmuje same wartości bezwzględne mimo przeciwnych znaków.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.16",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-INT-008",
+      "name": "Oblicza wartość bezwzględną",
+      "topic": "Liczby całkowite i oś liczbowa",
+      "short_description": "Interpretuje wartość bezwzględną jako odległość od zera. Oblicza proste wyrażenia z wartością bezwzględną.",
+      "long_description": "Interpretuje wartość bezwzględną jako odległość od zera. Oblicza proste wyrażenia z wartością bezwzględną. W zadaniach sprawdzających uczeń podaje wartość bezwzględna z −7 = 7 i wartość bezwzględna z 0 = 0. Następnie oblicza wartość bezwzględna z −3 − wartość bezwzględna z 5 = −2.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Interpretuje wartość bezwzględną jako odległość od zera."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza proste wyrażenia z wartością bezwzględną."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-INT-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje wartość bezwzględna z −7 = 7 i wartość bezwzględna z 0 = 0."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza wartość bezwzględna z −3 − wartość bezwzględna z 5 = −2."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje wartość bezwzględną jako liczbę przeciwną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada, że całe wyrażenie musi być nieujemne.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_5",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "III.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-INT-004",
+      "name": "Dodaje i odejmuje liczby całkowite",
+      "topic": "Działania na liczbach całkowitych",
+      "short_description": "Dodaje liczby całkowite. Odejmuje liczby całkowite.",
+      "long_description": "Dodaje liczby całkowite. Odejmuje liczby całkowite. W zadaniach sprawdzających uczeń oblicza −8 + 3 = −5 oraz −4 + (−6) = −10. Następnie oblicza 2 − (−5) = 7.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje liczby całkowite."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odejmuje liczby całkowite."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-INT-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza −8 + 3 = −5 oraz −4 + (−6) = −10."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 2 − (−5) = 7."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje wartości bez uwzględniania znaków.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje odejmowanie liczby ujemnej jak odejmowanie dodatniej.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.16",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-INT-005",
+      "name": "Mnoży i dzieli liczby całkowite",
+      "topic": "Działania na liczbach całkowitych",
+      "short_description": "Mnoży liczby całkowite. Dzieli liczby całkowite przy niezerowym dzielniku.",
+      "long_description": "Mnoży liczby całkowite. Dzieli liczby całkowite przy niezerowym dzielniku. W zadaniach sprawdzających uczeń oblicza (−4) · (−3) = 12 oraz (−4) · 3 = −12. Następnie oblicza −24 : 6 = −4 i −24 : (−6) = 4.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mnoży liczby całkowite."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dzieli liczby całkowite przy niezerowym dzielniku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-INT-001",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza (−4) · (−3) = 12 oraz (−4) · 3 = −12."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza −24 : 6 = −4 i −24 : (−6) = 4."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje każdy iloczyn z minusem za ujemny.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dopuszcza dzielenie przez zero.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.16",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-INT-006",
+      "name": "Wykonuje proste działania na liczbach wymiernych ze znakami",
+      "topic": "Działania na liczbach wymiernych",
+      "short_description": "Dodaje i odejmuje liczby wymierne ze znakami. Mnoży i dzieli liczby wymierne ze znakami.",
+      "long_description": "Dodaje i odejmuje liczby wymierne ze znakami. Mnoży i dzieli liczby wymierne ze znakami. W zadaniach sprawdzających uczeń oblicza −1/2 + 0,75 = 1/4. Następnie oblicza (−2/3) : (−0,5) = 4/3.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dodaje i odejmuje liczby wymierne ze znakami."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Mnoży i dzieli liczby wymierne ze znakami."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-INT-004",
+        "MAT-INT-005",
+        "MAT-FRA-022",
+        "MAT-DEC-009",
+        "MAT-DEC-010",
+        "MAT-DEC-011",
+        "MAT-DEC-012"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza −1/2 + 0,75 = 1/4."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza (−2/3) : (−0,5) = 4/3."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Gubi minus przy zamianie postaci liczby.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odwraca niewłaściwy ułamek lub błędnie ustala znak.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.32",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-INT-007",
+      "name": "Oblicza wartość wyrażenia z liczbami wymiernymi",
+      "topic": "Działania na liczbach wymiernych",
+      "short_description": "Ustala kolejność działań w wyrażeniu z liczbami wymiernymi. Oblicza wyrażenia z nawiasami i sprawdza znak wyniku.",
+      "long_description": "Ustala kolejność działań w wyrażeniu z liczbami wymiernymi. Oblicza wyrażenia z nawiasami i sprawdza znak wyniku. W zadaniach sprawdzających uczeń oblicza −2 + 3 · (−1/2) = −3,5. Następnie oblicza (−2 + 3) : (−0,5) = −2.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Ustala kolejność działań w wyrażeniu z liczbami wymiernymi."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza wyrażenia z nawiasami i sprawdza znak wyniku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-INT-006",
+        "MAT-ARI-017"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza −2 + 3 · (−1/2) = −3,5."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza (−2 + 3) : (−0,5) = −2."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje przed mnożeniem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija nawias albo znak liczby.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "integers_and_rationals",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.32,36",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    }
+  ]
+}

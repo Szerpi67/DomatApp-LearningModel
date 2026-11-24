@@ -275,10 +275,10 @@ class TaskGeneratorService:
                 "nie pokazuj wersji roboczych, autokorekty ani tekstów typu 'Nie, wskaż...'. "
                 "Treść ma zawierać tylko jedno polecenie. Przed zwróceniem każdego zadania "
                 "rozwiąż je samodzielnie i sprawdź poprawność odpowiedzi oraz błędność dystraktorów. "
-                "Podaj dokładnie trzy różne wiarygodne błędne odpowiedzi i kroki rozwiązania. Nie "
+                "Podaj dokładnie trzy różne wiarygodne błędne odpowiedzi i kroki rozwiązania. "
                 "W zadaniach porównawczych sprawdź prawdziwość każdego wariantu; nie podawaj relacji "
                 "równoważnych poprawnej odpowiedzi, np. >= jako dystraktora dla >. "
-                "powtarzaj treści ani zestawów liczb w paczce. Przykładowa forma: "
+                "nie powtarzaj treści ani zestawów liczb w paczce. Przykładowa forma: "
                 "Zamień podany ułamek na liczbę mieszaną. Dobierz konkretne dane do skillu."
 
             ),

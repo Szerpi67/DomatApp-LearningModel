@@ -71,8 +71,13 @@ def fake_gemini(monkeypatch):
     return calls
 
 def load_navigator():
+    print("Loading navigator")
     records = []
-    for filename in ("arithmetic.json", "fractions.json"):
+    folder = Path("data_files/skills")
+    filenames = [file.name for file in folder.glob("*.json")]
+    print(f"Found {len(filenames)} skills.")
+    for filename in filenames:
+        print("loading:",filename)
         with (ROOT / "data_files" / "skills" / filename).open(encoding="utf-8") as stream:
             records.extend(json.load(stream)["skills"])
     return SkillNavigator.from_skill_records(records)

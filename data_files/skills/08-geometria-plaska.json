@@ -1,0 +1,2255 @@
+{
+  "category_name": "Geometria",
+  "skills": [
+    {
+      "id": "MAT-GEO-001",
+      "name": "Rozpoznaje punkt, prostą, półprostą i odcinek",
+      "topic": "Podstawowe figury geometryczne i proste",
+      "short_description": "Rozróżnia podstawowe obiekty geometryczne. Rysuje i oznacza obiekty.",
+      "long_description": "Rozróżnia podstawowe obiekty geometryczne. Rysuje i oznacza obiekty. W zadaniach sprawdzających uczeń wskazuje punkt, prostą, półprostą i odcinek na rysunku. Następnie rysuje odcinek AB i półprostą o początku A przechodzącą przez B.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozróżnia podstawowe obiekty geometryczne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje i oznacza obiekty."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje punkt, prostą, półprostą i odcinek na rysunku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje odcinek AB i półprostą o początku A przechodzącą przez B."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje prostą za odcinek o skończonej długości.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie odróżnia początku półprostej od końców odcinka.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-003",
+      "name": "Rozpoznaje i rysuje proste równoległe i prostopadłe",
+      "topic": "Podstawowe figury geometryczne i proste",
+      "short_description": "Rozpoznaje położenie prostych. Rysuje proste o zadanym położeniu.",
+      "long_description": "Rozpoznaje położenie prostych. Rysuje proste o zadanym położeniu. W zadaniach sprawdzających uczeń wskazuje pary prostych równoległych i prostopadłych na rysunku. Następnie rysuje przez dany punkt prostą równoległą lub prostopadłą do danej.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje położenie prostych."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje proste o zadanym położeniu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-001",
+        "MAT-GEO-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje pary prostych równoległych i prostopadłych na rysunku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje przez dany punkt prostą równoległą lub prostopadłą do danej."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje każdą parę przecinających się prostych za prostopadłą.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Rysuje prostą tylko na oko bez zachowania warunku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-032",
+      "name": "Wyznacza odległość punktu od prostej",
+      "topic": "Podstawowe figury geometryczne i proste",
+      "short_description": "Rozpoznaje najkrótszą odległość punktu od prostej. Konstruuje i mierzy odległość.",
+      "long_description": "Rozpoznaje najkrótszą odległość punktu od prostej. Konstruuje i mierzy odległość. W zadaniach sprawdzających uczeń wskazuje odcinek prostopadły jako najkrótszy. Następnie rysuje rzut prostopadły punktu na prostą i mierzy długość odcinka.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje najkrótszą odległość punktu od prostej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Konstruuje i mierzy odległość."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-003",
+        "MAT-MEA-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje odcinek prostopadły jako najkrótszy."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje rzut prostopadły punktu na prostą i mierzy długość odcinka."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mierzy odległość do dowolnego punktu prostej.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Rysuje ukośny odcinek do najbliższego widocznego końca.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "VII.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-002",
+      "name": "Rozpoznaje i rysuje rodzaje kątów oraz wskazuje ich elementy",
+      "topic": "Kąty i ich własności",
+      "short_description": "Rozpoznaje elementy i rodzaje kątów. Rysuje kąty wskazanego rodzaju.",
+      "long_description": "Rozpoznaje elementy i rodzaje kątów. Rysuje kąty wskazanego rodzaju. W zadaniach sprawdzających uczeń wskazuje wierzchołek, ramiona oraz kąty ostre, proste i rozwarte. Następnie rysuje kąt prosty i rozwarty oraz opisuje ich ramiona.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje elementy i rodzaje kątów."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje kąty wskazanego rodzaju."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje wierzchołek, ramiona oraz kąty ostre, proste i rozwarte."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje kąt prosty i rozwarty oraz opisuje ich ramiona."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Ocenia miarę kąta według długości ramion.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zaznacza inny kąt niż wskazany przez ramiona.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-004",
+      "name": "Stosuje własności kątów przyległych i wierzchołkowych",
+      "topic": "Kąty i ich własności",
+      "short_description": "Stosuje własność kątów przyległych. Stosuje własność kątów wierzchołkowych.",
+      "long_description": "Stosuje własność kątów przyległych. Stosuje własność kątów wierzchołkowych. W zadaniach sprawdzających uczeń wyznacza 115° jako kąt przyległy do 65°. Następnie wyznacza 65° jako miarę kąta wierzchołkowego do 65°.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje własność kątów przyległych."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje własność kątów wierzchołkowych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-002",
+        "MAT-MEA-003",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza 115° jako kąt przyległy do 65°."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza 65° jako miarę kąta wierzchołkowego do 65°."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Przyjmuje sumę 90° zamiast 180°.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli kąty wierzchołkowe z przyległymi.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-005",
+      "name": "Stosuje własności kątów odpowiadających i naprzemianległych",
+      "topic": "Kąty i ich własności",
+      "short_description": "Rozpoznaje kąty odpowiadające i naprzemianległe. Wyznacza miary przy prostych równoległych.",
+      "long_description": "Rozpoznaje kąty odpowiadające i naprzemianległe. Wyznacza miary przy prostych równoległych. W zadaniach sprawdzających uczeń wskazuje właściwe pary kątów utworzonych przez sieczną dwóch prostych. Następnie dla kąta 68° wyznacza odpowiadający mu kąt 68° i przyległy 112°.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje kąty odpowiadające i naprzemianległe."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza miary przy prostych równoległych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-003",
+        "MAT-GEO-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje właściwe pary kątów utworzonych przez sieczną dwóch prostych."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla kąta 68° wyznacza odpowiadający mu kąt 68° i przyległy 112°."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli kąty naprzemianległe z dowolnymi kątami po przeciwnych stronach siecznej.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada równość takich kątów również dla prostych nierównoległych.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-006",
+      "name": "Rozpoznaje i rysuje wielokąty oraz ich elementy",
+      "topic": "Wielokąty i czworokąty",
+      "short_description": "Rozpoznaje wielokąty i ich elementy. Rysuje wielokąt spełniający warunki.",
+      "long_description": "Rozpoznaje wielokąty i ich elementy. Rysuje wielokąt spełniający warunki. W zadaniach sprawdzających uczeń wskazuje boki, wierzchołki i przekątne pięciokąta. Następnie rysuje prosty sześciokąt i oznacza jego wierzchołki.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje wielokąty i ich elementy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje wielokąt spełniający warunki."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-001",
+        "MAT-GEO-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje boki, wierzchołki i przekątne pięciokąta."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje prosty sześciokąt i oznacza jego wierzchołki."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje bok jako przekątną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pozostawia łamaną otwartą lub rysuje boki przecinające się bez polecenia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-012",
+      "name": "Rozpoznaje, rysuje i stosuje własności czworokątów",
+      "topic": "Wielokąty i czworokąty",
+      "short_description": "Rozpoznaje i klasyfikuje czworokąty na podstawie własności. Stosuje własności boków, kątów i przekątnych.",
+      "long_description": "Rozpoznaje i klasyfikuje czworokąty na podstawie własności. Stosuje własności boków, kątów i przekątnych. W zadaniach sprawdzających uczeń wskazuje prostokąty, romby, równoległoboki i trapezy zgodnie z definicją. Następnie wyznacza przeciwległy kąt równoległoboku równy 65°.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje i klasyfikuje czworokąty na podstawie własności."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje własności boków, kątów i przekątnych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-006",
+        "MAT-GEO-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje prostokąty, romby, równoległoboki i trapezy zgodnie z definicją."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza przeciwległy kąt równoległoboku równy 65°."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje, że kwadrat nie jest prostokątem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada, że wszystkie czworokąty mają równe przekątne.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.11",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-024",
+      "name": "Oblicza kąty wewnętrzne wielokąta foremnego",
+      "topic": "Wielokąty i czworokąty",
+      "short_description": "Wyznacza sumę kątów wewnętrznych wielokąta. Oblicza miarę kąta wielokąta foremnego.",
+      "long_description": "Wyznacza sumę kątów wewnętrznych wielokąta. Oblicza miarę kąta wielokąta foremnego. W zadaniach sprawdzających uczeń dzieli sześciokąt na cztery trójkąty i uzyskuje 720°. Następnie wyznacza 120° dla sześciokąta foremnego.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza sumę kątów wewnętrznych wielokąta."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza miarę kąta wielokąta foremnego."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-009",
+        "MAT-GEO-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dzieli sześciokąt na cztery trójkąty i uzyskuje 720°."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza 120° dla sześciokąta foremnego."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży liczbę boków przez 180°.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje 60° jako kąt wewnętrzny, myląc go z zewnętrznym.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-008",
+      "name": "Klasyfikuje i rysuje trójkąty według boków i kątów",
+      "topic": "Trójkąty i ich własności",
+      "short_description": "Klasyfikuje trójkąty według boków. Klasyfikuje i rysuje trójkąty według kątów.",
+      "long_description": "Klasyfikuje trójkąty według boków. Klasyfikuje i rysuje trójkąty według kątów. W zadaniach sprawdzających uczeń rozpoznaje trójkąt równoboczny, równoramienny i różnoboczny. Następnie rysuje trójkąt prostokątny i rozpoznaje rozwartokątny.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Klasyfikuje trójkąty według boków."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Klasyfikuje i rysuje trójkąty według kątów."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-006",
+        "MAT-GEO-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje trójkąt równoboczny, równoramienny i różnoboczny."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje trójkąt prostokątny i rozpoznaje rozwartokątny."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje równoboczny za pozbawiony pary równych boków.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Klasyfikuje na podstawie wyglądu bez uwzględnienia miar.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-009",
+      "name": "Oblicza kąty trójkąta i czworokąta",
+      "topic": "Trójkąty i ich własności",
+      "short_description": "Stosuje sumę kątów trójkąta. Stosuje sumę kątów czworokąta.",
+      "long_description": "Stosuje sumę kątów trójkąta. Stosuje sumę kątów czworokąta. W zadaniach sprawdzających uczeń dla 48° i 72° wyznacza trzeci kąt 60°. Następnie dla 90°, 100° i 80° wyznacza 90°.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje sumę kątów trójkąta."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje sumę kątów czworokąta."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-008",
+        "MAT-GEO-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 48° i 72° wyznacza trzeci kąt 60°."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 90°, 100° i 80° wyznacza 90°."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Przyjmuje sumę 360°.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Stosuje sumę 180° jak w trójkącie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-010",
+      "name": "Stosuje własności trójkąta równoramiennego",
+      "topic": "Trójkąty i ich własności",
+      "short_description": "Rozpoznaje podstawę i ramiona trójkąta równoramiennego. Stosuje równość kątów przy podstawie.",
+      "long_description": "Rozpoznaje podstawę i ramiona trójkąta równoramiennego. Stosuje równość kątów przy podstawie. W zadaniach sprawdzających uczeń wskazuje równe ramiona niezależnie od orientacji rysunku. Następnie dla kąta między ramionami 40° wyznacza oba kąty po 70°.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje podstawę i ramiona trójkąta równoramiennego."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje równość kątów przy podstawie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-009"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje równe ramiona niezależnie od orientacji rysunku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla kąta między ramionami 40° wyznacza oba kąty po 70°."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje poziomy bok zawsze za podstawę.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przypisuje równe kąty wierzchołkowi i podstawie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.9",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-011",
+      "name": "Sprawdza nierówność trójkąta i konstruuje trójkąt z boków",
+      "topic": "Trójkąty i ich własności",
+      "short_description": "Sprawdza warunek istnienia trójkąta. Konstruuje trójkąt z trzech boków.",
+      "long_description": "Sprawdza warunek istnienia trójkąta. Konstruuje trójkąt z trzech boków. W zadaniach sprawdzających uczeń odrzuca boki 2, 3 i 5, bo 2 + 3 nie jest większe od 5. Następnie konstruuje trójkąt 3, 4, 5 cm za pomocą linijki i cyrkla.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Sprawdza warunek istnienia trójkąta."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Konstruuje trójkąt z trzech boków."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-008",
+        "MAT-MEA-001",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odrzuca boki 2, 3 i 5, bo 2 + 3 nie jest większe od 5."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, konstruuje trójkąt 3, 4, 5 cm za pomocą linijki i cyrkla."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dopuszcza równość w nierówności trójkąta.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odkłada długości od niewłaściwych końców podstawy.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.10",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-027",
+      "name": "Stosuje cechy przystawania trójkątów",
+      "topic": "Trójkąty i ich własności",
+      "short_description": "Rozpoznaje odpowiadające sobie boki i kąty. Uzasadnia przystawanie odpowiednią cechą.",
+      "long_description": "Rozpoznaje odpowiadające sobie boki i kąty. Uzasadnia przystawanie odpowiednią cechą. W zadaniach sprawdzających uczeń dopasowuje wierzchołki dwóch trójkątów według danych. Następnie wybiera bok–kąt–bok dla dwóch boków i kąta między nimi.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje odpowiadające sobie boki i kąty."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia przystawanie odpowiednią cechą."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-008",
+        "MAT-GEO-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dopasowuje wierzchołki dwóch trójkątów według danych."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera bok–kąt–bok dla dwóch boków i kąta między nimi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dopasowuje wyłącznie na podstawie orientacji rysunku.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje trzy równe kąty za warunek przystawania.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-013",
+      "name": "Rozpoznaje i rysuje symetrię osiową",
+      "topic": "Symetria i konstrukcje geometryczne",
+      "short_description": "Rozpoznaje osie symetrii. Konstruuje odbicie punktu lub figury.",
+      "long_description": "Rozpoznaje osie symetrii. Konstruuje odbicie punktu lub figury. W zadaniach sprawdzających uczeń wskazuje cztery osie kwadratu i brak osi ogólnego równoległoboku. Następnie odkłada obraz punktu w tej samej odległości prostopadle po drugiej stronie osi.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje osie symetrii."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Konstruuje odbicie punktu lub figury."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-003",
+        "MAT-GEO-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje cztery osie kwadratu i brak osi ogólnego równoległoboku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odkłada obraz punktu w tej samej odległości prostopadle po drugiej stronie osi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje każdą przekątną dowolnego czworokąta za oś symetrii.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przesuwa punkt równolegle do osi zamiast odbijać.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.12",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-021",
+      "name": "Rysuje i stosuje własności symetralnej odcinka",
+      "topic": "Symetria i konstrukcje geometryczne",
+      "short_description": "Konstruuje symetralną odcinka. Stosuje własność równej odległości od końców.",
+      "long_description": "Konstruuje symetralną odcinka. Stosuje własność równej odległości od końców. W zadaniach sprawdzających uczeń rysuje prostą prostopadłą do AB w jego środku. Następnie dla punktu P na symetralnej i PA = 5 cm wyznacza PB = 5 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Konstruuje symetralną odcinka."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje własność równej odległości od końców."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje prostą prostopadłą do AB w jego środku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla punktu P na symetralnej i PA = 5 cm wyznacza PB = 5 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Rysuje dowolną prostopadłą do odcinka.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli odległość od końca z odległością od odcinka.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-022",
+      "name": "Rysuje i stosuje własności dwusiecznej kąta",
+      "topic": "Symetria i konstrukcje geometryczne",
+      "short_description": "Konstruuje dwusieczną kąta. Stosuje własność odległości od ramion.",
+      "long_description": "Konstruuje dwusieczną kąta. Stosuje własność odległości od ramion. W zadaniach sprawdzających uczeń dzieli kąt 76° na dwa kąty po 38°. Następnie dla punktu na dwusiecznej porównuje prostopadłe odległości od ramion.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Konstruuje dwusieczną kąta."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje własność odległości od ramion."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-013",
+        "MAT-GEO-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dzieli kąt 76° na dwa kąty po 38°."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla punktu na dwusiecznej porównuje prostopadłe odległości od ramion."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli długości ramion zamiast miary kąta.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mierzy odległości do dowolnych punktów ramion.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-023",
+      "name": "Rozpoznaje i tworzy figury środkowosymetryczne",
+      "topic": "Symetria i konstrukcje geometryczne",
+      "short_description": "Rozpoznaje środek symetrii figury. Konstruuje obraz w symetrii środkowej.",
+      "long_description": "Rozpoznaje środek symetrii figury. Konstruuje obraz w symetrii środkowej. W zadaniach sprawdzających uczeń wskazuje środek symetrii równoległoboku. Następnie rysuje A′ tak, aby O był środkiem AA′.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje środek symetrii figury."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Konstruuje obraz w symetrii środkowej."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-013",
+        "MAT-GEO-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje środek symetrii równoległoboku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje A′ tak, aby O był środkiem AA′."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli środek symetrii z osią symetrii.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odbija punkt względem prostej zamiast punktu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-014",
+      "name": "Rysuje wysokości trójkąta, równoległoboku i trapezu",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Wyznacza wysokość trójkąta względem wybranego boku. Rysuje wysokość równoległoboku i trapezu.",
+      "long_description": "Wyznacza wysokość trójkąta względem wybranego boku. Rysuje wysokość równoległoboku i trapezu. W zadaniach sprawdzających uczeń rysuje prostopadłą z wierzchołka do boku lub jego przedłużenia. Następnie wyznacza prostopadłą odległość między podstawami.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza wysokość trójkąta względem wybranego boku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje wysokość równoległoboku i trapezu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-003",
+        "MAT-GEO-008",
+        "MAT-GEO-012"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje prostopadłą z wierzchołka do boku lub jego przedłużenia."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza prostopadłą odległość między podstawami."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Rysuje wysokość zawsze wewnątrz trójkąta.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli bok ukośny z wysokością.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.13",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-015",
+      "name": "Oblicza obwód wielokąta",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Wyznacza długości boków potrzebne do obwodu. Oblicza obwód w jednej jednostce.",
+      "long_description": "Wyznacza długości boków potrzebne do obwodu. Oblicza obwód w jednej jednostce. W zadaniach sprawdzających uczeń ustala brakujące boki prostokąta z jego własności. Następnie sumuje boki trójkąta 3, 4, 5 cm do 12 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza długości boków potrzebne do obwodu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza obwód w jednej jednostce."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-006",
+        "MAT-MEA-002",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustala brakujące boki prostokąta z jego własności."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sumuje boki trójkąta 3, 4, 5 cm do 12 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Liczy tylko boki o wpisanych wymiarach.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży boki jak przy obliczaniu pola.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.15",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-016",
+      "name": "Oblicza pole kwadratu i prostokąta",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Oblicza pole prostokąta i kwadratu. Interpretuje pole jako liczbę jednostkowych kwadratów.",
+      "long_description": "Oblicza pole prostokąta i kwadratu. Interpretuje pole jako liczbę jednostkowych kwadratów. W zadaniach sprawdzających uczeń podaje 24 cm² dla prostokąta 6 cm na 4 cm. Następnie wyjaśnia, dlaczego kwadrat 5 cm ma 25 cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza pole prostokąta i kwadratu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Interpretuje pole jako liczbę jednostkowych kwadratów."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-012",
+        "MAT-MEA-004",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 24 cm² dla prostokąta 6 cm na 4 cm."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, dlaczego kwadrat 5 cm ma 25 cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje wzór na obwód.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje wynik w cm zamiast cm².",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-017",
+      "name": "Oblicza pole trójkąta",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Dobiera odpowiadającą sobie podstawę i wysokość. Oblicza pole trójkąta.",
+      "long_description": "Dobiera odpowiadającą sobie podstawę i wysokość. Oblicza pole trójkąta. W zadaniach sprawdzających uczeń wskazuje wysokość prostopadłą do podstawy na rysunku. Następnie dla podstawy 8 cm i wysokości 5 cm podaje 20 cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera odpowiadającą sobie podstawę i wysokość."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole trójkąta."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-014",
+        "MAT-GEO-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje wysokość prostopadłą do podstawy na rysunku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla podstawy 8 cm i wysokości 5 cm podaje 20 cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wybiera dowolny bok jako wysokość.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Pomija dzielenie przez 2.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-018",
+      "name": "Oblicza pole równoległoboku i rombu",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Oblicza pole równoległoboku. Oblicza pole rombu z przekątnych lub wysokości.",
+      "long_description": "Oblicza pole równoległoboku. Oblicza pole rombu z przekątnych lub wysokości. W zadaniach sprawdzających uczeń dla podstawy 7 cm i wysokości 4 cm podaje 28 cm². Następnie dla przekątnych 6 i 8 cm podaje 24 cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza pole równoległoboku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole rombu z przekątnych lub wysokości."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-014",
+        "MAT-GEO-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla podstawy 7 cm i wysokości 4 cm podaje 28 cm²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla przekątnych 6 i 8 cm podaje 24 cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży długości dwóch sąsiednich boków zamiast podstawy i wysokości.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie dzieli iloczynu przekątnych przez 2.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-019",
+      "name": "Oblicza pole trapezu",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Rozpoznaje podstawy i wysokość trapezu. Oblicza pole trapezu.",
+      "long_description": "Rozpoznaje podstawy i wysokość trapezu. Oblicza pole trapezu. W zadaniach sprawdzających uczeń wskazuje równoległe boki i ich prostopadłą odległość. Następnie dla podstaw 4 i 10 cm oraz wysokości 3 cm podaje 21 cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje podstawy i wysokość trapezu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole trapezu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-014",
+        "MAT-GEO-017",
+        "MAT-GEO-018"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje równoległe boki i ich prostopadłą odległość."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla podstaw 4 i 10 cm oraz wysokości 3 cm podaje 21 cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje ramię trapezu za wysokość.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży podstawy zamiast dodawać.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-020",
+      "name": "Oblicza pole figury złożonej przez podział",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Dzieli figurę złożoną na figury o znanym polu. Oblicza pole przez dodawanie lub odejmowanie.",
+      "long_description": "Dzieli figurę złożoną na figury o znanym polu. Oblicza pole przez dodawanie lub odejmowanie. W zadaniach sprawdzających uczeń rozkłada figurę w kształcie litery L na dwa rozłączne prostokąty. Następnie z prostokąta 8 × 6 cm odejmuje wycięcie 3 × 2 cm i podaje 42 cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dzieli figurę złożoną na figury o znanym polu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole przez dodawanie lub odejmowanie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-017",
+        "MAT-GEO-018",
+        "MAT-GEO-019"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozkłada figurę w kształcie litery L na dwa rozłączne prostokąty."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z prostokąta 8 × 6 cm odejmuje wycięcie 3 × 2 cm i podaje 42 cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podwójnie zlicza wspólny fragment.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje pole wyciętej części.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-030",
+      "name": "Porównuje i szacuje pola za pomocą rozkładu figur",
+      "topic": "Obwody i pola wielokątów",
+      "short_description": "Porównuje pola przez rozcinanie i składanie figur. Szacuje pole figury o nieregularnym brzegu.",
+      "long_description": "Porównuje pola przez rozcinanie i składanie figur. Szacuje pole figury o nieregularnym brzegu. W zadaniach sprawdzających uczeń uzasadnia równość pól figur złożonych z tych samych rozłącznych części. Następnie podaje dolne i górne oszacowanie przez liczenie pełnych i częściowych kratek.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje pola przez rozcinanie i składanie figur."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Szacuje pole figury o nieregularnym brzegu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-020",
+        "MAT-ARI-018"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia równość pól figur złożonych z tych samych rozłącznych części."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje dolne i górne oszacowanie przez liczenie pełnych i częściowych kratek."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wnioskuje o polu wyłącznie z obwodu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje wszystkie częściowe kratki jak pełne bez zaznaczenia przybliżenia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-025",
+      "name": "Stosuje twierdzenie Pitagorasa",
+      "topic": "Twierdzenie Pitagorasa i trójkąty szczególne",
+      "short_description": "Rozpoznaje przeciwprostokątną i zapisuje zależność Pitagorasa. Wyznacza brakującą długość boku.",
+      "long_description": "Rozpoznaje przeciwprostokątną i zapisuje zależność Pitagorasa. Wyznacza brakującą długość boku. W zadaniach sprawdzających uczeń dla trójkąta prostokątnego wskazuje najdłuższy bok jako przeciwprostokątną i zapisuje a² + b² = c². Następnie dla przyprostokątnych 6 i 8 cm podaje 10 cm, a dla c = 13 i a = 5 podaje b = 12.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje przeciwprostokątną i zapisuje zależność Pitagorasa."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza brakującą długość boku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-008",
+        "MAT-POW-009",
+        "MAT-POW-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla trójkąta prostokątnego wskazuje najdłuższy bok jako przeciwprostokątną i zapisuje a² + b² = c²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla przyprostokątnych 6 i 8 cm podaje 10 cm, a dla c = 13 i a = 5 podaje b = 12."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje twierdzenie do dowolnego trójkąta.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje długości bez podnoszenia do kwadratu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-026",
+      "name": "Stosuje własności trójkątów 30–60–90 i 45–45–90",
+      "topic": "Twierdzenie Pitagorasa i trójkąty szczególne",
+      "short_description": "Stosuje stosunki boków trójkąta 45–45–90. Stosuje stosunki boków trójkąta 30–60–90.",
+      "long_description": "Stosuje stosunki boków trójkąta 45–45–90. Stosuje stosunki boków trójkąta 30–60–90. W zadaniach sprawdzających uczeń dla przyprostokątnej 4 podaje przeciwprostokątną 4√2. Następnie dla przeciwprostokątnej 10 podaje przyprostokątne 5 i 5√3.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje stosunki boków trójkąta 45–45–90."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje stosunki boków trójkąta 30–60–90."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-025",
+        "MAT-GEO-010",
+        "MAT-POW-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla przyprostokątnej 4 podaje przeciwprostokątną 4√2."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla przeciwprostokątnej 10 podaje przyprostokątne 5 i 5√3."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje przeciwprostokątną za dwukrotność przyprostokątnej.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przypisuje krótszą przyprostokątną kątowi 60°.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-007",
+      "name": "Rozpoznaje i rysuje koło, okrąg, promień, średnicę i cięciwę",
+      "topic": "Koło i okrąg",
+      "short_description": "Rozróżnia koło i okrąg oraz ich elementy. Rysuje okrąg o zadanym promieniu.",
+      "long_description": "Rozróżnia koło i okrąg oraz ich elementy. Rysuje okrąg o zadanym promieniu. W zadaniach sprawdzających uczeń wskazuje środek, promień, średnicę i cięciwę. Następnie rysuje okrąg o promieniu 3 cm i średnicy 6 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozróżnia koło i okrąg oraz ich elementy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje okrąg o zadanym promieniu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje środek, promień, średnicę i cięciwę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rysuje okrąg o promieniu 3 cm i średnicy 6 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli koło z jego brzegiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Ustawia cyrkiel na długość średnicy zamiast promienia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-GEO-028",
+      "name": "Oblicza długość okręgu",
+      "topic": "Koło i okrąg",
+      "short_description": "Dobiera wzór na długość okręgu. Oblicza długość okręgu z dokładnością do polecenia.",
+      "long_description": "Dobiera wzór na długość okręgu. Oblicza długość okręgu z dokładnością do polecenia. W zadaniach sprawdzających uczeń z promienia 5 cm wyznacza 10π cm. Następnie dla średnicy 8 cm podaje 8π cm lub około 25,13 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera wzór na długość okręgu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza długość okręgu z dokładnością do polecenia."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-007",
+        "MAT-DEC-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z promienia 5 cm wyznacza 10π cm."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla średnicy 8 cm podaje 8π cm lub około 25,13 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje wzór πr².",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży średnicę przez 2π.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-029",
+      "name": "Oblicza pole koła",
+      "topic": "Koło i okrąg",
+      "short_description": "Stosuje wzór na pole koła. Oblicza pole na podstawie średnicy.",
+      "long_description": "Stosuje wzór na pole koła. Oblicza pole na podstawie średnicy. W zadaniach sprawdzających uczeń dla promienia 4 cm podaje 16π cm². Następnie dla średnicy 10 cm podaje 25π cm².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje wzór na pole koła."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pole na podstawie średnicy."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-007",
+        "MAT-POW-001",
+        "MAT-DEC-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla promienia 4 cm podaje 16π cm²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla średnicy 10 cm podaje 25π cm²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Nie podnosi promienia do kwadratu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podstawia średnicę w miejsce promienia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-033",
+      "name": "Wyznacza promień lub średnicę z obwodu lub pola koła",
+      "topic": "Koło i okrąg",
+      "short_description": "Wyznacza promień lub średnicę z długości okręgu. Wyznacza promień z pola koła.",
+      "long_description": "Wyznacza promień lub średnicę z długości okręgu. Wyznacza promień z pola koła. W zadaniach sprawdzających uczeń dla L = 12π cm podaje r = 6 cm i d = 12 cm. Następnie dla P = 49π cm² podaje r = 7 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza promień lub średnicę z długości okręgu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza promień z pola koła."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-028",
+        "MAT-GEO-029",
+        "MAT-ALG-015",
+        "MAT-POW-009"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla L = 12π cm podaje r = 6 cm i d = 12 cm."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla P = 49π cm² podaje r = 7 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli przez π, nazywając wynik promieniem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie oblicza pierwiastka z P/π.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "XIV.2,4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-031",
+      "name": "Tworzy uproszczony model geometryczny obiektu",
+      "topic": "Modelowanie i dowodzenie geometryczne",
+      "short_description": "Wybiera figury przybliżające rzeczywisty obiekt. Oblicza i ocenia wynik modelu.",
+      "long_description": "Wybiera figury przybliżające rzeczywisty obiekt. Oblicza i ocenia wynik modelu. W zadaniach sprawdzających uczeń modeluje przekrój łuku jako część koła i określa potrzebne pomiary. Następnie szacuje pole obiektu złożonego z prostokąta i półkola, wskazując uproszczenia.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wybiera figury przybliżające rzeczywisty obiekt."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza i ocenia wynik modelu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-030",
+        "MAT-LOG-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, modeluje przekrój łuku jako część koła i określa potrzebne pomiary."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, szacuje pole obiektu złożonego z prostokąta i półkola, wskazując uproszczenia."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dobiera figurę bez sprawdzenia podobieństwa kształtu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przedstawia przybliżenie modelowe jako dokładny pomiar.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "3.9",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-GEO-034",
+      "name": "Przeprowadza prosty dowód geometryczny",
+      "topic": "Modelowanie i dowodzenie geometryczne",
+      "short_description": "Wybiera własności figur potrzebne do dowodu. Łączy przesłanki i wyprowadza wniosek.",
+      "long_description": "Wybiera własności figur potrzebne do dowodu. Łączy przesłanki i wyprowadza wniosek. W zadaniach sprawdzających uczeń w dowodzie równości kątów rozpoznaje właściwe twierdzenie o trójkącie lub prostych. Następnie uzasadnia równość kątów przy podstawie z użyciem przystawania odpowiednich trójkątów.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wybiera własności figur potrzebne do dowodu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Łączy przesłanki i wyprowadza wniosek."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-027",
+        "MAT-GEO-009",
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w dowodzie równości kątów rozpoznaje właściwe twierdzenie o trójkącie lub prostych."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia równość kątów przy podstawie z użyciem przystawania odpowiednich trójkątów."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Opiera dowód na wyglądzie rysunku.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przyjmuje tezę jako przesłankę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "plane_geometry",
+        "grade_8",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "VIII.8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}

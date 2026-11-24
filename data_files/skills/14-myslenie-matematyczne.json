@@ -1,0 +1,788 @@
+{
+  "category_name": "Myślenie matematyczne",
+  "skills": [
+    {
+      "id": "MAT-LOG-001",
+      "name": "Odczytuje warunki problemu i reprezentuje zależności",
+      "topic": "Analiza problemu i strategie rozwiązania",
+      "short_description": "Wyodrębnia dane, warunki i pytanie. Przedstawia zależności w modelu.",
+      "long_description": "Wyodrębnia dane, warunki i pytanie. Przedstawia zależności w modelu. W zadaniach sprawdzających uczeń w zadaniu o zakupach wskazuje ilości, ceny i poszukiwaną kwotę. Następnie tworzy schemat, tabelę lub prosty zapis działań odzwierciedlający treść.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyodrębnia dane, warunki i pytanie."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przedstawia zależności w modelu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w zadaniu o zakupach wskazuje ilości, ceny i poszukiwaną kwotę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, tworzy schemat, tabelę lub prosty zapis działań odzwierciedlający treść."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje każdą podaną liczbę za potrzebną.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Rysuje schemat nieuwzględniający jednego warunku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "6.1a",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-LOG-002",
+      "name": "Planuje rozwiązanie wieloetapowe",
+      "topic": "Analiza problemu i strategie rozwiązania",
+      "short_description": "Dzieli problem na podproblemy. Porządkuje kroki rozwiązania.",
+      "long_description": "Dzieli problem na podproblemy. Porządkuje kroki rozwiązania. W zadaniach sprawdzających uczeń planuje obliczenie ceny zakupów, a potem reszty z podanej kwoty. Następnie uzasadnia kolejność i wskazuje wynik pośredni potrzebny dalej.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dzieli problem na podproblemy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porządkuje kroki rozwiązania."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, planuje obliczenie ceny zakupów, a potem reszty z podanej kwoty."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia kolejność i wskazuje wynik pośredni potrzebny dalej."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Próbuje wykonać jedno przypadkowe działanie na wszystkich danych.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wykonuje krok wymagający nieobliczonej wartości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "6.1b",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-LOG-003",
+      "name": "Sprawdza warunki i ocenia sensowność wyniku",
+      "topic": "Analiza problemu i strategie rozwiązania",
+      "short_description": "Sprawdza spełnienie warunków zadania. Ocenia sens wyniku i jednostkę.",
+      "long_description": "Sprawdza spełnienie warunków zadania. Ocenia sens wyniku i jednostkę. W zadaniach sprawdzających uczeń podstawia obliczoną liczbę do zależności podanej w treści. Następnie odrzuca ujemną liczbę osób lub wynik przekraczający pojemność w zadaniu.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Sprawdza spełnienie warunków zadania."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Ocenia sens wyniku i jednostkę."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-002",
+        "MAT-ARI-018"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podstawia obliczoną liczbę do zależności podanej w treści."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, odrzuca ujemną liczbę osób lub wynik przekraczający pojemność w zadaniu."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Sprawdza tylko ostatnie działanie.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Akceptuje niemożliwy wynik tylko dlatego, że wyszedł z rachunku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "6.1c",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-LOG-005",
+      "name": "Podaje przykłady i nieprzykłady; stosuje próby i poprawki",
+      "topic": "Analiza problemu i strategie rozwiązania",
+      "short_description": "Podaje przykład i nieprzykład pojęcia. Stosuje próbę i poprawkę według warunków.",
+      "long_description": "Podaje przykład i nieprzykład pojęcia. Stosuje próbę i poprawkę według warunków. W zadaniach sprawdzających uczeń dla liczby podzielnej przez 3 podaje 12 i nieprzykład 14. Następnie testuje kandydatów w zadaniu o sumie i różnicy i zmienia próbę zgodnie z wynikiem.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Podaje przykład i nieprzykład pojęcia."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje próbę i poprawkę według warunków."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla liczby podzielnej przez 3 podaje 12 i nieprzykład 14."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, testuje kandydatów w zadaniu o sumie i różnicy i zmienia próbę zgodnie z wynikiem."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje nieprzykład spełniający definicję.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Powtarza przypadkowe próby bez wykorzystania wcześniejszych.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "6.3a–b",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-LOG-006",
+      "name": "Analizuje, upraszcza i porównuje strategie; stawia dalsze pytania",
+      "topic": "Analiza problemu i strategie rozwiązania",
+      "short_description": "Porównuje poprawne strategie rozwiązania. Upraszcza strategię i formułuje dalsze pytanie.",
+      "long_description": "Porównuje poprawne strategie rozwiązania. Upraszcza strategię i formułuje dalsze pytanie. W zadaniach sprawdzających uczeń porównuje rozwiązanie przez tabelę i przez równanie pod kątem liczby kroków i poprawności. Następnie wskazuje zbędny krok oraz proponuje zmianę warunku do zbadania.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Porównuje poprawne strategie rozwiązania."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Upraszcza strategię i formułuje dalsze pytanie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-002",
+        "MAT-LOG-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, porównuje rozwiązanie przez tabelę i przez równanie pod kątem liczby kroków i poprawności."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje zbędny krok oraz proponuje zmianę warunku do zbadania."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje najkrótsze rozwiązanie za poprawne bez sprawdzenia.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zmienia problem bez zachowania istotnych założeń.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-LOG-004",
+      "name": "Wyjaśnia i uzasadnia kolejne kroki rozwiązania",
+      "topic": "Argumentacja i dowodzenie",
+      "short_description": "Opisuje użyte działania i zależności. Uzasadnia krok na podstawie własności lub danych.",
+      "long_description": "Opisuje użyte działania i zależności. Uzasadnia krok na podstawie własności lub danych. W zadaniach sprawdzających uczeń wyjaśnia, dlaczego w zadaniu o równych grupach używa dzielenia. Następnie wskazuje, z którego warunku wynika obliczona różnica.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Opisuje użyte działania i zależności."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia krok na podstawie własności lub danych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, dlaczego w zadaniu o równych grupach używa dzielenia."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje, z którego warunku wynika obliczona różnica."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje same liczby bez uzasadnienia.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Powtarza wynik zamiast uzasadnienia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "6.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-LOG-007",
+      "name": "Buduje zwięzły argument i formułuje wniosek",
+      "topic": "Argumentacja i dowodzenie",
+      "short_description": "Wybiera przesłanki istotne dla tezy. Buduje logiczny ciąg zdań i formułuje wniosek.",
+      "long_description": "Wybiera przesłanki istotne dla tezy. Buduje logiczny ciąg zdań i formułuje wniosek. W zadaniach sprawdzających uczeń rozpoznaje dane i znane własności wystarczające do uzasadnienia wniosku. Następnie uzasadnia, że suma dwóch liczb parzystych jest parzysta, odwołując się do postaci 2k.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wybiera przesłanki istotne dla tezy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Buduje logiczny ciąg zdań i formułuje wniosek."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje dane i znane własności wystarczające do uzasadnienia wniosku."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia, że suma dwóch liczb parzystych jest parzysta, odwołując się do postaci 2k."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Używa tezy jako przesłanki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Ogranicza argument do kilku przykładów.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-LOG-008",
+      "name": "Odróżnia twierdzenie od twierdzenia odwrotnego",
+      "topic": "Argumentacja i dowodzenie",
+      "short_description": "Formułuje twierdzenie odwrotne. Ocenia prawdziwość obu zdań oddzielnie.",
+      "long_description": "Formułuje twierdzenie odwrotne. Ocenia prawdziwość obu zdań oddzielnie. W zadaniach sprawdzających uczeń dla zdania „jeśli liczba jest podzielna przez 4, to jest parzysta” zamienia założenie i tezę. Następnie wskazuje 6 jako kontrprzykład do odwrotnego.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Formułuje twierdzenie odwrotne."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Ocenia prawdziwość obu zdań oddzielnie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla zdania „jeśli liczba jest podzielna przez 4, to jest parzysta” zamienia założenie i tezę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje 6 jako kontrprzykład do odwrotnego."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Formułuje zaprzeczenie zamiast twierdzenia odwrotnego.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada, że prawdziwość twierdzenia gwarantuje prawdziwość odwrotnego.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.3a",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-LOG-009",
+      "name": "Prowadzi proste rozumowanie nie wprost",
+      "topic": "Argumentacja i dowodzenie",
+      "short_description": "Przyjmuje zaprzeczenie tezy i wyprowadza konsekwencje. Wskazuje sprzeczność i formułuje wniosek.",
+      "long_description": "Przyjmuje zaprzeczenie tezy i wyprowadza konsekwencje. Wskazuje sprzeczność i formułuje wniosek. W zadaniach sprawdzających uczeń w prostym zadaniu o parzystości zakłada przeciwną możliwość i stosuje warunki. Następnie wyjaśnia, że otrzymana sprzeczność wyklucza przyjętą możliwość.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Przyjmuje zaprzeczenie tezy i wyprowadza konsekwencje."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wskazuje sprzeczność i formułuje wniosek."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w prostym zadaniu o parzystości zakłada przeciwną możliwość i stosuje warunki."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, że otrzymana sprzeczność wyklucza przyjętą możliwość."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada tezę zamiast jej zaprzeczenia.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje dowolny nieoczekiwany wynik za sprzeczność.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.3b",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-LOG-011",
+      "name": "Obala stwierdzenie kontrprzykładem",
+      "topic": "Argumentacja i dowodzenie",
+      "short_description": "Rozpoznaje twierdzenie ogólne i warunek kontrprzykładu. Podaje kontrprzykład i wyjaśnia jego znaczenie.",
+      "long_description": "Rozpoznaje twierdzenie ogólne i warunek kontrprzykładu. Podaje kontrprzykład i wyjaśnia jego znaczenie. W zadaniach sprawdzających uczeń dla zdania „każda liczba nieparzysta jest pierwsza” szuka liczby nieparzystej złożonej. Następnie wskazuje 9 i uzasadnia, dlaczego obala zdanie.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje twierdzenie ogólne i warunek kontrprzykładu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Podaje kontrprzykład i wyjaśnia jego znaczenie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-005",
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla zdania „każda liczba nieparzysta jest pierwsza” szuka liczby nieparzystej złożonej."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje 9 i uzasadnia, dlaczego obala zdanie."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje przykład niespełniający założenia.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje przykład potwierdzający zamiast obalającego.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.3d",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-LOG-010",
+      "name": "Uogólnia zaobserwowaną prawidłowość",
+      "topic": "Uogólnianie i tworzenie problemów",
+      "short_description": "Rozpoznaje prawidłowość w przykładach. Formułuje i uzasadnia uogólnienie.",
+      "long_description": "Rozpoznaje prawidłowość w przykładach. Formułuje i uzasadnia uogólnienie. W zadaniach sprawdzających uczeń opisuje regułę ciągu 3, 7, 11, 15 jako przyrost o 4. Następnie dla ustalonej reguły zapisuje n-ty wyraz 4n − 1 i sprawdza zgodność.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje prawidłowość w przykładach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Formułuje i uzasadnia uogólnienie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-005",
+        "MAT-LOG-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, opisuje regułę ciągu 3, 7, 11, 15 jako przyrost o 4."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla ustalonej reguły zapisuje n-ty wyraz 4n − 1 i sprawdza zgodność."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje pierwsze dwa wyrazy za wystarczający dowód jedynej reguły.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli numer wyrazu z jego wartością.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "5.3c",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-LOG-012",
+      "name": "Układa własne zadania i łamigłówki",
+      "topic": "Uogólnianie i tworzenie problemów",
+      "short_description": "Układa zadanie z określonymi warunkami. Rozwiązuje i sprawdza własne zadanie.",
+      "long_description": "Układa zadanie z określonymi warunkami. Rozwiązuje i sprawdza własne zadanie. W zadaniach sprawdzających uczeń tworzy zadanie tekstowe wymagające dwóch ustalonych działań. Następnie wykazuje, że dane wystarczają, a odpowiedź spełnia warunki.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Układa zadanie z określonymi warunkami."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozwiązuje i sprawdza własne zadanie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-LOG-002",
+        "MAT-LOG-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, tworzy zadanie tekstowe wymagające dwóch ustalonych działań."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wykazuje, że dane wystarczają, a odpowiedź spełnia warunki."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje sprzeczne dane lub brak pytania.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie sprawdza, czy zadanie ma jednoznaczne rozwiązanie, jeśli tego wymaga.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "mathematical_reasoning",
+        "grade_5",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "XIV.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "IV–VI"
+      }
+    }
+  ]
+}

@@ -1,0 +1,728 @@
+{
+  "category_name": "Procenty",
+  "skills": [
+    {
+      "id": "MAT-PCT-001",
+      "name": "Interpretuje podstawowe procenty jako części całości",
+      "topic": "Pojęcie procentu i obliczenia procentowe",
+      "short_description": "Interpretuje procent jako setną część całości. Zamienia proste procenty na ułamki i odwrotnie.",
+      "long_description": "Interpretuje procent jako setną część całości. Zamienia proste procenty na ułamki i odwrotnie. W zadaniach sprawdzających uczeń przedstawia 25% jako 25/100 i 1/4. Następnie podaje 50% = 0,5 oraz 3/4 = 75%.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Interpretuje procent jako setną część całości."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zamienia proste procenty na ułamki i odwrotnie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-FRA-001",
+        "MAT-DEC-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, przedstawia 25% jako 25/100 i 1/4."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 50% = 0,5 oraz 3/4 = 75%."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje 25% jako liczbę 25.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przesuwa przecinek o jedno miejsce zamiast dwóch.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.33",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-PCT-002",
+      "name": "Oblicza procent danej wielkości w praktyce",
+      "topic": "Pojęcie procentu i obliczenia procentowe",
+      "short_description": "Oblicza procent danej liczby. Stosuje procent do wielkości praktycznej.",
+      "long_description": "Oblicza procent danej liczby. Stosuje procent do wielkości praktycznej. W zadaniach sprawdzających uczeń wyznacza 15% z 200 jako 30. Następnie oblicza 20% z 75 zł jako 15 zł.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza procent danej liczby."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje procent do wielkości praktycznej."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-001",
+        "MAT-FRA-023"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza 15% z 200 jako 30."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 20% z 75 zł jako 15 zł."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli liczbę przez 15.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Myli procent z wartością końcową po rabacie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.34",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-PCT-003",
+      "name": "Oblicza, jaki procent jednej wielkości stanowi druga",
+      "topic": "Pojęcie procentu i obliczenia procentowe",
+      "short_description": "Ustala wielkość odniesienia. Wyraża stosunek w procentach.",
+      "long_description": "Ustala wielkość odniesienia. Wyraża stosunek w procentach. W zadaniach sprawdzających uczeń w zdaniu 12 z 60 wskazuje 60 jako całość. Następnie oblicza, że 12 z 60 to 20%.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Ustala wielkość odniesienia."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyraża stosunek w procentach."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-001",
+        "MAT-FRA-021"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, w zdaniu 12 z 60 wskazuje 60 jako całość."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza, że 12 z 60 to 20%."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zamienia licznik z mianownikiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zapisuje 0,2 jako 0,2%.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.1a",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PCT-004",
+      "name": "Wyznacza całość na podstawie procentu",
+      "topic": "Pojęcie procentu i obliczenia procentowe",
+      "short_description": "Odtwarza całość z podanej części procentowej. Sprawdza odtworzoną wartość.",
+      "long_description": "Odtwarza całość z podanej części procentowej. Sprawdza odtworzoną wartość. W zadaniach sprawdzających uczeń jeśli 15% to 30, wyznacza 200. Następnie weryfikuje, że 15% z 200 = 30.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odtwarza całość z podanej części procentowej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Sprawdza odtworzoną wartość."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-002",
+        "MAT-FRA-021"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, jeśli 15% to 30, wyznacza 200."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, weryfikuje, że 15% z 200 = 30."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży 30 przez 0,15.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje podany procent jak kwotę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.1c",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PCT-005",
+      "name": "Oblicza wielkość po podwyżce lub obniżce",
+      "topic": "Zmiany procentowe",
+      "short_description": "Oblicza wartość po podwyżce. Oblicza wartość po obniżce.",
+      "long_description": "Oblicza wartość po podwyżce. Oblicza wartość po obniżce. W zadaniach sprawdzających uczeń podwyższa 120 zł o 15% do 138 zł. Następnie obniża 120 zł o 15% do 102 zł.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza wartość po podwyżce."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza wartość po obniżce."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-002",
+        "MAT-INT-006"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podwyższa 120 zł o 15% do 138 zł."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, obniża 120 zł o 15% do 102 zł."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje 15 zł zamiast 15% wartości.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje 18 zł jako cenę końcową.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PCT-006",
+      "name": "Oblicza wielkość przed zmianą procentową",
+      "topic": "Zmiany procentowe",
+      "short_description": "Wyznacza wartość początkową po podwyżce. Wyznacza wartość początkową po obniżce.",
+      "long_description": "Wyznacza wartość początkową po podwyżce. Wyznacza wartość początkową po obniżce. W zadaniach sprawdzających uczeń z ceny 138 zł po podwyżce o 15% odtwarza 120 zł. Następnie z ceny 80 zł po obniżce o 20% odtwarza 100 zł.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza wartość początkową po podwyżce."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza wartość początkową po obniżce."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-004",
+        "MAT-PCT-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z ceny 138 zł po podwyżce o 15% odtwarza 120 zł."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z ceny 80 zł po obniżce o 20% odtwarza 100 zł."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odejmuje 15% od ceny końcowej.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dodaje 20% do obniżonej ceny.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PCT-011",
+      "name": "Oblicza efekt kolejnych zmian procentowych",
+      "topic": "Zmiany procentowe",
+      "short_description": "Stosuje kolejne mnożniki procentowe. Interpretuje łączną zmianę względem początku.",
+      "long_description": "Stosuje kolejne mnożniki procentowe. Interpretuje łączną zmianę względem początku. W zadaniach sprawdzających uczeń oblicza 100 · 1,2 · 0,8 = 96. Następnie podaje spadek o 4% po wzroście o 20% i spadku o 20%.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje kolejne mnożniki procentowe."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Interpretuje łączną zmianę względem początku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 100 · 1,2 · 0,8 = 96."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje spadek o 4% po wzroście o 20% i spadku o 20%."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje zmiany procentowe niezależnie od podstawy.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zakłada, że przeciwne procenty zawsze się znoszą.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_8",
+        "primary",
+        "curriculum_2024_legacy"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2024,
+        "reference": "V.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://zpe.gov.pl/podstawa-programowa/szkola-podstawowa/matematyka",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PCT-007",
+      "name": "Stosuje rozumowanie proporcjonalne",
+      "topic": "Proporcje i proporcjonalność prosta",
+      "short_description": "Rozpoznaje stały stosunek w prostym zadaniu. Stosuje metodę na jednostkę.",
+      "long_description": "Rozpoznaje stały stosunek w prostym zadaniu. Stosuje metodę na jednostkę. W zadaniach sprawdzających uczeń oblicza, że 6 identycznych zeszytów kosztuje dwa razy tyle co 3. Następnie z ceny 3 kg równej 18 zł wyznacza cenę 5 kg jako 30 zł.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje stały stosunek w prostym zadaniu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje metodę na jednostkę."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-016",
+        "MAT-FRA-023"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza, że 6 identycznych zeszytów kosztuje dwa razy tyle co 3."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z ceny 3 kg równej 18 zł wyznacza cenę 5 kg jako 30 zł."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje tę samą kwotę przy podwojeniu liczby sztuk.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Miesza jednostki w stosunku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "6.3d",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-PCT-008",
+      "name": "Rozpoznaje proporcjonalność prostą",
+      "topic": "Proporcje i proporcjonalność prosta",
+      "short_description": "Rozpoznaje proporcjonalność prostą z tabeli. Odróżnia związek proporcjonalny od nieproporcjonalnego.",
+      "long_description": "Rozpoznaje proporcjonalność prostą z tabeli. Odróżnia związek proporcjonalny od nieproporcjonalnego. W zadaniach sprawdzających uczeń sprawdza, czy iloraz y/x jest stały dla niezerowych x. Następnie wyjaśnia, że opłata stała 5 zł plus 2 zł za sztukę nie jest proporcjonalna do liczby sztuk.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje proporcjonalność prostą z tabeli."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Odróżnia związek proporcjonalny od nieproporcjonalnego."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, sprawdza, czy iloraz y/x jest stały dla niezerowych x."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, że opłata stała 5 zł plus 2 zł za sztukę nie jest proporcjonalna do liczby sztuk."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Uznaje każdy rosnący związek za proporcjonalny.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Sprawdza wyłącznie jedną parę wartości.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.10",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PCT-009",
+      "name": "Wyznacza brakującą wielkość w proporcji",
+      "topic": "Proporcje i proporcjonalność prosta",
+      "short_description": "Zapisuje poprawną proporcję. Wyznacza i sprawdza niewiadomą.",
+      "long_description": "Zapisuje poprawną proporcję. Wyznacza i sprawdza niewiadomą. W zadaniach sprawdzających uczeń z danych 3 kg za 12 zł i 5 kg za x zł zapisuje 3/5 = 12/x. Następnie oblicza x = 20 i sprawdza zgodność ilorazów.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zapisuje poprawną proporcję."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza i sprawdza niewiadomą."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-008",
+        "MAT-FRA-021"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, z danych 3 kg za 12 zł i 5 kg za x zł zapisuje 3/5 = 12/x."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza x = 20 i sprawdza zgodność ilorazów."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odwraca tylko jeden stosunek.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży w niewłaściwych parach.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.10",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PCT-010",
+      "name": "Dzieli wielkość w danym stosunku na 2 lub 3 części",
+      "topic": "Podział w danym stosunku",
+      "short_description": "Wyznacza wartość jednej części stosunku. Dzieli całość na dwie lub trzy części.",
+      "long_description": "Wyznacza wartość jednej części stosunku. Dzieli całość na dwie lub trzy części. W zadaniach sprawdzających uczeń dla 60 w stosunku 2:3 oblicza 60/5 = 12. Następnie dzieli 72 w stosunku 1:2:3 na 12, 24 i 36.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza wartość jednej części stosunku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dzieli całość na dwie lub trzy części."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PCT-009"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 60 w stosunku 2:3 oblicza 60/5 = 12."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dzieli 72 w stosunku 1:2:3 na 12, 24 i 36."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli całość przez największy człon stosunku.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie sprawdza sumy otrzymanych części.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "percentages_and_proportions",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.10",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}

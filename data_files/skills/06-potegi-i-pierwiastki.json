@@ -1,0 +1,860 @@
+{
+  "category_name": "Potęgi i Pierwiastki",
+  "skills": [
+    {
+      "id": "MAT-POW-001",
+      "name": "Oblicza potęgi liczb naturalnych i rozpoznaje kwadraty i sześciany",
+      "topic": "Pojęcie potęgi i potęgowanie",
+      "short_description": "Zapisuje iloczyn jednakowych czynników jako potęgę. Oblicza kwadraty i sześciany.",
+      "long_description": "Zapisuje iloczyn jednakowych czynników jako potęgę. Oblicza kwadraty i sześciany. W zadaniach sprawdzających uczeń zapisuje 4 · 4 · 4 jako 4³. Następnie podaje 7² = 49 i 3³ = 27.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zapisuje iloczyn jednakowych czynników jako potęgę."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza kwadraty i sześciany."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 4 · 4 · 4 jako 4³."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 7² = 49 i 3³ = 27."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli podstawę z wykładnikiem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży podstawę przez wykładnik.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.15",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-POW-002",
+      "name": "Potęguje ułamki zwykłe i dziesiętne",
+      "topic": "Pojęcie potęgi i potęgowanie",
+      "short_description": "Potęguje ułamek zwykły. Potęguje ułamek dziesiętny.",
+      "long_description": "Potęguje ułamek zwykły. Potęguje ułamek dziesiętny. W zadaniach sprawdzających uczeń oblicza (2/3)³ = 8/27. Następnie oblicza 0,4² = 0,16.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Potęguje ułamek zwykły."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Potęguje ułamek dziesiętny."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-001",
+        "MAT-FRA-019",
+        "MAT-DEC-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza (2/3)³ = 8/27."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 0,4² = 0,16."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Potęguje wyłącznie licznik.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie uwzględnia przecinka w iloczynie.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.29",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-POW-003",
+      "name": "Potęguje liczby wymierne z uwzględnieniem znaku i zera wykładnika",
+      "topic": "Pojęcie potęgi i potęgowanie",
+      "short_description": "Ustala znak potęgi liczby ujemnej. Oblicza potęgi liczb wymiernych z wykładnikiem zero.",
+      "long_description": "Ustala znak potęgi liczby ujemnej. Oblicza potęgi liczb wymiernych z wykładnikiem zero. W zadaniach sprawdzających uczeń rozróżnia (−3)² = 9 i −3² = −9. Następnie podaje (−2/3)⁰ = 1 i stosuje warunek niezerowej podstawy.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Ustala znak potęgi liczby ujemnej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza potęgi liczb wymiernych z wykładnikiem zero."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-002",
+        "MAT-INT-005"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozróżnia (−3)² = 9 i −3² = −9."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje (−2/3)⁰ = 1 i stosuje warunek niezerowej podstawy."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Ignoruje nawias przy ujemnej podstawie.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przypisuje każdej potędze zerowej wartość 0.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-004",
+      "name": "Interpretuje potęgę o wykładniku ujemnym",
+      "topic": "Pojęcie potęgi i potęgowanie",
+      "short_description": "Interpretuje ujemny wykładnik jako odwrotność. Stosuje regułę do ułamków i wyklucza zero.",
+      "long_description": "Interpretuje ujemny wykładnik jako odwrotność. Stosuje regułę do ułamków i wyklucza zero. W zadaniach sprawdzających uczeń oblicza 2⁻³ = 1/8. Następnie oblicza (2/3)⁻² = 9/4.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Interpretuje ujemny wykładnik jako odwrotność."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje regułę do ułamków i wyklucza zero."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-003",
+        "MAT-FRA-020"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza 2⁻³ = 1/8."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza (2/3)⁻² = 9/4."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje ujemny wykładnik jako znak wyniku.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dopuszcza zerową podstawę przy ujemnym wykładniku.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-005",
+      "name": "Mnoży i dzieli potęgi o jednakowej podstawie",
+      "topic": "Własności potęg",
+      "short_description": "Mnoży potęgi o tej samej podstawie. Dzieli potęgi o tej samej niezerowej podstawie.",
+      "long_description": "Mnoży potęgi o tej samej podstawie. Dzieli potęgi o tej samej niezerowej podstawie. W zadaniach sprawdzających uczeń upraszcza 2³ · 2⁵ do 2⁸. Następnie upraszcza 3² : 3⁵ do 3⁻³.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mnoży potęgi o tej samej podstawie."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dzieli potęgi o tej samej niezerowej podstawie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza 2³ · 2⁵ do 2⁸."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza 3² : 3⁵ do 3⁻³."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży wykładniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odejmuje wykładniki w odwrotnej kolejności.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.5a",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-006",
+      "name": "Mnoży i dzieli potęgi o jednakowym wykładniku",
+      "topic": "Własności potęg",
+      "short_description": "Mnoży potęgi o jednakowym wykładniku. Dzieli potęgi o jednakowym wykładniku.",
+      "long_description": "Mnoży potęgi o jednakowym wykładniku. Dzieli potęgi o jednakowym wykładniku. W zadaniach sprawdzających uczeń zapisuje 2³ · 5³ = 10³. Następnie upraszcza 12² : 3² do 4².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mnoży potęgi o jednakowym wykładniku."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dzieli potęgi o jednakowym wykładniku."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 2³ · 5³ = 10³."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza 12² : 3² do 4²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje podstawy.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dzieli wykładniki zamiast podstaw.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.5b",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-007",
+      "name": "Podnosi potęgę do potęgi",
+      "topic": "Własności potęg",
+      "short_description": "Stosuje regułę potęgi potęgi. Rozróżnia potęgę potęgi i iloczyn potęg.",
+      "long_description": "Stosuje regułę potęgi potęgi. Rozróżnia potęgę potęgi i iloczyn potęg. W zadaniach sprawdzających uczeń upraszcza (2³)⁴ do 2¹². Następnie porównuje (3²)³ z 3² · 3³.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje regułę potęgi potęgi."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rozróżnia potęgę potęgi i iloczyn potęg."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza (2³)⁴ do 2¹²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, porównuje (3²)³ z 3² · 3³."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje wykładniki.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Stosuje tę samą regułę do obu zapisów.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.5c",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-008",
+      "name": "Zapisuje i porównuje liczby w notacji wykładniczej",
+      "topic": "Notacja wykładnicza",
+      "short_description": "Zapisuje liczbę w notacji wykładniczej. Porównuje liczby zapisane wykładniczo.",
+      "long_description": "Zapisuje liczbę w notacji wykładniczej. Porównuje liczby zapisane wykładniczo. W zadaniach sprawdzających uczeń zapisuje 0,00042 jako 4,2 · 10⁻⁴. Następnie rozstrzyga, że 2 · 10⁵ > 9 · 10⁴.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zapisuje liczbę w notacji wykładniczej."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Porównuje liczby zapisane wykładniczo."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-004",
+        "MAT-DEC-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 0,00042 jako 4,2 · 10⁻⁴."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozstrzyga, że 2 · 10⁵ > 9 · 10⁴."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Ustala zły znak wykładnika.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Porównuje wyłącznie współczynniki.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-009",
+      "name": "Oblicza dokładne pierwiastki kwadratowe",
+      "topic": "Pierwiastkowanie i szacowanie pierwiastków",
+      "short_description": "Rozpoznaje pierwiastek kwadratowy jako nieujemne rozwiązanie. Oblicza pierwiastki z kwadratów liczb wymiernych.",
+      "long_description": "Rozpoznaje pierwiastek kwadratowy jako nieujemne rozwiązanie. Oblicza pierwiastki z kwadratów liczb wymiernych. W zadaniach sprawdzających uczeń podaje √81 = 9 i wyjaśnia warunek nieujemności. Następnie oblicza √(49/64) = 7/8.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje pierwiastek kwadratowy jako nieujemne rozwiązanie."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pierwiastki z kwadratów liczb wymiernych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje √81 = 9 i wyjaśnia warunek nieujemności."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza √(49/64) = 7/8."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Podaje ±9 jako wartość pierwiastka.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dzieli liczbę pod pierwiastkiem przez 2.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-010",
+      "name": "Oblicza dokładne pierwiastki sześcienne",
+      "topic": "Pierwiastkowanie i szacowanie pierwiastków",
+      "short_description": "Oblicza pierwiastki sześcienne liczb dodatnich. Oblicza pierwiastki sześcienne liczb ujemnych.",
+      "long_description": "Oblicza pierwiastki sześcienne liczb dodatnich. Oblicza pierwiastki sześcienne liczb ujemnych. W zadaniach sprawdzających uczeń podaje ∛125 = 5. Następnie podaje ∛(−27) = −3.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza pierwiastki sześcienne liczb dodatnich."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza pierwiastki sześcienne liczb ujemnych."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-003"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje ∛125 = 5."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje ∛(−27) = −3."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dzieli 125 przez 3.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje pierwiastek sześcienny z liczby ujemnej za niemożliwy.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-011",
+      "name": "Szacuje i przybliża wartości pierwiastków i wyrażeń",
+      "topic": "Pierwiastkowanie i szacowanie pierwiastków",
+      "short_description": "Umieszcza pierwiastek między liczbami całkowitymi. Wyznacza przybliżenie o wymaganej dokładności.",
+      "long_description": "Umieszcza pierwiastek między liczbami całkowitymi. Wyznacza przybliżenie o wymaganej dokładności. W zadaniach sprawdzających uczeń uzasadnia 5 < √30 < 6. Następnie zaokrągla √30 do setnych jako 5,48.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Umieszcza pierwiastek między liczbami całkowitymi."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza przybliżenie o wymaganej dokładności."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-009",
+        "MAT-POW-010",
+        "MAT-ARI-018",
+        "MAT-ARI-019"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, uzasadnia 5 < √30 < 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zaokrągla √30 do setnych jako 5,48."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Porównuje 30 bezpośrednio z 5 i 6.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje przybliżenie jako równość dokładną.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.7–8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-012",
+      "name": "Stosuje własności iloczynu i ilorazu pierwiastków",
+      "topic": "Własności i przekształcanie pierwiastków",
+      "short_description": "Stosuje własność pierwiastka z iloczynu. Stosuje własność pierwiastka z ilorazu w jego dziedzinie.",
+      "long_description": "Stosuje własność pierwiastka z iloczynu. Stosuje własność pierwiastka z ilorazu w jego dziedzinie. W zadaniach sprawdzających uczeń oblicza √(9 · 16) = 12. Następnie oblicza √(49/25) = 7/5.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Stosuje własność pierwiastka z iloczynu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje własność pierwiastka z ilorazu w jego dziedzinie."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-009",
+        "MAT-POW-010"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza √(9 · 16) = 12."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, oblicza √(49/25) = 7/5."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Rozdziela pierwiastek nad sumą.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Dopuszcza zerowy mianownik lub ujemną liczbę pod pierwiastkiem kwadratowym.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.9a–b",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-POW-013",
+      "name": "Wyłącza czynnik przed pierwiastek i włącza pod pierwiastek",
+      "topic": "Własności i przekształcanie pierwiastków",
+      "short_description": "Wyłącza czynnik przed pierwiastek. Włącza nieujemny czynnik pod pierwiastek.",
+      "long_description": "Wyłącza czynnik przed pierwiastek. Włącza nieujemny czynnik pod pierwiastek. W zadaniach sprawdzających uczeń upraszcza √72 do 6√2. Następnie zapisuje 3√5 = √45.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyłącza czynnik przed pierwiastek."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Włącza nieujemny czynnik pod pierwiastek."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-POW-012",
+        "MAT-ARI-011"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, upraszcza √72 do 6√2."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 3√5 = √45."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Wyłącza czynnik bez obliczenia jego pierwiastka.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Mnoży liczbę pod pierwiastkiem przez 3 zamiast przez 9.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "powers_and_roots",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.9c",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}

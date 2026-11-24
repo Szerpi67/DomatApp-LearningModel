@@ -1,0 +1,859 @@
+{
+  "category_name": "Miary",
+  "skills": [
+    {
+      "id": "MAT-MEA-001",
+      "name": "Mierzy i szacuje długości odcinków",
+      "topic": "Pomiar długości i kątów",
+      "short_description": "Mierzy odcinek przyrządem. Szacuje długość i dobiera jednostkę.",
+      "long_description": "Mierzy odcinek przyrządem. Szacuje długość i dobiera jednostkę. W zadaniach sprawdzających uczeń przykłada zero linijki do początku i odczytuje długość 6,3 cm. Następnie szacuje długość ołówka w centymetrach, następnie sprawdza pomiarem.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mierzy odcinek przyrządem."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Szacuje długość i dobiera jednostkę."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, przykłada zero linijki do początku i odczytuje długość 6,3 cm."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, szacuje długość ołówka w centymetrach, następnie sprawdza pomiarem."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mierzy od krawędzi linijki zamiast od zera.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Podaje niewłaściwy rząd wielkości lub jednostkę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.1",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-002",
+      "name": "Stosuje i przelicza jednostki długości",
+      "topic": "Pomiar długości i kątów",
+      "short_description": "Rozpoznaje zależności między jednostkami długości. Przelicza i porównuje długości.",
+      "long_description": "Rozpoznaje zależności między jednostkami długości. Przelicza i porównuje długości. W zadaniach sprawdzających uczeń podaje 1 m = 100 cm oraz 1 km = 1000 m. Następnie zamienia 2,5 m na 250 cm i porównuje z 240 cm.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje zależności między jednostkami długości."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przelicza i porównuje długości."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-001",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 1 m = 100 cm oraz 1 km = 1000 m."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 2,5 m na 250 cm i porównuje z 240 cm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje ten sam przelicznik do wszystkich jednostek.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Przesuwa przecinek w niewłaściwą stronę.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.2",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-003",
+      "name": "Mierzy i rysuje kąty o podanej mierze",
+      "topic": "Pomiar długości i kątów",
+      "short_description": "Mierzy kąt kątomierzem. Rysuje kąt o zadanej mierze.",
+      "long_description": "Mierzy kąt kątomierzem. Rysuje kąt o zadanej mierze. W zadaniach sprawdzających uczeń ustawia środek kątomierza w wierzchołku i odczytuje właściwą skalę. Następnie konstruuje kąt 125° z użyciem kątomierza.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Mierzy kąt kątomierzem."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Rysuje kąt o zadanej mierze."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-GEO-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, ustawia środek kątomierza w wierzchołku i odczytuje właściwą skalę."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, konstruuje kąt 125° z użyciem kątomierza."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Odczytuje 120° zamiast 60° z przeciwnej skali.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odkłada miarę od niewłaściwego ramienia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.3",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-004",
+      "name": "Stosuje jednostki pola",
+      "topic": "Jednostki pola, objętości i pojemności",
+      "short_description": "Rozpoznaje jednostki kwadratowe. Dobiera jednostkę pola w praktyce.",
+      "long_description": "Rozpoznaje jednostki kwadratowe. Dobiera jednostkę pola w praktyce. W zadaniach sprawdzających uczeń wyjaśnia znaczenie cm² jako pola kwadratu o boku 1 cm. Następnie wybiera m² dla podłogi i ha dla pola uprawnego.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje jednostki kwadratowe."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dobiera jednostkę pola w praktyce."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia znaczenie cm² jako pola kwadratu o boku 1 cm."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera m² dla podłogi i ha dla pola uprawnego."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli jednostkę pola z jednostką długości.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Używa cm³ do opisu powierzchni.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.4",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-005",
+      "name": "Stosuje jednostki objętości i pojemności",
+      "topic": "Jednostki pola, objętości i pojemności",
+      "short_description": "Rozpoznaje jednostki sześcienne i pojemności. Dobiera jednostkę do objętości lub pojemności.",
+      "long_description": "Rozpoznaje jednostki sześcienne i pojemności. Dobiera jednostkę do objętości lub pojemności. W zadaniach sprawdzających uczeń wyjaśnia znaczenie 1 dm³ i jego równość 1 l. Następnie podaje pojemność szklanki w ml i objętość pokoju w m³.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje jednostki sześcienne i pojemności."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Dobiera jednostkę do objętości lub pojemności."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia znaczenie 1 dm³ i jego równość 1 l."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje pojemność szklanki w ml i objętość pokoju w m³."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli cm³ z cm².",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Stosuje litry do opisu pola powierzchni.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.5",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-006",
+      "name": "Przelicza jednostki pola i objętości",
+      "topic": "Jednostki pola, objętości i pojemności",
+      "short_description": "Przelicza jednostki pola. Przelicza jednostki objętości i pojemności.",
+      "long_description": "Przelicza jednostki pola. Przelicza jednostki objętości i pojemności. W zadaniach sprawdzających uczeń zamienia 2 m² na 20 000 cm². Następnie zamienia 2 dm³ na 2000 cm³ i 2 l.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Przelicza jednostki pola."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przelicza jednostki objętości i pojemności."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-004",
+        "MAT-MEA-005",
+        "MAT-POW-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 2 m² na 20 000 cm²."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 2 dm³ na 2000 cm³ i 2 l."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje przelicznik liniowy 100 zamiast 10 000.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Stosuje przelicznik kwadratowy do jednostek sześciennych.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-007",
+      "name": "Stosuje i przelicza jednostki masy",
+      "topic": "Jednostki masy i zapis jednostek",
+      "short_description": "Rozpoznaje zależności jednostek masy. Przelicza i porównuje masy.",
+      "long_description": "Rozpoznaje zależności jednostek masy. Przelicza i porównuje masy. W zadaniach sprawdzających uczeń podaje 1 kg = 100 dag = 1000 g oraz 1 t = 1000 kg. Następnie zamienia 2,4 kg na 2400 g i porównuje z 2350 g.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje zależności jednostek masy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Przelicza i porównuje masy."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 1 kg = 100 dag = 1000 g oraz 1 t = 1000 kg."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 2,4 kg na 2400 g i porównuje z 2350 g."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli dekagram z gramem.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Porównuje wartości liczbowe w różnych jednostkach.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.7",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-010",
+      "name": "Zamienia wyrażenia dwumianowane i dziesiętne",
+      "topic": "Jednostki masy i zapis jednostek",
+      "short_description": "Zamienia zapis dwumianowany na dziesiętny. Zamienia zapis dziesiętny na dwumianowany.",
+      "long_description": "Zamienia zapis dwumianowany na dziesiętny. Zamienia zapis dziesiętny na dwumianowany. W zadaniach sprawdzających uczeń zapisuje 3 m 7 cm jako 3,07 m. Następnie zapisuje 2,35 kg jako 2 kg 350 g.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Zamienia zapis dwumianowany na dziesiętny."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Zamienia zapis dziesiętny na dwumianowany."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 5,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-DEC-001",
+        "MAT-MEA-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 3 m 7 cm jako 3,07 m."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zapisuje 2,35 kg jako 2 kg 350 g."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zapisuje 3,7 m zamiast 3,07 m.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje część dziesiętną jak liczbę gramów bez przeliczenia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_5",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.10",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-008",
+      "name": "Wykonuje obliczenia kalendarzowe",
+      "topic": "Czas i kalendarz",
+      "short_description": "Odczytuje daty i długości miesięcy. Oblicza odstępy między datami.",
+      "long_description": "Odczytuje daty i długości miesięcy. Oblicza odstępy między datami. W zadaniach sprawdzających uczeń wskazuje liczbę dni lutego w roku przestępnym i zwykłym. Następnie wyznacza datę 10 dni po 25 stycznia jako 4 lutego.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Odczytuje daty i długości miesięcy."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza odstępy między datami."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje liczbę dni lutego w roku przestępnym i zwykłym."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyznacza datę 10 dni po 25 stycznia jako 4 lutego."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada, że każdy miesiąc ma 30 dni.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Wlicza dzień początkowy mimo pytania o upływ czasu.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-009",
+      "name": "Wykonuje obliczenia zegarowe",
+      "topic": "Czas i kalendarz",
+      "short_description": "Przelicza jednostki czasu. Oblicza czas trwania lub godzinę zakończenia.",
+      "long_description": "Przelicza jednostki czasu. Oblicza czas trwania lub godzinę zakończenia. W zadaniach sprawdzających uczeń zamienia 2 h 15 min na 135 min. Następnie dla 13:45 i czasu 1 h 35 min podaje 15:20.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Przelicza jednostki czasu."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza czas trwania lub godzinę zakończenia."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-002",
+        "MAT-ARI-004"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, zamienia 2 h 15 min na 135 min."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 13:45 i czasu 1 h 35 min podaje 15:20."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Stosuje przelicznik 100 zamiast 60.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje zapis godzin jak liczbę dziesiętną.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.9",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-011",
+      "name": "Oblicza odległość rzeczywistą i odległość w skali",
+      "topic": "Skala i odległości",
+      "short_description": "Interpretuje skalę jako stosunek długości. Oblicza długości na planie i w rzeczywistości.",
+      "long_description": "Interpretuje skalę jako stosunek długości. Oblicza długości na planie i w rzeczywistości. W zadaniach sprawdzających uczeń wyjaśnia, że w skali 1:100 jeden cm odpowiada 100 cm. Następnie dla 4 cm w skali 1:50 000 podaje 2 km oraz wykonuje zamianę odwrotną.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Interpretuje skalę jako stosunek długości."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza długości na planie i w rzeczywistości."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-002",
+        "MAT-PCT-007"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wyjaśnia, że w skali 1:100 jeden cm odpowiada 100 cm."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 4 cm w skali 1:50 000 podaje 2 km oraz wykonuje zamianę odwrotną."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli skalę pomniejszającą z powiększającą.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie sprowadza długości do wspólnej jednostki.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.11",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-012",
+      "name": "Oblicza drogę, prędkość i czas",
+      "topic": "Droga, prędkość i czas",
+      "short_description": "Oblicza jedną z wielkości droga–prędkość–czas. Ujednolica jednostki i interpretuje wynik.",
+      "long_description": "Oblicza jedną z wielkości droga–prędkość–czas. Ujednolica jednostki i interpretuje wynik. W zadaniach sprawdzających uczeń dla 60 km/h i 2,5 h podaje drogę 150 km oraz wyznacza czas z drogi i prędkości. Następnie dla 30 km w 45 min podaje 40 km/h.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Oblicza jedną z wielkości droga–prędkość–czas."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Ujednolica jednostki i interpretuje wynik."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-002",
+        "MAT-MEA-009",
+        "MAT-ARI-016"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 60 km/h i 2,5 h podaje drogę 150 km oraz wyznacza czas z drogi i prędkości."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 30 km w 45 min podaje 40 km/h."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Mnoży drogę przez prędkość przy obliczaniu czasu.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Traktuje 45 min jako 0,45 h.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.12",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-MEA-013",
+      "name": "Dobiera narzędzia cyfrowe do pomiarów i przeliczeń",
+      "topic": "Narzędzia pomiarowe i cyfrowe",
+      "short_description": "Dobiera narzędzie cyfrowe do pomiaru lub przeliczenia. Sprawdza wynik niezależnym oszacowaniem.",
+      "long_description": "Dobiera narzędzie cyfrowe do pomiaru lub przeliczenia. Sprawdza wynik niezależnym oszacowaniem. W zadaniach sprawdzających uczeń wybiera odpowiednią aplikację do odczytu długości lub kalkulator jednostek. Następnie weryfikuje wynik przeliczenia 2 m² na cm² regułą 100².",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Dobiera narzędzie cyfrowe do pomiaru lub przeliczenia."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Sprawdza wynik niezależnym oszacowaniem."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 6,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-MEA-006",
+        "MAT-ARI-019"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wybiera odpowiednią aplikację do odczytu długości lub kalkulator jednostek."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, weryfikuje wynik przeliczenia 2 m² na cm² regułą 100²."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Używa narzędzia bez ustalenia jednostek wejściowych.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Akceptuje wynik aplikacji mimo błędnego rodzaju jednostki.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "measurement",
+        "grade_6",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "2.14",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    }
+  ]
+}

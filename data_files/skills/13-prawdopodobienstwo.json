@@ -1,0 +1,334 @@
+{
+  "category_name": "Prawdopodobieństwo",
+  "skills": [
+    {
+      "id": "MAT-PRB-001",
+      "name": "Systematycznie wypisuje wszystkie przypadki",
+      "topic": "Zliczanie przypadków",
+      "short_description": "Tworzy uporządkowaną listę możliwości. Uzasadnia kompletność listy.",
+      "long_description": "Tworzy uporządkowaną listę możliwości. Uzasadnia kompletność listy. W zadaniach sprawdzających uczeń wypisuje wszystkie pary dwóch kolorów koszul i trzech spodni. Następnie wskazuje po trzy możliwości dla każdego z dwóch kolorów i łącznie sześć.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Tworzy uporządkowaną listę możliwości."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Uzasadnia kompletność listy."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 4,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-ARI-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wypisuje wszystkie pary dwóch kolorów koszul i trzech spodni."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wskazuje po trzy możliwości dla każdego z dwóch kolorów i łącznie sześć."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Pomija kombinacje lub powtarza pary.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Zlicza elementy osobno zamiast par.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "probability",
+        "grade_4",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "6.3c;1.8",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "IV–VI"
+      }
+    },
+    {
+      "id": "MAT-PRB-002",
+      "name": "Stosuje regułę mnożenia do zliczania par",
+      "topic": "Zliczanie przypadków",
+      "short_description": "Rozpoznaje niezależne wybory z określoną liczbą opcji. Stosuje regułę mnożenia z ograniczeniami.",
+      "long_description": "Rozpoznaje niezależne wybory z określoną liczbą opcji. Stosuje regułę mnożenia z ograniczeniami. W zadaniach sprawdzających uczeń dla 3 koszul i 4 spodni wskazuje 3 · 4 możliwości. Następnie dla dwóch różnych cyfr ze zbioru 1,2,3 ustala 3 · 2 = 6 liczb dwucyfrowych.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Rozpoznaje niezależne wybory z określoną liczbą opcji."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Stosuje regułę mnożenia z ograniczeniami."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PRB-001",
+        "MAT-ARI-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla 3 koszul i 4 spodni wskazuje 3 · 4 możliwości."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla dwóch różnych cyfr ze zbioru 1,2,3 ustala 3 · 2 = 6 liczb dwucyfrowych."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Dodaje liczby opcji zamiast mnożyć.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Nie uwzględnia zakazu powtórzenia.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "probability",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "1.11",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PRB-003",
+      "name": "Opisuje doświadczenie losowe i możliwe wyniki",
+      "topic": "Doświadczenia losowe i prawdopodobieństwo",
+      "short_description": "Opisuje przestrzeń wyników prostego doświadczenia. Wskazuje zdarzenia pewne, niemożliwe i losowe.",
+      "long_description": "Opisuje przestrzeń wyników prostego doświadczenia. Wskazuje zdarzenia pewne, niemożliwe i losowe. W zadaniach sprawdzających uczeń wypisuje wyniki rzutu kostką od 1 do 6. Następnie rozpoznaje wyrzucenie liczby większej od 6 jako niemożliwe.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Opisuje przestrzeń wyników prostego doświadczenia."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wskazuje zdarzenia pewne, niemożliwe i losowe."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PRB-001"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wypisuje wyniki rzutu kostką od 1 do 6."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, rozpoznaje wyrzucenie liczby większej od 6 jako niemożliwe."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Myli możliwe wyniki z wynikami sprzyjającymi.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Uznaje zdarzenie mało prawdopodobne za niemożliwe.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "probability",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PRB-004",
+      "name": "Oblicza prawdopodobieństwo w prostym doświadczeniu",
+      "topic": "Doświadczenia losowe i prawdopodobieństwo",
+      "short_description": "Wyznacza wyniki sprzyjające przy jednakowo prawdopodobnych wynikach. Oblicza i interpretuje prawdopodobieństwo.",
+      "long_description": "Wyznacza wyniki sprzyjające przy jednakowo prawdopodobnych wynikach. Oblicza i interpretuje prawdopodobieństwo. W zadaniach sprawdzających uczeń dla parzystej liczby oczek wskazuje 2, 4, 6 z sześciu wyników. Następnie podaje 3/6 = 1/2 oraz interpretuje zakres od 0 do 1.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Wyznacza wyniki sprzyjające przy jednakowo prawdopodobnych wynikach."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Oblicza i interpretuje prawdopodobieństwo."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 7,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PRB-003",
+        "MAT-FRA-010",
+        "MAT-FRA-013"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, dla parzystej liczby oczek wskazuje 2, 4, 6 z sześciu wyników."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 3/6 = 1/2 oraz interpretuje zakres od 0 do 1."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Zakłada równoprawdopodobieństwo bez uzasadnienia.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Odwraca iloraz liczby wyników sprzyjających i wszystkich.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "probability",
+        "grade_7",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    },
+    {
+      "id": "MAT-PRB-005",
+      "name": "Analizuje doświadczenie losowe z dwoma etapami",
+      "topic": "Doświadczenia losowe i prawdopodobieństwo",
+      "short_description": "Buduje przestrzeń wyników dwuetapowego doświadczenia. Wyznacza prawdopodobieństwo zdarzenia w tym doświadczeniu.",
+      "long_description": "Buduje przestrzeń wyników dwuetapowego doświadczenia. Wyznacza prawdopodobieństwo zdarzenia w tym doświadczeniu. W zadaniach sprawdzających uczeń wypisuje OO, OR, RO, RR dla dwóch rzutów monetą. Następnie podaje 2/4 = 1/2 dla dokładnie jednego orła przy uczciwej monecie.",
+      "objectives": [
+        {
+          "id": "OBJ-01",
+          "description": "Buduje przestrzeń wyników dwuetapowego doświadczenia."
+        },
+        {
+          "id": "OBJ-02",
+          "description": "Wyznacza prawdopodobieństwo zdarzenia w tym doświadczeniu."
+        }
+      ],
+      "curriculum": {
+        "school_type": "PRIMARY",
+        "introduced_in_grade": 8,
+        "level": "STANDARD"
+      },
+      "prerequisites": [
+        "MAT-PRB-004",
+        "MAT-PRB-002"
+      ],
+      "assessment_criteria": [
+        {
+          "objective_id": "OBJ-01",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, wypisuje OO, OR, RO, RR dla dwóch rzutów monetą."
+        },
+        {
+          "objective_id": "OBJ-02",
+          "description": "Uczeń samodzielnie, bez podpowiedzi, podaje 2/4 = 1/2 dla dokładnie jednego orła przy uczciwej monecie."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "id": "ERR-01",
+          "description": "Traktuje OR i RO jako ten sam wynik elementarny.",
+          "related_objectives": [
+            "OBJ-01"
+          ]
+        },
+        {
+          "id": "ERR-02",
+          "description": "Liczy rodzaje zdarzeń zamiast jednakowo prawdopodobnych wyników.",
+          "related_objectives": [
+            "OBJ-02"
+          ]
+        }
+      ],
+      "tags": [
+        "probability",
+        "grade_8",
+        "primary",
+        "curriculum_2026"
+      ],
+      "version": 1,
+      "source": {
+        "year": 2026,
+        "reference": "4.6",
+        "type": "wymaganie lub dekompozycja",
+        "url": "https://eli.gov.pl/eli/DU/2026/378/ogl/pol",
+        "grade_band": "VII–VIII"
+      }
+    }
+  ]
+}
