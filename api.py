@@ -91,17 +91,24 @@ app = FastAPI(
 
 
 @app.get("/api/v1/categories")
-def get_categories() -> dict[str, dict[str, object]]:
-    """Return each skill category keyed by its JSON filename."""
+def get_categories(grade: int) -> dict[str, dict[str, object]]:
+    """Return categories containing topics with skills introduced in the given grade."""
     categories = {}
     for path in sorted(SKILLS_DIRECTORY.glob("*.json")):
         category = json.loads(path.read_text(encoding="utf-8"))
+        topics = list(
+            dict.fromkeys(
+                skill["topic"]
+                for skill in category["skills"]
+                if skill.get("curriculum", {}).get("introduced_in_grade") == grade
+            )
+        )
+        if not topics:
+            continue
         categories[path.name] = {
             "id": path.name,
             "category_name": category["category_name"],
-            "topics": list(
-                dict.fromkeys(skill["topic"] for skill in category["skills"])
-            ),
+            "topics": topics,
         }
     return categories
 
