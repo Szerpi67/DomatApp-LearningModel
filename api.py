@@ -26,6 +26,7 @@ from task_generator.models import PresentedTask, TaskGenerationRequest
 from task_generator.profiler_adapter import build_learning_event
 from task_generator.repositories.mongo_task_store import MongoTaskStore
 from task_generator.service import TaskGenerationError, TaskGeneratorService, TaskPresentationService
+from fastapi.middleware.cors import CORSMiddleware
 
 
 SKILLS_DIRECTORY = Path(__file__).resolve().parent / "data_files" / "skills"
@@ -87,6 +88,14 @@ app = FastAPI(
     version="1.0.0",
     description="Streams planned tasks, reuses MongoDB cache entries, and stores generated tasks.",
     lifespan=lifespan,
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$",
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
